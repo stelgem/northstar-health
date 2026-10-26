@@ -37,7 +37,7 @@ To use your own key file instead: `cp .env.example .env` and paste your key in.
 ## Try it
 
 1. **Discover** tab → keep all three sectors ticked → **Find startups**. You can watch each agent's progress live. A scan takes about 1–5 minutes and costs about $0.05–$0.25.
-   - Short on time? Click **Load last run** to open a saved real scan instantly. This spends no tokens.
+   - Short on time? Click **Load last run**, or pick any earlier scan from **Past scans**, to reopen saved real results instantly. This spends no tokens.
 2. Read a scorecard. Click any criterion bar to see the Thesis Analyst's reasoning, and open **Verified sources** to see where each fact came from.
 3. **Save to watchlist** → **Watchlist** tab → add a note → **Draft outreach email**.
 4. The **Investment thesis** tab shows the fund's hard rules, the six thesis segments (my two segments, Women's Health and Wellness, highlighted; biotech is a personal interest outside the thesis), the scoring weights, and the full thesis.
