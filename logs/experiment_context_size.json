@@ -1,0 +1,139 @@
+{
+ "rows": [
+  {
+   "name": "Collective X Health",
+   "size": "low",
+   "us": "Yes",
+   "hq": "San Francisco, California, United States",
+   "round": "Pre-seed",
+   "amount": "$3.2 million",
+   "sources": 4,
+   "gate": "PASS",
+   "input": 22454,
+   "output": 1395,
+   "web": 3,
+   "cost": 0.032515,
+   "latency": 40.1
+  },
+  {
+   "name": "Collective X Health",
+   "size": "medium",
+   "us": "Yes",
+   "hq": "San Francisco, California, United States",
+   "round": "Pre-seed",
+   "amount": "$3.2 million",
+   "sources": 5,
+   "gate": "PASS",
+   "input": 23498,
+   "output": 1817,
+   "web": 4,
+   "cost": 0.042834,
+   "latency": 22.6
+  },
+  {
+   "name": "Allswell",
+   "size": "low",
+   "us": "Yes",
+   "hq": "San Francisco, California, United States",
+   "round": "Seed",
+   "amount": "$7 million",
+   "sources": 6,
+   "gate": "PASS",
+   "input": 28992,
+   "output": 1687,
+   "web": 3,
+   "cost": 0.033315,
+   "latency": 75.0
+  },
+  {
+   "name": "Allswell",
+   "size": "medium",
+   "us": "Yes",
+   "hq": "San Francisco, California, United States",
+   "round": "Seed",
+   "amount": "$7 million",
+   "sources": 5,
+   "gate": "PASS",
+   "input": 21136,
+   "output": 1411,
+   "web": 4,
+   "cost": 0.042395,
+   "latency": 22.8
+  },
+  {
+   "name": "The American Baby Company",
+   "size": "low",
+   "us": "Yes",
+   "hq": "West Palm Beach, Florida, United States",
+   "round": "Seed",
+   "amount": "US$4 million",
+   "sources": 5,
+   "gate": "PASS",
+   "input": 21977,
+   "output": 1718,
+   "web": 4,
+   "cost": 0.042633,
+   "latency": 26.0
+  },
+  {
+   "name": "The American Baby Company",
+   "size": "medium",
+   "us": "Yes",
+   "hq": "West Palm Beach, Florida, United States",
+   "round": "Seed",
+   "amount": "$4 million",
+   "sources": 7,
+   "gate": "PASS",
+   "input": 24488,
+   "output": 1681,
+   "web": 4,
+   "cost": 0.042862,
+   "latency": 32.9
+  },
+  {
+   "name": "Avni Wellness",
+   "size": "low",
+   "us": "No",
+   "hq": "Thane, Maharashtra, India (company contact address; some coverage describes it as Mumbai-based)",
+   "round": "Seed",
+   "amount": "\u20b94 crore (reported as approximately US$470,000)",
+   "sources": 7,
+   "gate": "US domicile not confirmed (No; HQ: Thane, Maharashtra, India (company contact address; some coverage describes it as Mumbai-based))",
+   "input": 29702,
+   "output": 1830,
+   "web": 3,
+   "cost": 0.033461,
+   "latency": 27.3
+  },
+  {
+   "name": "Avni Wellness",
+   "size": "medium",
+   "us": "No",
+   "hq": "Thane, Maharashtra, India",
+   "round": "Seed",
+   "amount": "\u20b94 crore",
+   "sources": 8,
+   "gate": "US domicile not confirmed (No; HQ: Thane, Maharashtra, India)",
+   "input": 26645,
+   "output": 1679,
+   "web": 4,
+   "cost": 0.043077,
+   "latency": 29.4
+  }
+ ],
+ "summary": {
+  "low": {
+   "input": 103125,
+   "output": 6630,
+   "web": 13,
+   "cost": 0.1419
+  },
+  "medium": {
+   "input": 95767,
+   "output": 6588,
+   "web": 16,
+   "cost": 0.1712
+  }
+ },
+ "agreement": "4/4"
+}
