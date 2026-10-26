@@ -1,5 +1,7 @@
 import datetime as dt
 import os
+import re
+import urllib.parse
 import json
 import threading
 import uuid
@@ -14,6 +16,26 @@ JOBS = {}   # scan jobs run in background threads; the page polls them
 
 def initials(name):
     return "".join(word[0] for word in name.split()[:2]).upper() or "?"
+
+
+def domain(url):
+    url = str(url or "").strip()
+    if not url or url.lower() in {"unknown", "n/a", "none"}:
+        return ""
+    if "://" not in url:
+        url = "https://" + url
+    host = urllib.parse.urlparse(url).netloc.lower()
+    host = host[4:] if host.startswith("www.") else host
+    return host if "." in host else ""
+
+
+def logo(s):
+    """Company logo from its website's icon; falls back to initials."""
+    d = domain(s.get("website"))
+    if not d:
+        return html.Div(initials(s["name"]), className="logo-mark")
+    return html.Div(html.Img(src=f"https://www.google.com/s2/favicons?domain={d}&sz=128", alt=s["name"]),
+                    className="logo-mark has-logo", title=d)
 
 
 def rec_class(rec):
@@ -40,7 +62,7 @@ def candidate_card(s, saved=False, show_save=True):
     card = s.get("scorecard", {})
     srcs = s.get("source_notes") or [{"url": u, "supports": ""} for u in s.get("sources", [])]
     return html.Div([
-        html.Div([html.Div(initials(s["name"]), className="logo-mark"), html.H3(s["name"], className="card-title"),
+        html.Div([logo(s), html.H3(s["name"], className="card-title"),
                   html.Div([html.Div(f'{s.get("score", "–")}', className="score-num"), html.Div("/100", className="score-den")], className="score-badge")],
                  className="card-heading"),
         html.Div([html.Span(s.get("recommendation", "Not scored"), className=rec_class(s.get("recommendation"))),
@@ -99,7 +121,7 @@ def watchlist_card(s, meta):
     card = s.get("scorecard", {})
     questions = card.get("diligence_questions") or ["What measurable outcome does the product move?", "Who pays, and why do they keep paying?", "What is the regulatory pathway?"]
     return html.Div([
-        html.Div([html.Div(initials(s["name"]), className="logo-mark"), html.H3(s["name"], className="card-title"),
+        html.Div([logo(s), html.H3(s["name"], className="card-title"),
                   html.Div([html.Div(f'{s.get("score", "–")}', className="score-num"), html.Div("/100", className="score-den")], className="score-badge")], className="card-heading"),
         html.Div([html.Span(s.get("recommendation", ""), className=rec_class(s.get("recommendation"))), html.Span(s["stage"], className="pill")], className="tag-row"),
         html.P(f'{card.get("segment", s.get("category", ""))} · {s["location"]}', className="muted"),
@@ -119,6 +141,43 @@ def watchlist_card(s, meta):
     ], className="startup-card")
 
 
+SEGMENTS = [
+    ("Patient as Consumer", "Insurance & systems-level costs; price transparency; medical debt", False),
+    ("Healthcare Infrastructure", "Clinical (ambient scribes, interoperability) and nonclinical (billing, staffing) infrastructure", False),
+    ("Clinical Decision Support", "AI diagnostics, point-of-care devices, triage and care-pathway tools", False),
+    ("Women's Health", "Reproductive & maternal; menopause; patient-collected diagnostics; cardiometabolic & bone health", True),
+    ("Health for Seniors", "Fall prevention, PT and chronic disease, social connectedness", False),
+    ("Wellness", "Mental health and longevity, only with published outcomes, a clinical advisory board, or a health-system/payer partner", True),
+]
+GUIDELINES = [("Check size", "$25K–$50K"), ("Ownership", "0.25%–1%"), ("Post-money", "Up to $10M"), ("Stage", "Pre-seed (Seed OK)"),
+              ("Geography", "US-domiciled"), ("Org type", "For-profit"), ("Instrument", "Preferred equity or SAFE"), ("Market", "TAM $10B+, CAGR 5%+")]
+
+
+def thesis_view():
+    paras, out = [p.strip() for p in agents.THESIS.split("\n\n") if p.strip()], []
+    for p in paras:
+        if re.match(r"^\d+\)\s", p):
+            out.append(html.H3(p, className="thesis-h"))
+        elif len(p) < 70 and "." not in p[-2:]:
+            out.append(html.Span(p, className="thesis-chip"))
+        else:
+            out.append(html.P(p))
+    return html.Section([
+        html.Div([html.H2("Investment thesis"), html.P("What NorthStar scores every startup against: the Meng Fund's investment guidelines plus the Healthcare deal team's written thesis (data/meng_healthcare_thesis.md).", className="muted")], className="section-heading"),
+        html.H3("Fund guidelines (hard rules)", className="subheading"),
+        html.Div([html.Div([html.Div(k, className="kpi-label"), html.Div(v, className="guide-v")], className="kpi") for k, v in GUIDELINES], className="guide-grid"),
+        html.P("US headquarters, Pre-seed/Seed stage, for-profit status, and a real source URL are enforced in code before any scoring.", className="muted small-note"),
+        html.H3("Six thesis segments", className="subheading"),
+        html.Div([html.Div([html.Div([html.Strong(n), html.Span("MY FOCUS", className="focus-tag") if mine else None], className="seg-top"), html.P(d)],
+                           className="seg-card mine" if mine else "seg-card") for n, d, mine in SEGMENTS], className="seg-grid"),
+        html.P("My sourcing focus is women's health, biotech, and evidence-based wellness. Biotech is not a thesis segment of its own: the thesis prefers capex-light Health Tech and Services, so biotechs are scored on where they land (often Clinical Decision Support or Women's Health diagnostics) and lose points on capex.", className="muted small-note"),
+        html.H3("How NorthStar scores (0–100)", className="subheading"),
+        html.Table([html.Tr([html.Th("Criterion"), html.Th("Weight")])] + [html.Tr([html.Td(CRITERIA_LABELS[k]), html.Td(f"{w}%")]) for k, w in agents.WEIGHTS.items()], className="usage-table weight-table"),
+        html.P("The Thesis Analyst scores each criterion 1–5 with a cited rationale; code computes the weighted 0–100 score. 65+ = Prioritize outreach, 45–64 = Watch, below 45 = Pass.", className="muted small-note"),
+        html.Details([html.Summary("Read the full Healthcare deal team thesis"), html.Div(out, className="thesis-text")], className="thesis-full"),
+    ], className="panel")
+
+
 # ---------------------------------------------------------------- layout
 
 app = Dash(__name__, title="NorthStar Health")
@@ -131,12 +190,14 @@ app.layout = html.Div([
     dcc.Store(id="scan-job"),
     dcc.Interval(id="scan-poll", interval=1500, disabled=True),
     html.Header([html.Div([html.Div("NORTHSTAR HEALTH", className="eyebrow"), html.H1("Find the signals worth following.")], className="hero-copy"),
-                 html.Div("AI sourcing and first-pass screening for the Meng Impact Investment Fund healthcare deal team: US pre-seed and seed startups in women's health, biotech, and evidence-based wellness, scored against our written thesis.", className="hero-tagline")], className="hero"),
-    html.Nav([html.Button("Discover", id="discover-nav", className="nav-button active"), html.Button("Watchlist", id="watchlist-nav", className="nav-button")], className="nav-tabs"),
+                 html.Div("AI sourcing and first-pass screening for the Meng Impact Investment Fund healthcare deal team. It searches my three focus sectors (women's health, biotech, and evidence-based wellness) and scores every startup against the team's full thesis, which covers six healthcare segments.", className="hero-tagline")], className="hero"),
+    html.Nav([html.Button("Discover", id="discover-nav", className="nav-button active"), html.Button("Watchlist", id="watchlist-nav", className="nav-button"),
+              html.Button("Investment thesis", id="thesis-nav", className="nav-button")], className="nav-tabs"),
     html.Main([html.Section([
         html.Div([
             html.Div([html.H3("Find thesis-fit startups"),
-                      html.P("Scout reads recent funding news → Verifier checks each startup on the web → code keeps only US-domiciled Pre-seed/Seed → Thesis Analyst scores against the Meng healthcare thesis. A scan takes about 2–5 minutes.", className="muted")], className="live-search-copy"),
+                      html.P(["Searches my three focus sectors below. Each startup is then scored against the deal team's full thesis, which spans six segments (Patient as Consumer, Healthcare Infrastructure, Clinical Decision Support, Women's Health, Health for Seniors, Wellness), so a biotech can still be flagged as a better fit for another segment. ",
+                             html.Br(), "Scout reads recent funding news → Verifier checks each startup on the web → code keeps only US-headquartered Pre-seed/Seed → Thesis Analyst scores it. A scan takes about 1–3 minutes."], className="muted")], className="live-search-copy"),
             dcc.Checklist(id="lanes", options=lane_opts, value=list(LANES), inline=True, className="lane-check"),
             html.Div([dcc.Input(id="keywords", placeholder="Optional focus keywords, e.g. menopause, postpartum, at-home diagnostics", className="live-query", maxLength=120),
                       html.Button("Find startups", id="live-scan", className="primary-button"),
@@ -150,6 +211,7 @@ app.layout = html.Div([
                   html.Button("Export watchlist brief", id="export-brief", className="secondary-button"), dcc.Download(id="brief-download")], className="section-heading watchlist-heading"),
         html.Div(id="watchlist-grid", className="startup-grid"),
     ], className="panel")], id="watchlist-view", className="content", style={"display": "none"}),
+    html.Main(thesis_view(), id="thesis-view", className="content", style={"display": "none"}),
     html.Button("Ask NorthStar", id="ask-launcher", className="ask-launcher"),
     html.Div([
         html.Div([html.Div([html.Span("NORTHSTAR ASSIST", className="dock-label"), html.Span("Ask about your saved startups", className="dock-helper")], className="dock-heading"),
@@ -164,12 +226,14 @@ app.layout = html.Div([
 
 # ---------------------------------------------------------------- navigation
 
-@app.callback(Output("discover-view", "style"), Output("watchlist-view", "style"), Output("discover-nav", "className"), Output("watchlist-nav", "className"),
-              Input("discover-nav", "n_clicks"), Input("watchlist-nav", "n_clicks"), prevent_initial_call=True)
+@app.callback(Output("discover-view", "style"), Output("watchlist-view", "style"), Output("thesis-view", "style"),
+              Output("discover-nav", "className"), Output("watchlist-nav", "className"), Output("thesis-nav", "className"),
+              Input("discover-nav", "n_clicks"), Input("watchlist-nav", "n_clicks"), Input("thesis-nav", "n_clicks"), prevent_initial_call=True)
 def switch_view(*_):
-    if ctx.triggered_id == "watchlist-nav":
-        return {"display": "none"}, {"display": "block"}, "nav-button", "nav-button active"
-    return {"display": "block"}, {"display": "none"}, "nav-button active", "nav-button"
+    active = ["discover-nav", "watchlist-nav", "thesis-nav"].index(ctx.triggered_id)
+    styles = [{"display": "block"} if i == active else {"display": "none"} for i in range(3)]
+    classes = ["nav-button active" if i == active else "nav-button" for i in range(3)]
+    return *styles, *classes
 
 
 @app.callback(Output("ask-dock", "style"), Output("ask-launcher", "style"), Input("ask-launcher", "n_clicks"), Input("ask-close", "n_clicks"), prevent_initial_call=True)

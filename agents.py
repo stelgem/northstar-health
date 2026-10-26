@@ -48,7 +48,7 @@ PRICES = {
 # Spending guardrails
 DAILY_TOKEN_BUDGET = int(os.getenv("DAILY_TOKEN_BUDGET", "2000000"))
 MAX_LEADS = 18             # news headlines passed to the Scout
-MAX_VERIFY = int(os.getenv("MAX_VERIFY", "6"))   # web-verified candidates per scan
+MAX_VERIFY = int(os.getenv("MAX_VERIFY", "10"))  # NEW (uncached) web verifications per scan; cached ones are free
 SCAN_COOLDOWN_S = 30       # minimum seconds between scans
 CACHE_TTL_DAYS = 7         # re-use a verification for a week instead of paying again
 MAX_OUTPUT_TOKENS = {"scout": 3000, "verifier": 3000, "analyst": 2500, "outreach": 800, "assistant": 1500}
@@ -573,10 +573,12 @@ def run_pipeline(lanes, keywords="", progress=lambda msg: None):
         else:
             shortlist.append(c)
     shortlist.sort(key=lambda c: c["stage_signal"] not in {"Pre-seed", "Seed"})
-    for c in shortlist[MAX_VERIFY:]:
-        excluded.append({"name": c["name"], "reason": f"Over the {MAX_VERIFY}-company verification cap for one scan", "stage": c["stage_signal"]})
-    shortlist = shortlist[:MAX_VERIFY]
-    progress(f"Verifier: checking {len(shortlist)} startups on the web (domicile, stage, for-profit)")
+    cached_ones = [c for c in shortlist if cache_get(c["name"])]
+    new_ones = [c for c in shortlist if not cache_get(c["name"])]
+    for c in new_ones[MAX_VERIFY:]:
+        excluded.append({"name": c["name"], "reason": f"Not checked this scan: over the {MAX_VERIFY} new web checks allowed per scan (budget guard). Run another scan to check it.", "stage": c["stage_signal"]})
+    shortlist = cached_ones + new_ones[:MAX_VERIFY]
+    progress(f"Verifier: checking {len(shortlist)} startups ({len(cached_ones)} already verified this week, {min(len(new_ones), MAX_VERIFY)} new web checks)")
 
     def verify(c):
         cached = cache_get(c["name"])
@@ -592,7 +594,7 @@ def run_pipeline(lanes, keywords="", progress=lambda msg: None):
     verified = []
 
     def verify_all(batch):
-        with ThreadPoolExecutor(max_workers=5) as ex:
+        with ThreadPoolExecutor(max_workers=10) as ex:
             for c, v, r in ex.map(verify, batch):
                 if r:
                     usage.append(r)
@@ -627,7 +629,7 @@ def run_pipeline(lanes, keywords="", progress=lambda msg: None):
 
     scored = []
     if verified:
-        with ThreadPoolExecutor(max_workers=5) as ex:
+        with ThreadPoolExecutor(max_workers=10) as ex:
             first = ex.submit(score, verified[0])
             time.sleep(8)   # let the first call write the thesis prefix to the prompt cache
             rest = [ex.submit(score, p) for p in verified[1:]]

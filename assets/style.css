@@ -47,3 +47,11 @@
 .candidate .primary-button, .candidate .secondary-button { width:100%; }
 @media(max-width:700px){ .kpi-row { grid-template-columns:1fr 1fr; } }
 .tag-row .pill { white-space:normal; max-width:100%; }
+.logo-mark.has-logo { background:white; border:1px solid var(--line); padding:4px; overflow:hidden; } .logo-mark.has-logo img { width:100%; height:100%; object-fit:contain; display:block; }
+.guide-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; } .guide-v { font:700 17px 'Playfair Display',serif; color:var(--navy); margin-top:4px; }
+.small-note { font-size:13px; margin:8px 0 4px; }
+.seg-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; } .seg-card { background:white; border:1px solid var(--line); border-radius:8px; padding:12px 14px; } .seg-card p { font-size:13px; color:#40556c; margin:6px 0 0; line-height:1.4; }
+.seg-card.mine { border:2px solid var(--blue); background:#f4f9ff; } .seg-top { display:flex; justify-content:space-between; align-items:center; gap:8px; } .focus-tag { background:var(--blue); color:white; font-size:9px; font-weight:700; letter-spacing:.6px; border-radius:3px; padding:3px 6px; }
+.weight-table { max-width:420px; } .thesis-full { margin-top:22px; background:white; border:1px solid var(--line); border-radius:8px; padding:14px 18px; } .thesis-full summary { cursor:pointer; font-weight:700; color:var(--blue); }
+.thesis-text { max-width:820px; line-height:1.6; font-size:14px; color:#2b3d52; } .thesis-h { font:700 20px 'Playfair Display',serif; margin:22px 0 6px; color:var(--navy); } .thesis-chip { display:inline-block; background:#eef4fb; color:#345b7f; border-radius:4px; padding:3px 8px; margin:3px 4px 3px 0; font-size:12px; }
+@media(max-width:900px){ .guide-grid { grid-template-columns:1fr 1fr; } .seg-grid { grid-template-columns:1fr; } }

@@ -38,7 +38,8 @@ To use your own key file instead: `cp .env.example .env` and paste your key in.
    - Short on time? Click **Load last run** to open a saved real scan instantly. This spends no tokens.
 2. Read a scorecard. Click any criterion bar to see the Thesis Analyst's reasoning, and open **Verified sources** to see where each fact came from.
 3. **Save to watchlist** → **Watchlist** tab → add a note → **Draft outreach email**.
-4. **Ask NorthStar** (bottom right) answers questions about your saved startups.
+4. The **Investment thesis** tab shows the fund's hard rules, the six thesis segments (my focus sectors highlighted), the scoring weights, and the full thesis.
+5. **Ask NorthStar** (bottom right) answers questions about your saved startups.
 5. Under each scan, the **This scan** table shows tokens, cached tokens, web searches and cost per agent. Every call is also logged to `logs/usage.jsonl`; guardrail events go to `logs/guardrails.jsonl`.
 
 ## How it works
@@ -69,7 +70,7 @@ Model: `gpt-6-luna` through Portkey for every agent.
 - **Outreach guard.** Phrases like "we will invest" or "term sheet" are removed. Drafts are never sent.
 - **Spending limits.**
   - A daily token budget (`DAILY_TOKEN_BUDGET`) is checked before *every* call.
-  - Each scan verifies at most 6 companies.
+  - Each scan runs at most 10 *new* web verifications; companies verified in the last 7 days are re-used for free.
   - Every call has `max_output_tokens`, and the Verifier has `max_tool_calls=3`.
   - Scans have a 30-second cooldown, and only one scan can run at a time.
   - Verifications are cached for 7 days.

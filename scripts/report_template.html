@@ -239,7 +239,7 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
 
 <h3>One real run, step by step</h3>
 <p>Below is run <code>20261026-153950-67be</code>, launched from the website at 15:39 on Oct 26, 2026 with all three sectors selected. Its saved JSON is in <code>runs/</code>.</p>
-<div class="two"><figure><img src="{{IMG:01_home}}" alt="Home"><figcaption>Figure 1. Discover tab. The user picks sectors, optionally adds keywords, and clicks <b>Find startups</b>.</figcaption></figure><figure><img src="{{IMG:02_progress}}" alt="Progress"><figcaption>Figure 2. Live progress. The scan runs in a background thread, and the page polls it, showing each agent's step as it finishes.</figcaption></figure></div>
+<div class="two"><figure><img src="{{IMG:01_home}}" alt="Home"><figcaption>Figure 1. Discover tab. The user picks their focus sectors (women's health, biotech, evidence-based wellness), optionally adds keywords, and clicks <b>Find startups</b>. An <b>Investment thesis</b> tab shows the fund rules, the six thesis segments, and the scoring weights.</figcaption></figure><figure><img src="{{IMG:02_progress}}" alt="Progress"><figcaption>Figure 2. Live progress. The scan runs in a background thread, and the page polls it, showing each agent's step as it finishes.</figcaption></figure></div>
 <ol class="steps">
 <li><b>Scout tool call.</b> Three Google News RSS queries returned 18 headlines, for example "Indian Women's Health Startup Avni Wellness Raises $470K Seed Round", "Collective X Health Raises $3.2 Million To Close Women's Health Data Gap – Forbes" and "MenoVida closes first phase of pre-seed round for UK menopause app". The injection screen quarantined 0 of them.</li>
 <li><b>Scout agent</b> (1,576 input / 587 output tokens, $0.0005) extracted 6 startups: Avni Wellness, Collective X Health, MenoVida, Accipiter Bio, Epitome Therapeutics and Allswell. It skipped headlines about investors, research funding and non-health companies (e.g. "Wayy bags $2M pre-seed… sales co-founder").</li>
@@ -330,7 +330,7 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
 <h3>What I did to keep cost down</h3>
 <ol>
 <li><b>Cheap filters before expensive calls.</b> The free RSS tool plus a ~$0.0005 Scout call decide what is worth a $0.03–$0.05 web verification. Code gate A drops non-healthcare and Series A+ headlines before any search.</li>
-<li><b>A verification cap</b> of at most 6 web-verified companies per scan (<code>MAX_VERIFY</code>).</li>
+<li><b>A verification cap</b> of at most 10 <i>new</i> web verifications per scan (<code>MAX_VERIFY</code>); companies verified in the last 7 days are re-used for free.</li>
 <li><b>A 7-day verification cache.</b> Re-scans re-use verified facts: $0.2165 → $0.0033 for the same startups.</li>
 <li><b>A prompt-cache-friendly Analyst.</b> The ~9.7K-token thesis and rubric always come first, with <code>prompt_cache_key</code>. After the first call, 9,735 tokens per Analyst call are billed at the cached rate (90% off). The pipeline also waits 8 s after starting the first Analyst call so the cache gets written before the parallel calls begin.</li>
 <li><b>Low web-search context</b> (<code>search_context_size: "low"</code>) and at most 3 tool calls per Verifier call.</li>
@@ -340,7 +340,7 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
 
 <h3>Did cost-cutting hurt performance?</h3>
 {{EXPERIMENT}}
-<p><b>Where cost-cutting did cost something: the verification cap.</b> In the women's-health-only run, <i>Elle, MD</i> was never verified because it was 7th in line behind a 6-company cap. In the first run, <i>Epitome Therapeutics</i> hit the 5-company cap (it turned out to be Austrian). The app lists these in "Filtered out" as <i>"Over the cap"</i> so a person can see what was skipped, but a capped company is not evaluated in that scan. A user can raise <code>MAX_VERIFY</code>, or re-scan the next day, when cached companies cost nothing.</p>
+<p><b>Where cost-cutting did cost something: the verification cap.</b> In the first version the cap was 6 web-verified companies per scan, and it counted companies already in the 7-day cache. So in the women's-health-only run, <i>Elle, MD</i> was never verified because it was 7th in line, and in a later run even <i>Collective X Health</i> (already verified, free to re-check) was listed as "over the cap". After user feedback I changed it: <b>cached companies no longer count</b>, and the cap now limits only <i>new</i> web checks, raised to 10 per scan and run in parallel (about $0.04 each, so at most ~$0.40 of verification per scan). Anything still over the cap is listed under "Filtered out" with the reason, so a person can see what was skipped and re-scan.</p>
 
 
 <!-- ============================================================ 6. SAFETY -->
@@ -373,7 +373,7 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
 <ul>
 <li><code>check_budget()</code> runs before <i>every</i> call, against a daily token budget (default 2M).</li>
 <li><code>max_output_tokens</code> on every call; Verifier <code>max_tool_calls=3</code>.</li>
-<li>At most 6 verifications per scan.</li>
+<li>At most 10 new web verifications per scan (cached ones are free).</li>
 <li>A 30 s cooldown between scans, and only one scan at a time.</li>
 <li>The pipeline is a fixed sequence with no agent-to-agent loop. A 300 s client timeout and a single retry mean it cannot loop forever.</li>
 </ul></td></tr>
