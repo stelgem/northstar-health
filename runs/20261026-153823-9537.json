@@ -1,0 +1,638 @@
+{
+ "run_id": "20261026-153823-9537",
+ "lanes": [
+  "Women's Health"
+ ],
+ "keywords": "",
+ "leads": [
+  {
+   "title": "Indian Women\u2019s Health Startup Avni Wellness Raises $470K Seed Round - Femtech Insider",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdvSXJCazV2RldQY29NVnB4WXlkWWxHZHJNM09WLTdpTUJsLV9PUkR0QjV3MFRGTGtqUjdHdnRlanVoUVk4bjczOHF5YVZNWWd5NUlvdWpmbGlkZmdBMk9qOFdoR0djbDg2aFUtb0ZNeXZMVTdmaWFvVEEyei1ZTDZIN2RxSEdPaDZ6U1BNZFFPa0JET3l5MA?oc=5",
+   "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+   "source": "Femtech Insider",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "For Public Health Research, Seed Funding Has Big Returns - GW Today",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX3BqQ3EwSThEMEJMQkktZUhQaGd6RHZDYkpMV3Y3WFBObFlrQXl2WVZBUEJCbFJIRjUycHlFRmhoRUxjd283eGRVSHJnWUxFZGk3TlF2TzEwU095Zl9OaXdSV1ZFcDdpN01VSzgyUFRzdHdsTUs2MXNPaE0tQ2dHUw?oc=5",
+   "date": "Tue, 08 Sep 2026 07:00:00 GMT",
+   "source": "GW Today",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Collective X Health Raises $3.2 Million To Close Women\u2019s Health Data Gap - Forbes",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkpGR0g4STRPRGtqbm1aaFo0cmtJT0xBTHRHZjlYZVRpTDZnUnQ4LXBGMlVGMG1tbGpoY3NOejBCZ2hQN3ZOWjVoOXI5OUhIemh6cFB4RjFDUjNYMjhnTnNPYjFKNkRUXzM5cUlQajFHOHE2SGRrQUYzUGtRdGN1cDZSWk5YdjVjWENtM2ItTnpPVy1DYl9qeEtfQV9tc0lyOWVFNkdiRzdqRXpPdF9NbEE2Z2VFeW8?oc=5",
+   "date": "Tue, 13 Oct 2026 07:00:00 GMT",
+   "source": "Forbes",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "MenoVida closes first phase of pre-seed round for UK menopause app - Dealroom",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU5HSGpvNElFQnFaS3phX3NiNmhvRm52WmpGV2R5WmktOHJaVC13SkNScEtBdXd3b3Y5Y3Qzeks1dEY4THlLMU1MVVA1bmNlRG9MenJYdWdudEdXWUd4amJINlFMR210b1FhTTU3bjZ3NFRTeFhqNXp1Q0xWd2s4UV9jZXlOWUx0bEpUY0pwN25SRVVBVWUwTUVJVXVDZ2U3SEE?oc=5",
+   "date": "Tue, 28 Jul 2026 09:56:41 GMT",
+   "source": "Dealroom",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "McLean's Red Cell Partners debuts direct-to-consumer health app for women - The Business Journals",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUpGTXlQT1RyQTdlWERLeTkwd2xUeXkycElwOEZDOHprR0lyeGQ2V1A3SmdtR2labFRma28yR3NDeW14UnRSdnYtWnl5UGYwajNhc1RSNUNSbDZiTW9Rdk1sZzRLOU9xLVNGeVowZTFpV3BhRnA0Nk15bEdySXdQSHZzc3VsOEZxS0pCR09jQ2ZmRHZfaTZrMjJERDNQb25w?oc=5",
+   "date": "Mon, 06 Jul 2026 07:00:00 GMT",
+   "source": "The Business Journals",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Wayy bags $2M pre-seed to become an AI-powered sales co-founder for entrepreneurs - Refresh Miami",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRTlsV01JNVRtT0I2MzdmU3JEVUVRYndQZHFVMlRsQkZjMUlTOXllZTBrdFZpa2RCQjlGSDF5cm9kTG9CZVI4dnJfMDJzbjFwVWRsX2pNS0JuZVlRZkpzQXVSZEY3cDlYM0Fpc3hPOFV1c2lqbUZxcWR5OUtWa0pTRXVlODZ2ZFdqOU5nczJGdURFUmhpYVllX2FieUtTZklDdTU1bGtvaHRIbWdqdDM3eA?oc=5",
+   "date": "Mon, 03 Aug 2026 07:00:00 GMT",
+   "source": "Refresh Miami",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "IVF startup GonGlobal raises $1.2 million for needle-free treatments - Startup Daily",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTDFBdDVpWVpqOEtEcHg4blRTSG1ORE45UDdkdkdQZktEckxDUHYxUmdkTnp5bkJBMExsMm55QVl2WnNxdC0xZENrUkhGelNyUDU4bFp1OEstdnpYMXNnSUFXZWV3d3RJcXhvTGpodmZzVlRwSVVvc0t6NExEQTkzU1dnTXVMT2YtZ0dVTDRpV09YRjFpUmZXR21EMnpuUEI0Qk1HdWJQbXdIMDZjSTlKcg?oc=5",
+   "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+   "source": "Startup Daily",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Apply Now: $100,000 for Femtech Startups in Emerging Markets - ICTworks",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TT0JGWnEwMGlqeGszMFcwWkNfa3dnTXR3SThNSzVSRFUxY2dLaTNKbkhXOXhsSlRsaTRfVnlIaHdkd2hSVEdjWGhSeGgwNjl3aG56UlpxQ0gzbVZTb1EzbEI3bUt6RlRXUTNYd1d6TQ?oc=5",
+   "date": "Mon, 26 Oct 2026 10:33:37 GMT",
+   "source": "ICTworks",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "FoodLabs and Eka Ventures lead $6M seed round for female-led menstrual health startup DITTO - Tech Funding News",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEdTRjVIVEdMNFdNZElfOTFQQ1g3UG9rUmpMOTV1N3ZmdXdXSHJIUHFxNHVySmhOdWZlbXAyLW9CR29SY0pJVlB5NWdMU0NhNE5XR2Q2RHhTSzhfVmJ4alVqYUt5LWRBMWd1UzhzY2wyb19qalRBeHZka3RtTlhFZ0IzaDdYYm1R?oc=5",
+   "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+   "source": "Tech Funding News",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Read the pitch deck these Stanford grads used to raise $11.6 million for a wearable device to track women's hormones - Business Insider",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaGVqM0FlMWxBVUFPTmV5cko4SWpXelRfcjB4WUFNUFJYXzRXOUhqTjRoMUdIYVBnenEwc3hEUlVGcTZVaDRPQnNJenZrUWkzb3ZUNmRlUi1BZDhkRk53bk50MU1MYTV3ZnJXck1DaEVTVVNMVktzM2dFdjVGc1BEQkZmWVFvWTFKandiN25LWlBFdFVlbnQ0QTVKbmNVekpHektV?oc=5",
+   "date": "Sun, 05 Jul 2026 07:00:00 GMT",
+   "source": "Business Insider",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Fertility startup American Baby Company secures US$4m - FemTech World",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRlpCaWpWaGJzcWl2VUU5dndLcjRpVTQ1eUh2ekVaSER5dG82NVFlSnlBemxfTm1KdklBbWE2VnNUZnEyNlVpZXJaRDY2YW9JQkh5OUhiWnF4b0N5WDd2MEJYSGVxLVRfYmpERktzWHdYR0phekhLS3NzRUpmaE9RTzBMQnVwaGtBcjRmWXQ4b21ydDEtTmVKTkRMWjFoZw?oc=5",
+   "date": "Mon, 27 Jul 2026 07:00:00 GMT",
+   "source": "FemTech World",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "The AlleyWatch Startup Daily Funding Report: 9/16/2026 - AlleyWatch",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTW0wbDZtRG5JM1ZXdC1lRUgwQ0lZVkhUU2t6Q1pOanJoaHpLZEpDS0xCZFZIOF93LXBZRFhxbXdJVTNVaWRuQThSVlhObTBXUUFaMmthRlFnVnNKbzJzSmRHSENYd25WNUM4OVoycGsxWVpLM3NGZWJQVFYzNklSNFEwQW1FOWdtQ2s1dDdlV0NrSDg?oc=5",
+   "date": "Wed, 16 Sep 2026 16:41:43 GMT",
+   "source": "AlleyWatch",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+   "date": "Fri, 16 Oct 2026 07:00:00 GMT",
+   "source": "Fierce Healthcare",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Fertility startup that aims to be the go-to place for affordable IVF raises $4M and launches in West Palm Beach - Refresh Miami",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYjBhQzVuN0o2VzZHMlAyTG1lLTA1OHI4VV8yZWFydVdNWEtlbk5rTjhSZF91Q0NkV2xwV0NZTFdqdEdNN2JHVDJfRC1UOFpjeUN3Yl9WcnJLZGdKN0p1a1RfUEhSWENLZnF2TWhJVF9GOUJlZ3JZSHRwaW1GNnBPdlhmMmhFUjEwV3VGTDg5U1ZRSy1jaXBHQzVFM0sxU21rS2VmT0ZHQ25LS0JYRUFQWFhISlRUbnJnRkFHZjFBVXVxWEVnNEhCQU41b1FrQk9KUWVzcTY1Nmo?oc=5",
+   "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+   "source": "Refresh Miami",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Family office backs London femtech startup building saliva hormone-testing device - Dealroom",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcnBsdG1xZ2ZSYjNnbjR6Y2pFMTMyWFFGbktsSFVoUmxyU2U4WFJldHRtZDNHMi1WbFRRZVl2OXpFMFlwcWhobHdOSXdyLTJWY1BsT2dLa3B2MFkteW5uVTQ4Y0RhZVctb0lnNk5rMENlX05XM0dsWmVKVGsxSktLWDBlaGhxTG9WQ0FyQ09lXy16UGthd3lPZWVKaVNkUlktNGRwY2tmQnNyRkl3eUxRUXVVZ2Q0dw?oc=5",
+   "date": "Fri, 16 Oct 2026 04:44:50 GMT",
+   "source": "Dealroom",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Menstrual Health Startup DITTO Secures $6M To Expand Research Platform - Femtech Insider",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ1hybGY0ZWVYQkdwVWNCcXNtM1dRVDVINENGMzA0ZWxuYm1tdUI0OXphLWtablhpMFdJOUpEVmNfQ1A0VjJESzVOZTVGRWRLZ2UyaC0tOWRqYkNPd2UwejZIaFBlby1mUTRxZ1dhcFV3ak9vNXl0UEo0cWpYX2Fpb3NsSDhBbnp1Y0ZwYkhPTnJHOFRLUlNNQk5oYjhkUQ?oc=5",
+   "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+   "source": "Femtech Insider",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Dr Ariella Heffernan-Marks named Best New Founder as Ovum scales women\u2019s health AI - Startup Daily",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSy16Ym5sRzctaGp3WkM2SXpqUVhVLWF5cWJKcjBoalEtU2R1NWMyeTBtWlJhRzZWZEdfUXBpTmMybl9HdmsyeEJFMFhJdG9wNnNOWUR6LUl6YmgzZUQ5RmhFRkhLcFJ0WmFZM0V5dmpmb3RPV3VOME5KVVZoUU0zbENqTDYyLWdvR2t1c1U0dzZVWE9wODEwU2FBN21ib2g1dTBVTmJxWVJSbmd1UHpoWGtCbGt6c0xvZTdzTXk5SktUdnhMSkE?oc=5",
+   "date": "Fri, 25 Sep 2026 07:00:00 GMT",
+   "source": "Startup Daily",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Elle, MD Raises C$1.1M to Advance Non-Hormonal Birth Control Ring - Femtech Insider",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aWF90bkd1MVNuM1hwZWx0TG8wYWN6MUFuQTA1a1JIa0h0RlJ6cS16aGhLdFRRWTBYSkNUZ2Y0VU1rQlBaV0MtYzQzc3cwSmFCUzYwRUNsb0xHc1Zwelk0bUNuOFdqbEJRZTA3Yno4aU1FMmpHREpfWU01RmF0dw?oc=5",
+   "date": "Mon, 27 Jul 2026 07:00:00 GMT",
+   "source": "Femtech Insider",
+   "lane_query": "Women's Health"
+  }
+ ],
+ "quarantined": [],
+ "scout_candidates": [
+  {
+   "name": "Avni Wellness",
+   "lane": "Women's Health",
+   "stage_signal": "Seed",
+   "location_signal": "India",
+   "one_line": "Indian women\u2019s health startup that raised a $470K seed round.",
+   "lead_ids": [
+    0
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdvSXJCazV2RldQY29NVnB4WXlkWWxHZHJNM09WLTdpTUJsLV9PUkR0QjV3MFRGTGtqUjdHdnRlanVoUVk4bjczOHF5YVZNWWd5NUlvdWpmbGlkZmdBMk9qOFdoR0djbDg2aFUtb0ZNeXZMVTdmaWFvVEEyei1ZTDZIN2RxSEdPaDZ6U1BNZFFPa0JET3l5MA?oc=5"
+   ],
+   "headlines": [
+    "Indian Women\u2019s Health Startup Avni Wellness Raises $470K Seed Round - Femtech Insider"
+   ]
+  },
+  {
+   "name": "Collective X Health",
+   "lane": "Women's Health",
+   "stage_signal": "Unknown",
+   "location_signal": "Unknown",
+   "one_line": "Raised $3.2 million to address the women\u2019s health data gap.",
+   "lead_ids": [
+    2
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkpGR0g4STRPRGtqbm1aaFo0cmtJT0xBTHRHZjlYZVRpTDZnUnQ4LXBGMlVGMG1tbGpoY3NOejBCZ2hQN3ZOWjVoOXI5OUhIemh6cFB4RjFDUjNYMjhnTnNPYjFKNkRUXzM5cUlQajFHOHE2SGRrQUYzUGtRdGN1cDZSWk5YdjVjWENtM2ItTnpPVy1DYl9qeEtfQV9tc0lyOWVFNkdiRzdqRXpPdF9NbEE2Z2VFeW8?oc=5"
+   ],
+   "headlines": [
+    "Collective X Health Raises $3.2 Million To Close Women\u2019s Health Data Gap - Forbes"
+   ]
+  },
+  {
+   "name": "MenoVida",
+   "lane": "Women's Health",
+   "stage_signal": "Pre-seed",
+   "location_signal": "UK",
+   "one_line": "Menopause app that closed the first phase of its pre-seed round.",
+   "lead_ids": [
+    3
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU5HSGpvNElFQnFaS3phX3NiNmhvRm52WmpGV2R5WmktOHJaVC13SkNScEtBdXd3b3Y5Y3Qzeks1dEY4THlLMU1MVVA1bmNlRG9MenJYdWdudEdXWUd4amJINlFMR210b1FhTTU3bjZ3NFRTeFhqNXp1Q0xWd2s4UV9jZXlOWUx0bEpUY0pwN25SRVVBVWUwTUVJVXVDZ2U3SEE?oc=5"
+   ],
+   "headlines": [
+    "MenoVida closes first phase of pre-seed round for UK menopause app - Dealroom"
+   ]
+  },
+  {
+   "name": "GonGlobal",
+   "lane": "Women's Health",
+   "stage_signal": "Unknown",
+   "location_signal": "Unknown",
+   "one_line": "IVF startup that raised $1.2 million for needle-free treatments.",
+   "lead_ids": [
+    6
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTDFBdDVpWVpqOEtEcHg4blRTSG1ORE45UDdkdkdQZktEckxDUHYxUmdkTnp5bkJBMExsMm55QVl2WnNxdC0xZENrUkhGelNyUDU4bFp1OEstdnpYMXNnSUFXZWV3d3RJcXhvTGpodmZzVlRwSVVvc0t6NExEQTkzU1dnTXVMT2YtZ0dVTDRpV09YRjFpUmZXR21EMnpuUEI0Qk1HdWJQbXdIMDZjSTlKcg?oc=5"
+   ],
+   "headlines": [
+    "IVF startup GonGlobal raises $1.2 million for needle-free treatments - Startup Daily"
+   ]
+  },
+  {
+   "name": "DITTO",
+   "lane": "Women's Health",
+   "stage_signal": "Seed",
+   "location_signal": "Unknown",
+   "one_line": "Menstrual health startup that raised $6 million to expand its research platform.",
+   "lead_ids": [
+    8,
+    15
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWEdTRjVIVEdMNFdNZElfOTFQQ1g3UG9rUmpMOTV1N3ZmdXdXSHJIUHFxNHVySmhOdWZlbXAyLW9CR29SY0pJVlB5NWdMU0NhNE5XR2Q2RHhTSzhfVmJ4alVqYUt5LWRBMWd1UzhzY2wyb19qalRBeHZka3RtTlhFZ0IzaDdYYm1R?oc=5",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ1hybGY0ZWVYQkdwVWNCcXNtM1dRVDVINENGMzA0ZWxuYm1tdUI0OXphLWtablhpMFdJOUpEVmNfQ1A0VjJESzVOZTVGRWRLZ2UyaC0tOWRqYkNPd2UwejZIaFBlby1mUTRxZ1dhcFV3ak9vNXl0UEo0cWpYX2Fpb3NsSDhBbnp1Y0ZwYkhPTnJHOFRLUlNNQk5oYjhkUQ?oc=5"
+   ],
+   "headlines": [
+    "FoodLabs and Eka Ventures lead $6M seed round for female-led menstrual health startup DITTO - Tech Funding News",
+    "Menstrual Health Startup DITTO Secures $6M To Expand Research Platform - Femtech Insider"
+   ]
+  },
+  {
+   "name": "American Baby Company",
+   "lane": "Women's Health",
+   "stage_signal": "Unknown",
+   "location_signal": "Unknown",
+   "one_line": "Fertility startup that secured US$4 million.",
+   "lead_ids": [
+    10
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxQRlpCaWpWaGJzcWl2VUU5dndLcjRpVTQ1eUh2ekVaSER5dG82NVFlSnlBemxfTm1KdklBbWE2VnNUZnEyNlVpZXJaRDY2YW9JQkh5OUhiWnF4b0N5WDd2MEJYSGVxLVRfYmpERktzWHdYR0phekhLS3NzRUpmaE9RTzBMQnVwaGtBcjRmWXQ4b21ydDEtTmVKTkRMWjFoZw?oc=5"
+   ],
+   "headlines": [
+    "Fertility startup American Baby Company secures US$4m - FemTech World"
+   ]
+  },
+  {
+   "name": "Elle, MD",
+   "lane": "Women's Health",
+   "stage_signal": "Unknown",
+   "location_signal": "Unknown",
+   "one_line": "Raised C$1.1 million to advance a non-hormonal birth control ring.",
+   "lead_ids": [
+    17
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aWF90bkd1MVNuM1hwZWx0TG8wYWN6MUFuQTA1a1JIa0h0RlJ6cS16aGhLdFRRWTBYSkNUZ2Y0VU1rQlBaV0MtYzQzc3cwSmFCUzYwRUNsb0xHc1Zwelk0bUNuOFdqbEJRZTA3Yno4aU1FMmpHREpfWU01RmF0dw?oc=5"
+   ],
+   "headlines": [
+    "Elle, MD Raises C$1.1M to Advance Non-Hormonal Birth Control Ring - Femtech Insider"
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "name": "Elle, MD",
+   "reason": "Over the 6-company verification cap for one scan",
+   "stage": "Unknown"
+  },
+  {
+   "name": "Avni Wellness",
+   "reason": "US domicile not confirmed (No; HQ: Mumbai, Maharashtra, India (reported; its Indian legal entity is registered in Thane, Maharashtra))",
+   "stage": "Seed"
+  },
+  {
+   "name": "MenoVida",
+   "reason": "US domicile not confirmed (No; HQ: Unknown. Companies House lists a registered office in Burnham-on-Sea, Somerset, United Kingdom; F6S lists Bath, United Kingdom. A registered office does not by itself confirm headquarters.)",
+   "stage": "Seed"
+  },
+  {
+   "name": "DITTO",
+   "reason": "US domicile not confirmed (No; HQ: London, England, United Kingdom)",
+   "stage": "Seed"
+  },
+  {
+   "name": "GonGlobal",
+   "reason": "US domicile not confirmed (No; HQ: Melbourne, Victoria, Australia)",
+   "stage": "Unknown"
+  }
+ ],
+ "scored": [
+  {
+   "id": "collective-x-health",
+   "name": "Collective X Health",
+   "category": "Women's Health",
+   "subcategory": "Non-invasive & Patient-Collected Diagnostics / women's-health data infrastructure (adjacent, not a diagnostic product)",
+   "location": "San Francisco, California, United States",
+   "domicile": "US",
+   "stage": "Pre-seed",
+   "round_amount": "$3.2 million",
+   "round_date": "October 13, 2026",
+   "founders": "Dr. Stacy Sims (co-founder and Chief Research Officer), an exercise physiologist and nutrition scientist who has directed research at Stanford and published more than 100 peer-reviewed papers; Lindsey Abramo (co-founder and CEO), a commercial operator with senior roles at POPSUGAR, Refinery29, Martha Stewart Living, Cond\u00e9 Nast, and Group Nine Media, and former CRO of Leaf Group and CEO of World of Good Brands; Angelica Marden (co-founder and Chief Brand Officer), a former POPSUGAR executive who rose to president and led the brand through acquisitions.",
+   "description": "A B2B women's-health intelligence platform that organizes peer-reviewed research and female-specific data into a structured, auditable resource licensed through an API. Businesses can use it as a women's-health research database or to validate their existing information; the platform says its insights cite their sources.",
+   "evidence": "At launch, the company identified Human Powered Health and Altra Running as founding customers licensing its intelligence through the API. Forbes reported these were initial paying customers. No company-specific clinical validation or clinical outcomes evidence was confirmed in the pages reviewed.",
+   "business_model": "See scorecard",
+   "website": "https://www.collectivex.health/",
+   "sources": [
+    "https://www.forbes.com/sites/allisonsmith/2026/10/13/collective-x-health-raises-32m-to-close-womens-health-data-gap/",
+    "https://www.prnewswire.com/news-releases/collective-x-health-launches-with-a-3-2-million-pre-seed-round-to-close-the-womens-health-data-gap-302907275.html",
+    "https://www.collectivex.health/our-collective",
+    "https://www.collectivex.health/"
+   ],
+   "source_notes": [
+    {
+     "url": "https://www.forbes.com/sites/allisonsmith/2026/10/13/collective-x-health-raises-32m-to-close-womens-health-data-gap/",
+     "supports": "San Francisco location; $3.2 million oversubscribed pre-seed round; founders; platform description; initial paying customers Human Powered Health and Altra Running."
+    },
+    {
+     "url": "https://www.prnewswire.com/news-releases/collective-x-health-launches-with-a-3-2-million-pre-seed-round-to-close-the-womens-health-data-gap-302907275.html",
+     "supports": "Round amount, type, investors, and October 13, 2026 announcement date; founding customers; API licensing; product description and research-review model."
+    },
+    {
+     "url": "https://www.collectivex.health/our-collective",
+     "supports": "Company-published founder roles and biographies, including prior work and research backgrounds."
+    },
+    {
+     "url": "https://www.collectivex.health/",
+     "supports": "Company's description of its women's-health intelligence platform."
+    }
+   ],
+   "news": [
+    {
+     "title": "Collective X Health Raises $3.2 Million To Close Women\u2019s Health Data Gap - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkpGR0g4STRPRGtqbm1aaFo0cmtJT0xBTHRHZjlYZVRpTDZnUnQ4LXBGMlVGMG1tbGpoY3NOejBCZ2hQN3ZOWjVoOXI5OUhIemh6cFB4RjFDUjNYMjhnTnNPYjFKNkRUXzM5cUlQajFHOHE2SGRrQUYzUGtRdGN1cDZSWk5YdjVjWENtM2ItTnpPVy1DYl9qeEtfQV9tc0lyOWVFNkdiRzdqRXpPdF9NbEE2Z2VFeW8?oc=5"
+    }
+   ],
+   "scorecard": {
+    "segment": "Women's Health",
+    "subcategory": "Non-invasive & Patient-Collected Diagnostics / women's-health data infrastructure (adjacent, not a diagnostic product)",
+    "segment_fit": {
+     "score": 4,
+     "rationale": "The platform organizes female-specific, peer-reviewed research and data, directly addressing a women's-health information gap. It serves business customers rather than patients, and no direct clinical product or patient outcome is described."
+    },
+    "stage_and_terms_fit": {
+     "score": 3,
+     "rationale": "The disclosed round is pre-seed, which matches the target stage, and the $3.2 million round indicates external financing activity. Valuation, proposed check terms, legal domicile, and for-profit status are unknown, so core eligibility and terms fit are not established."
+    },
+    "evidence_bar": {
+     "score": 2,
+     "rationale": "The record identifies research credentials and source-cited insights, but confirms no company-specific clinical validation or outcomes evidence. As a research intelligence platform rather than a diagnostic product, the diagnostic evidence bar may not apply; the record still does not establish measurable health impact."
+    },
+    "revenue_path_independent_of_regulation": {
+     "score": 4,
+     "rationale": "The platform has two reported paying business customers licensing its API, providing a plausible commercial path not stated to depend on regulatory clearance. The record does not describe regulatory exposure, pricing, or recurring revenue."
+    },
+    "systems_adoption_and_paying_champion": {
+     "score": 3,
+     "rationale": "Human Powered Health and Altra Running are reported as initial paying customers, a positive willingness-to-pay signal. The record does not establish health-system or payer adoption, a clinical champion, integration requirements, or replicability beyond these customers."
+    },
+    "impact_and_health_equity": {
+     "score": 3,
+     "rationale": "Organizing female-specific evidence could help businesses improve women's-health information and products. The record does not specify target populations, affordability or access effects, equity outcomes, or measurable health metrics."
+    },
+    "defensibility": {
+     "score": 3,
+     "rationale": "A structured, source-cited women's-health data resource and API could become more useful with coverage and usage. The record does not show proprietary data rights, unique data capture, customer switching costs, or a durable advantage over competing databases and model providers."
+    },
+    "founder_fit": {
+     "score": 4,
+     "rationale": "Co-founder Stacy Sims brings exercise physiology and nutrition research experience, including Stanford research leadership and more than 100 peer-reviewed papers; the other founders bring commercial and brand leadership. The record does not establish clinical-practice experience or founder access to health-system decision-makers."
+    },
+    "capex_light": {
+     "score": 5,
+     "rationale": "The described product is a licensed software/API platform, with no owned lab, hardware, or manufacturing requirements stated."
+    },
+    "portfolio_conflict": "None found; the concept differs from Dopl Technologies' remote diagnostic ultrasound offering, though both are healthcare technology.",
+    "headline": "Collective X Health has an early paid B2B women's-health data platform and relevant research expertise, but its health impact, defensibility, and eligibility remain unverified.",
+    "red_flags": [
+     "For-profit status and legal U.S. domicile are unconfirmed.",
+     "No company-specific clinical validation, outcomes data, or measurable impact evidence is confirmed.",
+     "The two reported initial customers are outside an explicitly described health-system or payer adoption pathway.",
+     "Valuation and round terms are not provided, so fit with the fund's valuation and ownership constraints cannot be assessed."
+    ],
+    "unknowns": [
+     "Legal incorporation domicile and for-profit status.",
+     "Pre-money/post-money valuation, security type, and availability of the fund's target check and ownership.",
+     "Customer contracts, pricing, renewal, usage, and pipeline beyond the two initial customers.",
+     "Data provenance, licensing and consent, coverage and update processes, and evidence of differentiated or defensible data."
+    ],
+    "diligence_questions": [
+     "Can the company document its legal domicile, for-profit status, current valuation and security terms, and a round allocation compatible with the fund's $25K-$50K ticket and ownership target?",
+     "What are the contract values, renewal terms, actual API usage, and customer outcomes for Human Powered Health and Altra Running, and which additional buyers have demonstrated willingness to pay?",
+     "How are research sources and underlying data licensed, audited, updated, and validated, and what specific, measurable women's-health access, equity, or outcome metric will customer use improve?"
+    ]
+   },
+   "score": 58,
+   "recommendation": "Watch",
+   "verified_on": "2026-10-26"
+  },
+  {
+   "id": "the-american-baby-company",
+   "name": "The American Baby Company",
+   "category": "Women's Health",
+   "subcategory": "Reproductive & Maternal Care \u2014 fertility care, IVF, and egg freezing",
+   "location": "West Palm Beach, Florida, United States",
+   "domicile": "US",
+   "stage": "Seed",
+   "round_amount": "US$4 million",
+   "round_date": "July 23, 2026 (announced; a PitchBook profile lists April 17, 2026 as the deal date)",
+   "founders": "Van Spina, co-founder and CEO, previously worked as a technology investor at Warburg Pincus and founded a private-credit data business. Dr. Paul Magarelli, co-founder and chief medical officer, is a board-certified reproductive endocrinologist with more than 30 years of experience; he developed the Clinical Fertility Physician certification program.",
+   "description": "A fertility-care clinic offering IVF and egg freezing. Its announced model uses upfront intake, evidence-based protocols, AI-assisted intake and modern lab workflows; routine procedures are intended to be performed by trained generalist clinicians under specialist oversight. The company advertised an IVF cycle, including medication, for US$8,995.",
+   "evidence": "The company announced a US$4 million seed round and a flagship clinic and laboratory in West Palm Beach. A local economic-development page describes the facility, but its text characterizes it as planned. I found no confirmed patient-volume, pregnancy-rate, live-birth, or other company clinical-outcome data.",
+   "business_model": "See scorecard",
+   "website": "https://www.americanbabyco.com/",
+   "sources": [
+    "https://www.americanbabyco.com/",
+    "https://www.refreshmiami.com/news/fertility-startup-that-aims-to-be-the-go-to-place-for-affordable-ivf-raises-4m-and-launches-in-west-palm-beach/",
+    "https://tower-research.com/the-american-baby-company-a-new-model-for-fertility-care/",
+    "https://www.femtechworld.co.uk/entrepreneur/fertility-startup-american-baby-company-secures-us4m/",
+    "https://bdb.org/news/advanced-laboratory-opens-in-west-palm-beach-hq-plans-national-expansion/",
+    "https://www.bizapedia.com/us/the-american-baby-company-inc.html",
+    "https://pitchbook.com/profiles/company/1460632-51"
+   ],
+   "source_notes": [
+    {
+     "url": "https://www.americanbabyco.com/",
+     "supports": "Company website; describes it as a fertility clinic based in West Palm Beach and advertises IVF and egg-freezing prices."
+    },
+    {
+     "url": "https://www.refreshmiami.com/news/fertility-startup-that-aims-to-be-the-go-to-place-for-affordable-ivf-raises-4m-and-launches-in-west-palm-beach/",
+     "supports": "July 23, 2026 announcement of the US$4 million seed round and planned West Palm Beach clinic; founders' roles and backgrounds; announced IVF price."
+    },
+    {
+     "url": "https://tower-research.com/the-american-baby-company-a-new-model-for-fertility-care/",
+     "supports": "Investor's announcement that Tower Research Ventures co-led the seed round; describes the proposed care model, protocols, AI-assisted intake and lab workflows."
+    },
+    {
+     "url": "https://www.femtechworld.co.uk/entrepreneur/fertility-startup-american-baby-company-secures-us4m/",
+     "supports": "Round amount and seed classification; founder biographies and planned clinic."
+    },
+    {
+     "url": "https://bdb.org/news/advanced-laboratory-opens-in-west-palm-beach-hq-plans-national-expansion/",
+     "supports": "Company corporate headquarters in West Palm Beach and details of the flagship clinic/lab facility; the page text describes the facility as planned."
+    },
+    {
+     "url": "https://www.bizapedia.com/us/the-american-baby-company-inc.html",
+     "supports": "Lists an active Delaware domestic corporation and an active Florida foreign profit corporation named The American Baby Company, Inc."
+    },
+    {
+     "url": "https://pitchbook.com/profiles/company/1460632-51",
+     "supports": "Lists a US$4 million seed round and April 17, 2026 as the deal date, differing from the July 23, 2026 public announcement date."
+    }
+   ],
+   "news": [
+    {
+     "title": "Fertility startup American Baby Company secures US$4m - FemTech World",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRlpCaWpWaGJzcWl2VUU5dndLcjRpVTQ1eUh2ekVaSER5dG82NVFlSnlBemxfTm1KdklBbWE2VnNUZnEyNlVpZXJaRDY2YW9JQkh5OUhiWnF4b0N5WDd2MEJYSGVxLVRfYmpERktzWHdYR0phekhLS3NzRUpmaE9RTzBMQnVwaGtBcjRmWXQ4b21ydDEtTmVKTkRMWjFoZw?oc=5"
+    }
+   ],
+   "scorecard": {
+    "segment": "Women's Health",
+    "subcategory": "Reproductive & Maternal Care \u2014 fertility care, IVF, and egg freezing",
+    "segment_fit": {
+     "score": 5,
+     "rationale": "The company directly offers fertility treatment and egg freezing, a strong match for Women's Health and Reproductive & Maternal Care. Its clinic-based care model is less capex-light than a digital or outsourced-lab product, but it fits the segment."
+    },
+    "stage_and_terms_fit": {
+     "score": 3,
+     "rationale": "The company is reported as a U.S.-domiciled, for-profit seed-stage business, consistent with the fund's stage and eligibility requirements. The $4 million round amount is not its valuation or the fund's proposed investment terms, so valuation, ownership, and instrument fit are unknown."
+    },
+    "evidence_bar": {
+     "score": 2,
+     "rationale": "No patient volume, pregnancy-rate, live-birth, or other clinical-outcome data is reported, so outcomes and protocol claims remain unsubstantiated in the available record. The announced clinic's operational status is also unclear, with another source describing it as planned."
+    },
+    "revenue_path_independent_of_regulation": {
+     "score": 3,
+     "rationale": "The company proposes selling IVF cycles and egg-freezing services, including an advertised $8,995 IVF cycle, which could provide revenue through care delivery. The record does not specify regulatory dependencies, whether the clinic is operating, or whether any revenue is realized, so independence from regulatory timelines is not established."
+    },
+    "systems_adoption_and_paying_champion": {
+     "score": 2,
+     "rationale": "The direct-to-patient clinic model does not appear to depend on hospital-system procurement, but the record provides no evidence of patient demand, paid treatment volume, or a repeatable operating model. The advertised price is not evidence of willingness to pay or a paying champion."
+    },
+    "impact_and_health_equity": {
+     "score": 3,
+     "rationale": "A lower advertised IVF price, including medication, could improve affordability and access to fertility care. No evidence establishes who can access the service, whether the price is achievable in practice, or measurable patient outcomes."
+    },
+    "defensibility": {
+     "score": 3,
+     "rationale": "An experienced reproductive endocrinologist co-founded the company, and its proposed combination of protocols, AI-assisted intake, and lab workflows may support operational differentiation. The record does not establish proprietary data, durable workflow advantage, or a defensible moat."
+    },
+    "founder_fit": {
+     "score": 4,
+     "rationale": "The co-founder and chief medical officer is a board-certified reproductive endocrinologist with more than 30 years of experience and relevant fertility-program development experience. The CEO has technology-investing and business-building experience, though no specific healthcare operating or commercialization track record is provided."
+    },
+    "capex_light": {
+     "score": 2,
+     "rationale": "The model includes a physical fertility clinic and laboratory, which requires facilities, equipment, and clinical operations rather than a predominantly capex-light software or outsourced-lab approach. The record does not quantify the capital burden beyond the announced $4 million seed round."
+    },
+    "portfolio_conflict": "None found; this is a fertility-care clinic, distinct from Dopl Technologies' remote diagnostic ultrasound offering.",
+    "headline": "American Baby Company is a seed-stage fertility clinic with an affordability-oriented price and strong clinical founder, but its outcomes, operating status, and capital intensity remain unproven.",
+    "red_flags": [
+     "No confirmed patient volume, pregnancy-rate, live-birth, or other company clinical-outcome data is reported.",
+     "The flagship clinic and laboratory may still be planned rather than operational.",
+     "A physical clinic and lab may be capital-intensive relative to the fund's capex-light preference.",
+     "The $8,995 advertised IVF price is not evidence of realized demand, affordability in practice, or unit economics."
+    ],
+    "unknowns": [
+     "Clinic opening and current operating status; regulatory and licensing requirements and any dependencies.",
+     "Actual revenue, patient volume, treatment completion, pregnancy/live-birth outcomes, and unit economics.",
+     "Fundraising valuation, round instrument, cap table, and whether the fund's ticket can secure target ownership.",
+     "Patient demographics, access for underserved populations, and how the advertised price compares with total out-of-pocket costs."
+    ],
+    "diligence_questions": [
+     "Is the West Palm Beach clinic and laboratory operating, and what licenses, regulatory approvals, staffing, and capital expenditures are required to deliver each IVF cycle?",
+     "What patient-level outcomes and operating metrics can you substantiate\u2014especially cycle completion, pregnancy and live-birth rates, adverse events, and outcomes by relevant patient subgroups\u2014and how do they compare with benchmarks?",
+     "At the advertised $8,995 price, what is the fully loaded cost and contribution margin per cycle, what patient demand or willingness-to-pay has been demonstrated, and how will the model expand access without relying on unproven volume assumptions?"
+    ]
+   },
+   "score": 52,
+   "recommendation": "Watch",
+   "verified_on": "2026-10-26"
+  }
+ ],
+ "usage": [
+  {
+   "ts": "2026-10-26T15:38:32",
+   "run_id": "20261026-153823-9537",
+   "agent": "scout",
+   "model": "gpt-6-luna",
+   "input_tokens": 1545,
+   "cached_tokens": 0,
+   "output_tokens": 588,
+   "reasoning_tokens": 256,
+   "web_search_calls": 0,
+   "latency_s": 8.7,
+   "cost_usd": 0.000449
+  },
+  {
+   "ts": "2026-10-26T15:38:57",
+   "run_id": "20261026-153823-9537",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 29754,
+   "cached_tokens": 4711,
+   "output_tokens": 1373,
+   "reasoning_tokens": 680,
+   "web_search_calls": 3,
+   "latency_s": 24.3,
+   "cost_usd": 0.033238
+  },
+  {
+   "ts": "2026-10-26T15:38:55",
+   "run_id": "20261026-153823-9537",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 23100,
+   "cached_tokens": 4711,
+   "output_tokens": 2322,
+   "reasoning_tokens": 1603,
+   "web_search_calls": 3,
+   "latency_s": 22.8,
+   "cost_usd": 0.033047
+  },
+  {
+   "ts": "2026-10-26T15:38:57",
+   "run_id": "20261026-153823-9537",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 22069,
+   "cached_tokens": 4711,
+   "output_tokens": 1939,
+   "reasoning_tokens": 1114,
+   "web_search_calls": 4,
+   "latency_s": 25.1,
+   "cost_usd": 0.042752
+  },
+  {
+   "ts": "2026-10-26T15:38:58",
+   "run_id": "20261026-153823-9537",
+   "agent": "analyst",
+   "model": "gpt-6-luna",
+   "input_tokens": 10169,
+   "cached_tokens": 9735,
+   "output_tokens": 1001,
+   "reasoning_tokens": 0,
+   "web_search_calls": 0,
+   "latency_s": 0.5,
+   "cost_usd": 0.000641
+  },
+  {
+   "ts": "2026-10-26T15:39:15",
+   "run_id": "20261026-153823-9537",
+   "agent": "analyst",
+   "model": "gpt-6-luna",
+   "input_tokens": 10170,
+   "cached_tokens": 9735,
+   "output_tokens": 965,
+   "reasoning_tokens": 0,
+   "web_search_calls": 0,
+   "latency_s": 9.4,
+   "cost_usd": 0.000623
+  }
+ ],
+ "summary": {
+  "by_agent": {
+   "scout": {
+    "calls": 1,
+    "input_tokens": 1545,
+    "cached_tokens": 0,
+    "output_tokens": 588,
+    "reasoning_tokens": 256,
+    "web_search_calls": 0,
+    "cost_usd": 0.000449,
+    "latency_s": 8.7
+   },
+   "verifier": {
+    "calls": 3,
+    "input_tokens": 74923,
+    "cached_tokens": 14133,
+    "output_tokens": 5634,
+    "reasoning_tokens": 3397,
+    "web_search_calls": 10,
+    "cost_usd": 0.109037,
+    "latency_s": 25.1
+   },
+   "analyst": {
+    "calls": 2,
+    "input_tokens": 20339,
+    "cached_tokens": 19470,
+    "output_tokens": 1966,
+    "reasoning_tokens": 0,
+    "web_search_calls": 0,
+    "cost_usd": 0.001264,
+    "latency_s": 9.4
+   }
+  },
+  "total": {
+   "calls": 6,
+   "input_tokens": 96807,
+   "cached_tokens": 33603,
+   "output_tokens": 8188,
+   "reasoning_tokens": 3653,
+   "web_search_calls": 10,
+   "cost_usd": 0.1108
+  },
+  "elapsed_s": 52.1
+ },
+ "finished": "2026-10-26T15:39:15"
+}

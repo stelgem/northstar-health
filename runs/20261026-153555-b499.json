@@ -1,0 +1,536 @@
+{
+ "run_id": "20261026-153555-b499",
+ "lanes": [
+  "Women's Health",
+  "Biotech",
+  "Evidence-based Wellness"
+ ],
+ "keywords": "",
+ "leads": [
+  {
+   "title": "Indian Women\u2019s Health Startup Avni Wellness Raises $470K Seed Round - Femtech Insider",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdvSXJCazV2RldQY29NVnB4WXlkWWxHZHJNM09WLTdpTUJsLV9PUkR0QjV3MFRGTGtqUjdHdnRlanVoUVk4bjczOHF5YVZNWWd5NUlvdWpmbGlkZmdBMk9qOFdoR0djbDg2aFUtb0ZNeXZMVTdmaWFvVEEyei1ZTDZIN2RxSEdPaDZ6U1BNZFFPa0JET3l5MA?oc=5",
+   "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+   "source": "Femtech Insider",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "For Public Health Research, Seed Funding Has Big Returns - GW Today",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX3BqQ3EwSThEMEJMQkktZUhQaGd6RHZDYkpMV3Y3WFBObFlrQXl2WVZBUEJCbFJIRjUycHlFRmhoRUxjd283eGRVSHJnWUxFZGk3TlF2TzEwU095Zl9OaXdSV1ZFcDdpN01VSzgyUFRzdHdsTUs2MXNPaE0tQ2dHUw?oc=5",
+   "date": "Tue, 08 Sep 2026 07:00:00 GMT",
+   "source": "GW Today",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Collective X Health Raises $3.2 Million To Close Women\u2019s Health Data Gap - Forbes",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkpGR0g4STRPRGtqbm1aaFo0cmtJT0xBTHRHZjlYZVRpTDZnUnQ4LXBGMlVGMG1tbGpoY3NOejBCZ2hQN3ZOWjVoOXI5OUhIemh6cFB4RjFDUjNYMjhnTnNPYjFKNkRUXzM5cUlQajFHOHE2SGRrQUYzUGtRdGN1cDZSWk5YdjVjWENtM2ItTnpPVy1DYl9qeEtfQV9tc0lyOWVFNkdiRzdqRXpPdF9NbEE2Z2VFeW8?oc=5",
+   "date": "Tue, 13 Oct 2026 07:00:00 GMT",
+   "source": "Forbes",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "MenoVida closes first phase of pre-seed round for UK menopause app - Dealroom",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU5HSGpvNElFQnFaS3phX3NiNmhvRm52WmpGV2R5WmktOHJaVC13SkNScEtBdXd3b3Y5Y3Qzeks1dEY4THlLMU1MVVA1bmNlRG9MenJYdWdudEdXWUd4amJINlFMR210b1FhTTU3bjZ3NFRTeFhqNXp1Q0xWd2s4UV9jZXlOWUx0bEpUY0pwN25SRVVBVWUwTUVJVXVDZ2U3SEE?oc=5",
+   "date": "Tue, 28 Jul 2026 09:56:41 GMT",
+   "source": "Dealroom",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "McLean's Red Cell Partners debuts direct-to-consumer health app for women - The Business Journals",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUpGTXlQT1RyQTdlWERLeTkwd2xUeXkycElwOEZDOHprR0lyeGQ2V1A3SmdtR2labFRma28yR3NDeW14UnRSdnYtWnl5UGYwajNhc1RSNUNSbDZiTW9Rdk1sZzRLOU9xLVNGeVowZTFpV3BhRnA0Nk15bEdySXdQSHZzc3VsOEZxS0pCR09jQ2ZmRHZfaTZrMjJERDNQb25w?oc=5",
+   "date": "Mon, 06 Jul 2026 07:00:00 GMT",
+   "source": "The Business Journals",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Wayy bags $2M pre-seed to become an AI-powered sales co-founder for entrepreneurs - Refresh Miami",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRTlsV01JNVRtT0I2MzdmU3JEVUVRYndQZHFVMlRsQkZjMUlTOXllZTBrdFZpa2RCQjlGSDF5cm9kTG9CZVI4dnJfMDJzbjFwVWRsX2pNS0JuZVlRZkpzQXVSZEY3cDlYM0Fpc3hPOFV1c2lqbUZxcWR5OUtWa0pTRXVlODZ2ZFdqOU5nczJGdURFUmhpYVllX2FieUtTZklDdTU1bGtvaHRIbWdqdDM3eA?oc=5",
+   "date": "Mon, 03 Aug 2026 07:00:00 GMT",
+   "source": "Refresh Miami",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Eli Lilly acquisition payday fuels $1M seed round for St. Petersburg biotech startup - The Business Journals",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUGVFcVBVYmZWN24yM05saHY5QTZ6LVZxNnhXYU5lVXRjMU53Tnk3Qm9FZ2RlVE9xVTRKdk4zRUVvSFlpVFZLRmswYTUwSnlKZzhBSnBXam8xTFlwN2JaMHVaOUVSWGIyUGZ5MVpTekxXajFydlhrWF9TdG1nakNXanRfa3c2a0FaaVVxU0R1cG1JWkEzUjBVcXBVekpSUjV4ZS1nTmd3WQ?oc=5",
+   "date": "Thu, 02 Jul 2026 07:00:00 GMT",
+   "source": "The Business Journals",
+   "lane_query": "Biotech"
+  },
+  {
+   "title": "\u2018It\u2019s certainly not easy\u2019: How are Boston biotechs coping with a shallower pool of seed funding? - Fierce Biotech",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSjVacXgxNm5EYU8xTEdueDRJSzBtYnQwSzlMSUg0Yzh0SEY0dVhpZHcxMmNDOEhfMWhxWEpldVdwWnd3U01EM2VWWENldVJQeGpBcGxQWkEySTJFcjdaOURjemVnQkpScGlsSHpHdnVtaldjRE9Rd2NaQUdJcS1uTmZoUXpFcHY3R1dIajlnam1VNjRTN05Z?oc=5",
+   "date": "Fri, 16 Oct 2026 07:00:00 GMT",
+   "source": "Fierce Biotech",
+   "lane_query": "Biotech"
+  },
+  {
+   "title": "Moving faster than planned, AI drug developer Accipiter Bio quietly tops up seed round with $10.5M - GeekWire",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPejZ2TmpYT09WOHVnVFJaM1JnVE5HMkpHcWN3eXpndU9qSFhCQUpWRlQySUtxeUJWa1NwSVVRM0J0Uk1uUVZ0UDR4RFp5MU51aXFTOGhXYlVhbFV6N2xJQlE0VGhwcE5DZnQzUnJhaTlDVW9uM1k0RWpQbHYzanNZSm5uREg5VmtCVXR2U0NMcExGU2wxUW15ZjFrRzM2dmxhRkFteGc4ekdHSFRxMnN4ZnBVYzB1ZktpZW9mN21RMEZfc2RqY1E?oc=5",
+   "date": "Fri, 31 Jul 2026 07:00:00 GMT",
+   "source": "GeekWire",
+   "lane_query": "Biotech"
+  },
+  {
+   "title": "Upstream Biotechnology raises seed funding for \u2018on-demand\u2019 crop defense tech - AgFunderNews",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdWFyb1RSTzJ4NmR6TmlHMlBTQlJVWDRhM3FsTG9GX3FHMEtHZGhpZWNBelZkYjlubEVrSWIyYUtlc0RuRWp2NlhBN00zQjFqT203bi1Ud0JPYW1EVG1iNUNsdnZ1dmh1ZU14YWhRdDlmbGQ3Z0V5NjdrellFLVl5clhybXVCRWtyY0RXY0J5aGtSVlQ5M2dkWjJLQjFFdXV5?oc=5",
+   "date": "Thu, 30 Jul 2026 07:00:00 GMT",
+   "source": "AgFunderNews",
+   "lane_query": "Biotech"
+  },
+  {
+   "title": "Austrian BioTech startup Epitome Therapeutics announces \u20ac4 million in funding to advance programmes and grow team - EU-Startups",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMFQ4SUkyRkh2eDdneHpJUndHZ0pjbVJncHg4VjhOZ0syVkpjalBNWkQtZWtsNHNSS3dzV3VGTm55aVg0YUpfUFZDaDFqWkl5Z3FzUWRiLTVwZjVzb2xnTTFjX01QbjNLQzZyR1dRWnFTQlcwX2JMbDhIcjc5aFRoMXY2TEtzdWdaT0diRmhWWk1QQTMwemVrQlJ2dnIwekl2Tmhjal9vN0x6blBtVFhBNU9lUllERlZpMnF2TGhiZWRpOVRvWDB6UnEzQmh2anB1TlNBNTVDZENjRzFfWkhaSDNMODE?oc=5",
+   "date": "Tue, 30 Jun 2026 07:00:00 GMT",
+   "source": "EU-Startups",
+   "lane_query": "Biotech"
+  },
+  {
+   "title": "These Are Sectors Where Seed Rounds Of $5M To $10M Are Clustering This Year - Crunchbase News",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa3FfTEJHeGFGVkNMZlpGTnBkYWdHc0FVbmxUbUpvWjlkS2FadERJcUh5WXhGOEtaa1pRb2djMEFXQlJjNXhEeEU3VkczOC1OTFhuel8zczlJX0V5WFZPdUVlajZZRnk4NUd4cjVRdG95bUYtalQwd2FnMG5mR0Ffa2tzb3dBNzJHWUZRWDZJNHZQeFM4bGNQOTB4MEJ4Zw?oc=5",
+   "date": "Fri, 31 Jul 2026 07:00:00 GMT",
+   "source": "Crunchbase News",
+   "lane_query": "Biotech"
+  },
+  {
+   "title": "Allswell Raises $7M Seed to Build the Behavioral Health Home for the LGBTQ+ Community - Techstars",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNXpTYUVFU2lXNThNcHVRZzlSY0ZZTy1hZHQ0R2VtUUh6MkJCa3hYcUdoVmxjN1lLMFFvTExXelg3WjBOSUtTa0I1MUVId0Y1UXNnYy1jXzVid3k5WWJjT0o1Nm1ZTENSRGZCck1ZNFU1NHYyQW1uTmkya0poRW1CQzJvMVdRWXl1V1BWWkdQVkpsYTJFcHVYbDM1TkxMM1F0T2NtQ3RqTTR1cTAtWFh6Qk8tcTdiUGI2YkgtWnBLRFZsTm5QZ3V3MzVLZUU?oc=5",
+   "date": "Wed, 14 Oct 2026 23:32:54 GMT",
+   "source": "Techstars",
+   "lane_query": "Evidence-based Wellness"
+  },
+  {
+   "title": "India's TailBlaze raises $300K pre-seed for dog longevity food - Dealroom",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT0hwU1c4a21NeUVhc1JoU1hmdzBMQk5nNFdMVk1BTkxBU3lfUFNwSWs2YzcwUmMwQVppeHpDSFVSelJOakIxZ1ktTzdMcHFYdVF2X2NJWTQxeDllUGpkc1NzS3dBcE1IeVNkanB5d0NBRldOdDNkZlZ6U3dVdVlQZVhfU2I4T2FpWjRtY29rQTNGaFNhbFpVeTQ3MA?oc=5",
+   "date": "Thu, 08 Oct 2026 15:48:34 GMT",
+   "source": "Dealroom",
+   "lane_query": "Evidence-based Wellness"
+  },
+  {
+   "title": "Workplace psychological safety startup ReFresh plants $2.5 million Seed round - Startup Daily",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbklkSFB6RFJuSXdWbzJSc3Z4T0ZGNWx4X3dpRkVNYWlQaDBKSzlrd1djOWJwa19OQUxGb1BzcjlycDhDVE9oQmNDLXJQQUVWSnZaU3JudmRHeUhHbGFHSnJwekNIRXBCYWYtc1dNZ3hmMms1eXJxazF1cHg5V0psWXRNQ2FMSEZwdV9kQjdpMmZsZkhRanBBWUV0cklGcF96UTN5d0tuQktFN2ExbXZCaGdod1ktUjNYMms5Vg?oc=5",
+   "date": "Thu, 17 Sep 2026 07:00:00 GMT",
+   "source": "Startup Daily",
+   "lane_query": "Evidence-based Wellness"
+  },
+  {
+   "title": "Litigation Tech Startup Concorda Announces $3.8M Seed Round - Law.com",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT0ZCeWdHN0RoSlZRdTVYdExrNk9qam5XVDdFSkdxaXZqWGppOEl0UDBNUWRkdGw0RkhhM3Q2RnctY3VwQWo3Tzk2VDlqRS1OUE05ZXJPQ0xsekk3UzdrbzZNVTBzXzZNQWV0aWs3T2VMbFZBZjNqb3U4VnVyUlpIZXpQZVYyNGhlLXM2UExmc292T2pIS3B1Q04yX2NQclRJbGc3N0s3QQ?oc=5",
+   "date": "Tue, 08 Sep 2026 07:00:00 GMT",
+   "source": "Law.com",
+   "lane_query": "Evidence-based Wellness"
+  },
+  {
+   "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+   "date": "Fri, 16 Oct 2026 07:00:00 GMT",
+   "source": "Fierce Healthcare",
+   "lane_query": "Evidence-based Wellness"
+  },
+  {
+   "title": "Valparaiso startup AlloDirect lines up pre-seed funding - nwitimes.com",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ2RfQ191Ykg2Nzh3b3hFNEpWc0tUeUpHRERZY2tXRXpXZkZ0MzREXzFUZWMzUHhNLXJaUUFUYWR3X1RrTTZSY0JtaHhvd19ObG5CSndYeWkyVlhLS1QyczdjSk1yckNJd1hRamNyUVRadEtTcHRVcTNnbXdadV9JRTVLVjNlUklJ?oc=5",
+   "date": "Wed, 21 Oct 2026 22:31:00 GMT",
+   "source": "nwitimes.com",
+   "lane_query": "Evidence-based Wellness"
+  }
+ ],
+ "quarantined": [],
+ "scout_candidates": [
+  {
+   "name": "Avni Wellness",
+   "lane": "Women's Health",
+   "stage_signal": "Seed",
+   "location_signal": "India",
+   "one_line": "Indian women\u2019s health startup that raised a $470K seed round.",
+   "lead_ids": [
+    0
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdvSXJCazV2RldQY29NVnB4WXlkWWxHZHJNM09WLTdpTUJsLV9PUkR0QjV3MFRGTGtqUjdHdnRlanVoUVk4bjczOHF5YVZNWWd5NUlvdWpmbGlkZmdBMk9qOFdoR0djbDg2aFUtb0ZNeXZMVTdmaWFvVEEyei1ZTDZIN2RxSEdPaDZ6U1BNZFFPa0JET3l5MA?oc=5"
+   ],
+   "headlines": [
+    "Indian Women\u2019s Health Startup Avni Wellness Raises $470K Seed Round - Femtech Insider"
+   ]
+  },
+  {
+   "name": "Collective X Health",
+   "lane": "Women's Health",
+   "stage_signal": "Unknown",
+   "location_signal": "Unknown",
+   "one_line": "Raises $3.2 million to address the women\u2019s health data gap.",
+   "lead_ids": [
+    2
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkpGR0g4STRPRGtqbm1aaFo0cmtJT0xBTHRHZjlYZVRpTDZnUnQ4LXBGMlVGMG1tbGpoY3NOejBCZ2hQN3ZOWjVoOXI5OUhIemh6cFB4RjFDUjNYMjhnTnNPYjFKNkRUXzM5cUlQajFHOHE2SGRrQUYzUGtRdGN1cDZSWk5YdjVjWENtM2ItTnpPVy1DYl9qeEtfQV9tc0lyOWVFNkdiRzdqRXpPdF9NbEE2Z2VFeW8?oc=5"
+   ],
+   "headlines": [
+    "Collective X Health Raises $3.2 Million To Close Women\u2019s Health Data Gap - Forbes"
+   ]
+  },
+  {
+   "name": "MenoVida",
+   "lane": "Women's Health",
+   "stage_signal": "Pre-seed",
+   "location_signal": "UK",
+   "one_line": "Menopause app that closed the first phase of its pre-seed round.",
+   "lead_ids": [
+    3
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU5HSGpvNElFQnFaS3phX3NiNmhvRm52WmpGV2R5WmktOHJaVC13SkNScEtBdXd3b3Y5Y3Qzeks1dEY4THlLMU1MVVA1bmNlRG9MenJYdWdudEdXWUd4amJINlFMR210b1FhTTU3bjZ3NFRTeFhqNXp1Q0xWd2s4UV9jZXlOWUx0bEpUY0pwN25SRVVBVWUwTUVJVXVDZ2U3SEE?oc=5"
+   ],
+   "headlines": [
+    "MenoVida closes first phase of pre-seed round for UK menopause app - Dealroom"
+   ]
+  },
+  {
+   "name": "Accipiter Bio",
+   "lane": "Biotech",
+   "stage_signal": "Seed",
+   "location_signal": "Unknown",
+   "one_line": "AI drug developer that topped up its seed round with $10.5M.",
+   "lead_ids": [
+    8
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPejZ2TmpYT09WOHVnVFJaM1JnVE5HMkpHcWN3eXpndU9qSFhCQUpWRlQySUtxeUJWa1NwSVVRM0J0Uk1uUVZ0UDR4RFp5MU51aXFTOGhXYlVhbFV6N2xJQlE0VGhwcE5DZnQzUnJhaTlDVW9uM1k0RWpQbHYzanNZSm5uREg5VmtCVXR2U0NMcExGU2wxUW15ZjFrRzM2dmxhRkFteGc4ekdHSFRxMnN4ZnBVYzB1ZktpZW9mN21RMEZfc2RqY1E?oc=5"
+   ],
+   "headlines": [
+    "Moving faster than planned, AI drug developer Accipiter Bio quietly tops up seed round with $10.5M - GeekWire"
+   ]
+  },
+  {
+   "name": "Epitome Therapeutics",
+   "lane": "Biotech",
+   "stage_signal": "Unknown",
+   "location_signal": "Austria",
+   "one_line": "Austrian biotech startup that announced \u20ac4 million in funding to advance programs and grow its team.",
+   "lead_ids": [
+    10
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMFQ4SUkyRkh2eDdneHpJUndHZ0pjbVJncHg4VjhOZ0syVkpjalBNWkQtZWtsNHNSS3dzV3VGTm55aVg0YUpfUFZDaDFqWkl5Z3FzUWRiLTVwZjVzb2xnTTFjX01QbjNLQzZyR1dRWnFTQlcwX2JMbDhIcjc5aFRoMXY2TEtzdWdaT0diRmhWWk1QQTMwemVrQlJ2dnIwekl2Tmhjal9vN0x6blBtVFhBNU9lUllERlZpMnF2TGhiZWRpOVRvWDB6UnEzQmh2anB1TlNBNTVDZENjRzFfWkhaSDNMODE?oc=5"
+   ],
+   "headlines": [
+    "Austrian BioTech startup Epitome Therapeutics announces \u20ac4 million in funding to advance programmes and grow team - EU-Startups"
+   ]
+  },
+  {
+   "name": "Allswell",
+   "lane": "Other healthcare",
+   "stage_signal": "Seed",
+   "location_signal": "Unknown",
+   "one_line": "Raises a $7M seed round to build a behavioral health home for the LGBTQ+ community.",
+   "lead_ids": [
+    12
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNXpTYUVFU2lXNThNcHVRZzlSY0ZZTy1hZHQ0R2VtUUh6MkJCa3hYcUdoVmxjN1lLMFFvTExXelg3WjBOSUtTa0I1MUVId0Y1UXNnYy1jXzVid3k5WWJjT0o1Nm1ZTENSRGZCck1ZNFU1NHYyQW1uTmkya0poRW1CQzJvMVdRWXl1V1BWWkdQVkpsYTJFcHVYbDM1TkxMM1F0T2NtQ3RqTTR1cTAtWFh6Qk8tcTdiUGI2YkgtWnBLRFZsTm5QZ3V3MzVLZUU?oc=5"
+   ],
+   "headlines": [
+    "Allswell Raises $7M Seed to Build the Behavioral Health Home for the LGBTQ+ Community - Techstars"
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "name": "Epitome Therapeutics",
+   "reason": "Over the 5-company verification cap for one scan",
+   "stage": "Unknown"
+  },
+  {
+   "name": "Avni Wellness",
+   "reason": "US domicile not confirmed (No; HQ: Mumbai, Maharashtra, India (reported; its Indian legal entity is registered in Thane, Maharashtra))",
+   "stage": "Seed"
+  },
+  {
+   "name": "MenoVida",
+   "reason": "US domicile not confirmed (No; HQ: Unknown. Companies House lists a registered office in Burnham-on-Sea, Somerset, United Kingdom; F6S lists Bath, United Kingdom. A registered office does not by itself confirm headquarters.)",
+   "stage": "Seed"
+  },
+  {
+   "name": "Allswell",
+   "reason": "US domicile not confirmed (Unknown; HQ: San Francisco, California, United States)",
+   "stage": "Seed"
+  },
+  {
+   "name": "Collective X Health",
+   "reason": "US domicile not confirmed (Unknown; HQ: San Francisco, California, United States)",
+   "stage": "Pre-seed"
+  }
+ ],
+ "scored": [
+  {
+   "id": "accipiter-biosciences-accipiter-bio",
+   "name": "Accipiter Biosciences (Accipiter Bio)",
+   "category": "Outside thesis",
+   "subcategory": "Biopharma \u2014 computationally designed protein therapeutics for autoimmune disease and cancer",
+   "location": "Seattle, Washington, United States",
+   "domicile": "US",
+   "stage": "Seed",
+   "round_amount": "$10,492,778 (reported as approximately $10.5 million)",
+   "round_date": "July 21, 2026 (first sale reported in the SEC Form D; filing dated July 28, 2026)",
+   "founders": "Matthew Bick, Javier Castellanos, and Hector Rincon-Arano. Bick has a Ph.D. in Biophysics from The Rockefeller University and a B.S. in Microbiology from the University of Rochester, and worked at the University of Washington\u2019s Institute for Protein Design. Castellanos is the company\u2019s co-founder and CTO. GeekWire reports that Bick and two co-founders worked at Neoleukin; the source does not identify which two. ",
+   "description": "Uses computational protein design to create de novo, multifunctional protein therapies intended to activate multiple cell-surface receptors or pathways at once, with an initial focus on autoimmune disease and cancer.",
+   "evidence": "The July 2026 seed extension was reported as approximately $10.5 million. The company has collaboration and license agreements with Pfizer and Kite Pharma; GeekWire reports an upfront payment and potential milestone payments and royalties for the Pfizer agreement. In November 2025, two company programs were preparing for pre-IND discussions with the FDA. I found no evidence that an Accipiter-developed therapy has entered a clinical trial. A GeekWire article mentions a Phase 1 candidate that underperformed, but identifies it as a Neoleukin candidate, not an Accipiter product.",
+   "business_model": "See scorecard",
+   "website": "https://accipiterbio.com/",
+   "sources": [
+    "https://www.geekwire.com/2026/moving-faster-than-planned-ai-drug-developer-accipiter-bio-quietly-tops-up-seed-round-with-10-5m/",
+    "https://www.vcbeast.com/deals/accipiter-biosciences-form-d-2026-07-21",
+    "https://www.sec.gov/Archives/edgar/data/1973963/000197396326000002/0001973963-26-000002-index.htm",
+    "https://www.bizprofile.net/wa/seattle/accipiter-biosciences-inc",
+    "https://accipiterbio.com/",
+    "https://accipiterbio.com/people/",
+    "https://www.tracxn.com/d/companies/accipiter-biosciences/__8VTkGa_usmo2gfHtVZAS7l9PT1D2KrlPFa4kurGpv8o",
+    "https://www.geekwire.com/2025/seattle-startup-accipiter-bio-emerges-with-12-7m-and-big-pharma-deals-for-ai-designed-proteins/",
+    "https://accipiterbio.com/pipeline/"
+   ],
+   "source_notes": [
+    {
+     "url": "https://www.geekwire.com/2026/moving-faster-than-planned-ai-drug-developer-accipiter-bio-quietly-tops-up-seed-round-with-10-5m/",
+     "supports": "Seattle location; $10.5 million seed extension; July 31, 2026 report date; seed-round classification; Pfizer and Kite agreements; team size; co-founders' Neoleukin background; clarification that the Phase 1 candidate discussed was not an Accipiter drug."
+    },
+    {
+     "url": "https://www.vcbeast.com/deals/accipiter-biosciences-form-d-2026-07-21",
+     "supports": "Form D details reported from the SEC filing: $10,492,778 sold, first sale July 21, 2026, filing July 28, 2026, Seattle principal place of business, and Delaware incorporation."
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1973963/000197396326000002/0001973963-26-000002-index.htm",
+     "supports": "SEC EDGAR index for Accipiter Biosciences\u2019 Form D filing dated July 28, 2026."
+    },
+    {
+     "url": "https://www.bizprofile.net/wa/seattle/accipiter-biosciences-inc",
+     "supports": "Washington registration describes the company as a Foreign Profit Corporation and gives its Seattle, Washington principal address and Delaware jurisdiction of incorporation."
+    },
+    {
+     "url": "https://accipiterbio.com/",
+     "supports": "Company description of its computationally designed, de novo multifunctional protein biologics and their intended multi-pathway activity."
+    },
+    {
+     "url": "https://accipiterbio.com/people/",
+     "supports": "Matthew Bick\u2019s education and Institute for Protein Design background; Javier Castellanos\u2019s role as co-founder and CTO."
+    },
+    {
+     "url": "https://www.tracxn.com/d/companies/accipiter-biosciences/__8VTkGa_usmo2gfHtVZAS7l9PT1D2KrlPFa4kurGpv8o",
+     "supports": "Names the founders as Matthew J. Bick, Javier Castellanos, Hector Rincon, and Bill Arthur. This differs from other reporting; the three names listed above are the co-founders corroborated by additional sources."
+    },
+    {
+     "url": "https://www.geekwire.com/2025/seattle-startup-accipiter-bio-emerges-with-12-7m-and-big-pharma-deals-for-ai-designed-proteins/",
+     "supports": "Two programs preparing for pre-IND discussions as of November 2025; product approach and partnership details; distinguishes the underperforming Phase 1 candidate as a Neoleukin program."
+    },
+    {
+     "url": "https://accipiterbio.com/pipeline/",
+     "supports": "Company-stated pipeline focus on autoimmunity and oncology."
+    }
+   ],
+   "news": [
+    {
+     "title": "Moving faster than planned, AI drug developer Accipiter Bio quietly tops up seed round with $10.5M - GeekWire",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPejZ2TmpYT09WOHVnVFJaM1JnVE5HMkpHcWN3eXpndU9qSFhCQUpWRlQySUtxeUJWa1NwSVVRM0J0Uk1uUVZ0UDR4RFp5MU51aXFTOGhXYlVhbFV6N2xJQlE0VGhwcE5DZnQzUnJhaTlDVW9uM1k0RWpQbHYzanNZSm5uREg5VmtCVXR2U0NMcExGU2wxUW15ZjFrRzM2dmxhRkFteGc4ekdHSFRxMnN4ZnBVYzB1ZktpZW9mN21RMEZfc2RqY1E?oc=5"
+    }
+   ],
+   "scorecard": {
+    "segment": "Outside thesis",
+    "subcategory": "Biopharma \u2014 computationally designed protein therapeutics for autoimmune disease and cancer",
+    "segment_fit": {
+     "score": 1,
+     "rationale": "Accipiter develops therapeutic proteins, placing it in Biopharma rather than the fund\u2019s preferred capex-light Health Tech and Healthcare Services segments. Its potential health impact does not offset this explicit sector mismatch."
+    },
+    "stage_and_terms_fit": {
+     "score": 2,
+     "rationale": "The company is at Seed, within the acceptable stage range, but the reported round was approximately $10.5 million and the record gives no valuation, proposed fund terms, or evidence that a $25K\u2013$50K check would secure the target ownership. Unknown whether the post-money valuation is within the $10M ceiling."
+    },
+    "evidence_bar": {
+     "score": 1,
+     "rationale": "No Accipiter-developed therapy is reported to have entered clinical trials; two programs were preparing for pre-IND discussions in November 2025. The cited underperforming Phase 1 candidate was a Neoleukin program, not Accipiter evidence."
+    },
+    "revenue_path_independent_of_regulation": {
+     "score": 2,
+     "rationale": "Pfizer and Kite agreements reportedly include licensing or collaboration economics, including an upfront payment and potential milestones and royalties for Pfizer. The record does not establish recurring or sufficiently credible revenue independent of regulatory progress and clinical success."
+    },
+    "systems_adoption_and_paying_champion": {
+     "score": 2,
+     "rationale": "The record identifies collaboration and license agreements with Pfizer and Kite, but does not describe a paying clinical champion, healthcare-system adoption, or a repeatable care-delivery implementation. Unknown how these partnerships translate into durable commercial validation."
+    },
+    "impact_and_health_equity": {
+     "score": 2,
+     "rationale": "Autoimmune disease and cancer are consequential areas, but the record provides no named target population, clinical outcome data, affordability or access plan, or health-equity strategy. Unknown whether the business and impact models reinforce one another."
+    },
+    "defensibility": {
+     "score": 3,
+     "rationale": "De novo, multifunctional protein design and agreements with Pfizer and Kite suggest potential technical and partnering advantages. The record does not establish proprietary-data advantages, validated therapeutic differentiation, or a durable competitive moat."
+    },
+    "founder_fit": {
+     "score": 3,
+     "rationale": "Co-founder Matthew Bick has a Ph.D. in Biophysics, protein-design experience at the University of Washington\u2019s Institute for Protein Design, and prior Neoleukin experience among the founders. The record does not establish clinical-practitioner, healthcare commercialization, or women-founder alignment."
+    },
+    "capex_light": {
+     "score": 1,
+     "rationale": "The core business is therapeutic protein development, a Biopharma model with substantial research, manufacturing, and clinical-development needs. That conflicts with the fund\u2019s preference for capex-light Health Tech and Healthcare Services."
+    },
+    "portfolio_conflict": "No direct overlap found. Accipiter is a therapeutic protein developer, while Dopl Technologies focuses on robotics and AI for remote diagnostic ultrasound exams.",
+    "headline": "Accipiter has credible protein-design expertise and pharma partnerships, but its preclinical Biopharma model is outside the fund\u2019s preferred segments and lacks demonstrated clinical evidence.",
+    "red_flags": [
+     "Biopharma is a clear mismatch with the fund\u2019s stated focus on capex-light Health Tech and Healthcare Services.",
+     "No Accipiter-developed therapy is reported to have entered clinical trials; programs were preparing for pre-IND discussions.",
+     "The reported $10.5 million Seed round is much larger than the fund\u2019s typical check, and valuation and ownership terms are unknown.",
+     "The record does not establish a reliable revenue stream independent of regulatory and clinical progress."
+    ],
+    "unknowns": [
+     "Post-money valuation, security terms, available allocation, and whether the round meets the fund\u2019s ownership and return requirements.",
+     "Program-specific clinical rationale, safety and efficacy evidence, development costs, and timelines.",
+     "Economics, milestones, rights, and revenue recognized under the Pfizer and Kite agreements.",
+     "Affordability, target populations, access strategy, and measurable health-equity outcomes."
+    ],
+    "diligence_questions": [
+     "What are the current valuation and proposed terms, and can a $25K\u2013$50K investment achieve meaningful ownership within the fund\u2019s $10M post-money ceiling?",
+     "What cash has been received under the Pfizer and Kite agreements, and what credible revenue can Accipiter generate if its programs face regulatory or clinical delays?",
+     "For each lead program, what preclinical evidence, development and manufacturing costs, and clinical milestones support a plausible path to patient impact within the fund\u2019s seven-year impact horizon?"
+    ]
+   },
+   "score": 21,
+   "recommendation": "Pass",
+   "verified_on": "2026-10-26"
+  }
+ ],
+ "usage": [
+  {
+   "ts": "2026-10-26T15:36:07",
+   "run_id": "20261026-153555-b499",
+   "agent": "scout",
+   "model": "gpt-6-luna",
+   "input_tokens": 1576,
+   "cached_tokens": 0,
+   "output_tokens": 587,
+   "reasoning_tokens": 286,
+   "web_search_calls": 0,
+   "latency_s": 10.7,
+   "cost_usd": 0.000451
+  },
+  {
+   "ts": "2026-10-26T15:36:30",
+   "run_id": "20261026-153555-b499",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 24366,
+   "cached_tokens": 4682,
+   "output_tokens": 1679,
+   "reasoning_tokens": 934,
+   "web_search_calls": 4,
+   "latency_s": 23.3,
+   "cost_usd": 0.042855
+  },
+  {
+   "ts": "2026-10-26T15:36:41",
+   "run_id": "20261026-153555-b499",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 23742,
+   "cached_tokens": 4682,
+   "output_tokens": 2217,
+   "reasoning_tokens": 1589,
+   "web_search_calls": 4,
+   "latency_s": 34.0,
+   "cost_usd": 0.043061
+  },
+  {
+   "ts": "2026-10-26T15:36:30",
+   "run_id": "20261026-153555-b499",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 25371,
+   "cached_tokens": 0,
+   "output_tokens": 2311,
+   "reasoning_tokens": 1288,
+   "web_search_calls": 4,
+   "latency_s": 22.6,
+   "cost_usd": 0.043693
+  },
+  {
+   "ts": "2026-10-26T15:36:27",
+   "run_id": "20261026-153555-b499",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 18337,
+   "cached_tokens": 0,
+   "output_tokens": 1193,
+   "reasoning_tokens": 582,
+   "web_search_calls": 4,
+   "latency_s": 19.8,
+   "cost_usd": 0.04243
+  },
+  {
+   "ts": "2026-10-26T15:36:28",
+   "run_id": "20261026-153555-b499",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 22001,
+   "cached_tokens": 4682,
+   "output_tokens": 1188,
+   "reasoning_tokens": 686,
+   "web_search_calls": 4,
+   "latency_s": 20.5,
+   "cost_usd": 0.042373
+  },
+  {
+   "ts": "2026-10-26T15:36:53",
+   "run_id": "20261026-153555-b499",
+   "agent": "analyst",
+   "model": "gpt-6-luna",
+   "input_tokens": 10235,
+   "cached_tokens": 0,
+   "output_tokens": 1219,
+   "reasoning_tokens": 161,
+   "web_search_calls": 0,
+   "latency_s": 11.4,
+   "cost_usd": 0.001633
+  }
+ ],
+ "summary": {
+  "by_agent": {
+   "scout": {
+    "calls": 1,
+    "input_tokens": 1576,
+    "cached_tokens": 0,
+    "output_tokens": 587,
+    "reasoning_tokens": 286,
+    "web_search_calls": 0,
+    "cost_usd": 0.000451,
+    "latency_s": 10.7
+   },
+   "verifier": {
+    "calls": 5,
+    "input_tokens": 113817,
+    "cached_tokens": 14046,
+    "output_tokens": 8588,
+    "reasoning_tokens": 5079,
+    "web_search_calls": 20,
+    "cost_usd": 0.214412,
+    "latency_s": 34.0
+   },
+   "analyst": {
+    "calls": 1,
+    "input_tokens": 10235,
+    "cached_tokens": 0,
+    "output_tokens": 1219,
+    "reasoning_tokens": 161,
+    "web_search_calls": 0,
+    "cost_usd": 0.001633,
+    "latency_s": 11.4
+   }
+  },
+  "total": {
+   "calls": 7,
+   "input_tokens": 125628,
+   "cached_tokens": 14046,
+   "output_tokens": 10394,
+   "reasoning_tokens": 5526,
+   "web_search_calls": 20,
+   "cost_usd": 0.2165
+  },
+  "elapsed_s": 58.1
+ },
+ "finished": "2026-10-26T15:36:53"
+}

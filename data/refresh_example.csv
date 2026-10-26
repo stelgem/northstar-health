@@ -1,0 +1,3 @@
+id,name,category,subcategory,location,domicile,stage,founders,description,evidence,business_model
+example-health-1,Example Health,Women's Health,Reproductive care,Boston MA,US,Seed,Founder name,Example imported company for testing the refresh workflow,Company-reported pilot; verify independently,B2B2C care platform
+example-biotech-1,Example Bio,Biotech,Diagnostics,New York NY,US,Pre-seed,Founder name,Example imported biotech company for testing the refresh workflow,Early validation described; regulatory pathway unknown,Contract-lab-enabled diagnostics
