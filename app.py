@@ -365,7 +365,7 @@ def draft_email(_, bid, meta, dataset):
         return f"**{msg}**"
     try:
         draft, rec = agents.outreach_agent(s, notes)
-        return draft + f"\n\n*Outreach Writer · {rec['input_tokens']:,} in / {rec['output_tokens']:,} out tokens · ${rec['cost_usd']:.4f} · draft only, not sent*"
+        return draft + "\n\n*Draft only. NorthStar never sends email.*"
     except Exception as exc:
         return f"Could not draft the email: {exc}"
 
@@ -392,7 +392,7 @@ def ask(_, question, watchlist, dataset):
         return "Save at least one startup to your watchlist first."
     try:
         answer, rec = agents.assistant_agent(question.strip(), records)
-        return answer + f"\n\n*{rec['input_tokens']:,} in ({rec['cached_tokens']:,} cached) / {rec['output_tokens']:,} out · ${rec['cost_usd']:.4f}*"
+        return answer
     except Exception as exc:
         return f"Could not answer: {exc}"
 
