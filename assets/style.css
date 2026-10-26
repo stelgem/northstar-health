@@ -46,3 +46,4 @@
 .budget-bar { height:8px; background:#e8eef5; border-radius:4px; margin:14px 0 6px; overflow:hidden; } .budget-fill { height:100%; background:var(--blue); }
 .candidate .primary-button, .candidate .secondary-button { width:100%; }
 @media(max-width:700px){ .kpi-row { grid-template-columns:1fr 1fr; } }
+.tag-row .pill { white-space:normal; max-width:100%; }

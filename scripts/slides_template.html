@@ -82,7 +82,7 @@ table.t tr:nth-child(even) td { background:#f7f9fc; }
   </table>
   <div class="cols" style="margin-top:18px">
     <div class="card"><h3>NorthStar adds</h3><div class="small">Scoring on 9 criteria from the deal team's own thesis · eligibility gates enforced in <strong>code</strong> · a source URL for every fact</div></div>
-    <div class="card"><h3>…for cents</h3><div class="small">A human decides who to save · outreach drafted, never sent · <strong>$0.003–$0.22 per scan</strong>, every token metered</div></div>
+    <div class="card"><h3>…for cents</h3><div class="small">A human decides who to save · outreach drafted, never sent · <strong>$0.003–$0.22 per scan</strong>, every call logged</div></div>
   </div>
   <div class="tiny">Competitor prices are third-party estimates (Vendr, CostBench) except Dealroom &amp; Crunchbase.</div>
 </section>
@@ -156,7 +156,14 @@ table.t tr:nth-child(even) td { background:#f7f9fc; }
     <div class="kpi"><div class="big">~70%</div><div>of Analyst input tokens served from the prompt cache (avg 7.1K of 10.1K)</div></div>
   </div>
   <div class="cols-6040">
-    <img class="shot" src="{{IMG:04_run_cost}}" alt="run cost" style="width:100%">
+    <table class="t">
+      <tr><th>One fresh scan (real)</th><th>Calls</th><th>Cost</th></tr>
+      <tr><td>Scout</td><td>1</td><td>$0.0005</td></tr>
+      <tr><td>Verifier (20 web searches)</td><td>5</td><td>$0.2144</td></tr>
+      <tr><td>Thesis Analyst</td><td>1</td><td>$0.0016</td></tr>
+      <tr><td><strong>Total, 58 s</strong></td><td>7</td><td><strong>$0.2165</strong></td></tr>
+      <tr><td>Repeat scan (cache hit)</td><td>4</td><td>$0.0033</td></tr>
+    </table>
     <table class="t">
       <tr><th>Scale</th><th>Per month</th></tr>
       <tr><td>1 user</td><td>$0.55</td></tr>
