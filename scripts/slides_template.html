@@ -31,7 +31,7 @@ table.t tr:nth-child(even) td { background:#f7f9fc; }
 .title-slide { background:var(--navy); }
 .title-slide h1 { color:white; font-size:2.6em; margin-bottom:.2em; } .title-slide p { color:#d4e1ef; }
 .pass { color:#1f6b45; font-weight:700; } .warn { color:#a33a3a; font-weight:700; }
-.pending { background:#fff3d6; border:2px dashed #e8a33d; border-radius:8px; padding:14px 18px; color:#8a621e; font-weight:700; }
+.quote { background:#eef5fd; border-left:5px solid #2e7edb; border-radius:8px; padding:14px 18px; color:#0b2342; font-weight:600; font-size:.8em; } .quote .who { display:block; font-weight:400; color:#5a6b7d; margin-top:4px; font-size:.85em; } .pending { background:#fff3d6; border:2px dashed #e8a33d; border-radius:8px; padding:14px 18px; color:#8a621e; font-weight:700; }
 .reveal .progress { color:var(--blue); }
 .footer-note { position:absolute; bottom:-10px; left:0; font-size:.4em; color:var(--muted); }
 </style>
@@ -45,7 +45,7 @@ table.t tr:nth-child(even) td { background:#f7f9fc; }
   <h1>NorthStar Health</h1>
   <p style="font-size:1.05em;max-width:900px">AI sourcing and first-pass thesis screening for the <strong style="color:white">Meng Impact Investment Fund</strong> healthcare deal team at Yale SOM.</p>
   <p style="font-size:.75em;max-width:900px">Finds US pre-seed &amp; seed startups in women's health, biotech and evidence-based wellness, verifies them on the web, scores them against the fund's own written thesis, and drafts founder outreach.</p>
-  <p style="margin-top:1.4em;font-size:.7em;color:#9dc6ed">Stella Bagchi · Healthcare Deal Team, Meng Impact Investment Fund</p>
+  <p style="margin-top:1.4em;font-size:.7em;color:#9dc6ed">Stella Bagchi · Healthcare Deal Team, Meng Impact Investment Fund<br><a href="https://github.com/stelgem/northstar-health" style="color:#9dc6ed">github.com/stelgem/northstar-health</a></p>
 </section>
 
 <!-- 2 Problem -->
@@ -201,13 +201,13 @@ table.t tr:nth-child(even) td { background:#f7f9fc; }
 <!-- 9 Impact -->
 <section>
   <div class="eyebrow">Impact</div>
-  <h2 style="font-size:1.3em">From an afternoon of tabs to under a minute</h2>
+  <h2 style="font-size:1.3em">From up to a day of sourcing to about a minute</h2>
   <div class="kpis" style="grid-template-columns:repeat(3,1fr)">
     <div class="kpi"><div class="big">41–58s</div><div>for a fresh scan: 18 headlines → 6 startups verified on the web → scored</div></div>
     <div class="kpi"><div class="big">15s</div><div>for a repeat scan with cached verifications</div></div>
     <div class="kpi"><div class="big">50%</div><div>of extracted leads removed by the gates before anyone reads them (3 of 6, first scan)</div></div>
   </div>
-  <div id="user-evidence" class="pending">[PENDING: manual timing / teammate quote]</div>
+  <div id="user-evidence" class="quote">"It can take me up to a day to find 3–4 startups that fit the fund's rules, with all the necessary information." <span class="who">Stella Bagchi, Meng Healthcare deal team</span><br><span class="small">One NorthStar scan: 2–4 verified US candidates with scorecards in ~1 minute. With ~30–60 min of my own review, a day becomes about an hour.</span></div>
   <p class="small muted" style="margin-top:16px">At $0.55 per user per month, the whole ~40-member Meng Fund would spend about <strong>$22 a month</strong>, against roughly $30K a year for a single PitchBook seat.</p>
 </section>
 

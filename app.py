@@ -189,7 +189,7 @@ app.layout = html.Div([
     dcc.Store(id="scan-result", data=None),
     dcc.Store(id="scan-job"),
     dcc.Interval(id="scan-poll", interval=1500, disabled=True),
-    html.Header([html.Div([html.Div("NORTHSTAR HEALTH", className="eyebrow"), html.H1("Find the signals worth following.")], className="hero-copy"),
+    html.Header([html.Div([html.Div([html.Img(src="/assets/northstar-logo.svg", className="brand-logo", alt="NorthStar Health logo"), html.Span("NORTHSTAR HEALTH", className="eyebrow")], className="brand-row"), html.H1("Find the signals worth following.")], className="hero-copy"),
                  html.Div("AI sourcing and first-pass screening for the Meng Impact Investment Fund healthcare deal team. It searches two of the thesis's six healthcare segments (women's health and evidence-based wellness) plus biotech, my own personal interest, and scores every startup against the team's full thesis.", className="hero-tagline")], className="hero"),
     html.Nav([html.Button("Discover", id="discover-nav", className="nav-button active"), html.Button("Watchlist", id="watchlist-nav", className="nav-button"),
               html.Button("Investment thesis", id="thesis-nav", className="nav-button")], className="nav-tabs"),

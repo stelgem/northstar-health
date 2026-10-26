@@ -60,3 +60,4 @@
 .pill-out { background:#fdeee0; color:#9a5a12; border:1px dashed #e8a33d; }
 .history-row { display:flex; align-items:center; gap:12px; margin-top:12px; } .history-label { margin:0; white-space:nowrap; } .history-dropdown { flex:1; font-size:14px; }
 .history-row > div:last-child, .history-row .dash-dropdown, .history-dropdown, .history-dropdown > * { flex:1; width:100%; max-width:none; }
+.brand-row { display:flex; align-items:center; gap:12px; } .brand-logo { width:40px; height:40px; border-radius:9px; box-shadow:0 4px 12px #0003; }
