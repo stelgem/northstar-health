@@ -1,4 +1,5 @@
 import datetime as dt
+import os
 import json
 import threading
 import uuid
@@ -366,4 +367,4 @@ def ask(_, question, watchlist, dataset):
 
 
 if __name__ == "__main__":
-    app.run(debug=False, port=8050)
+    app.run(debug=False, port=int(os.getenv("PORT", "8050")))
