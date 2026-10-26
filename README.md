@@ -1,5 +1,7 @@
 # NorthStar Health
 
+**Repo:** https://github.com/stelgem/northstar-health
+
 **AI deal sourcing and first-pass screening for the Meng Impact Investment Fund (Yale SOM) healthcare deal team.**
 NorthStar finds US-based pre-seed and seed startups in women's health, biotech, and evidence-based wellness. It verifies each one on the web, scores it against the fund's written healthcare investment thesis, and drafts founder outreach for the startups *you* choose to save.
 
@@ -12,7 +14,7 @@ Final project for AI Foundations · Stella Bagchi · Fall 2026
 You need Python 3.9 or newer and a `PORTKEY_API_KEY` (the course key; the app uses `gpt-6-luna` only).
 
 ```bash
-git clone <this repo URL> northstar-health
+git clone https://github.com/stelgem/northstar-health.git
 cd northstar-health
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
