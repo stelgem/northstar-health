@@ -82,7 +82,7 @@ def scan_results_view(result):
     if not result:
         return [], None
     scored = result.get("scored", [])
-    kids = [candidate_card(s) for s in scored] or [html.P("No startups passed verification this time. Try other sectors or keywords.", className="muted")]
+    kids = [candidate_card(s) for s in scored] or [html.P("No startup passed every check this time (US headquarters, Pre-seed/Seed, real sources). The companies that came close, and why they were excluded, are listed under Filtered out above. Try broader keywords or clear the keyword box.", className="muted")]
     extra = []
     if result.get("excluded"):
         extra.append(html.Details([html.Summary(f'Filtered out by the code gate ({len(result["excluded"])})'),
@@ -142,7 +142,6 @@ app.layout = html.Div([
                       html.Button("Find startups", id="live-scan", className="primary-button"),
                       html.Button("Load last run", id="load-last", className="secondary-button")], className="live-search-controls"),
             html.Div(id="scan-progress", className="scan-progress"),
-            html.Div(id="run-cost"),
             html.Div(id="live-results", className="live-results"),
         ], className="live-search-panel"),
     ], className="panel")], id="discover-view", className="content"),
@@ -241,13 +240,13 @@ def load_last(_):
     return json.loads(path.read_text()), html.P(f"Loaded saved run from {path.name} (no tokens spent).", className="muted")
 
 
-@app.callback(Output("live-results", "children"), Output("run-cost", "children"), Input("scan-result", "data"), Input("ns2-watchlist", "data"))
+@app.callback(Output("live-results", "children"), Input("scan-result", "data"), Input("ns2-watchlist", "data"))
 def render_results(result, watchlist):
     kids, cost = scan_results_view(result)
     if result:
         saved = set(watchlist or [])
         kids = kids[:1] + [candidate_card(s, s["id"] in saved) for s in result.get("scored", [])] if result.get("scored") else kids
-    return kids, cost
+    return kids
 
 
 @app.callback(Output("ns2-startup-data", "data"), Output("ns2-watchlist", "data"), Input({"type": "live-add", "index": ALL}, "n_clicks"),

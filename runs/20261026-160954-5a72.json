@@ -1,0 +1,54 @@
+{
+ "run_id": "20261026-160954-5a72",
+ "lanes": [
+  "Women's Health",
+  "Biotech",
+  "Evidence-based Wellness"
+ ],
+ "keywords": "bloodmarker diagnostics",
+ "leads": [],
+ "quarantined": [],
+ "scout_candidates": [],
+ "excluded": [],
+ "scored": [],
+ "usage": [
+  {
+   "ts": "2026-10-26T16:09:58",
+   "run_id": "20261026-160954-5a72",
+   "agent": "scout",
+   "model": "gpt-6-luna",
+   "input_tokens": 372,
+   "cached_tokens": 0,
+   "output_tokens": 13,
+   "reasoning_tokens": 0,
+   "web_search_calls": 0,
+   "latency_s": 3.3,
+   "cost_usd": 4.4e-05
+  }
+ ],
+ "summary": {
+  "by_agent": {
+   "scout": {
+    "calls": 1,
+    "input_tokens": 372,
+    "cached_tokens": 0,
+    "output_tokens": 13,
+    "reasoning_tokens": 0,
+    "web_search_calls": 0,
+    "cost_usd": 4.4e-05,
+    "latency_s": 3.3
+   }
+  },
+  "total": {
+   "calls": 1,
+   "input_tokens": 372,
+   "cached_tokens": 0,
+   "output_tokens": 13,
+   "reasoning_tokens": 0,
+   "web_search_calls": 0,
+   "cost_usd": 0.0
+  },
+  "elapsed_s": 4.6
+ },
+ "finished": "2026-10-26T16:09:58"
+}

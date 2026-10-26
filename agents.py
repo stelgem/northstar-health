@@ -197,16 +197,50 @@ def fetch_google_news(query, limit=8):
     return leads
 
 
-def gather_leads(lanes, keywords="", window="when:120d"):
-    seen, leads = set(), []
-    per_lane = max(4, MAX_LEADS // max(1, len(lanes)))
-    for lane in lanes:
-        for lead in fetch_google_news(f"{LANES[lane]} {keywords} {window}".strip(), per_lane):
+class QueryPlan(BaseModel):
+    queries: List[str]
+
+
+def rewrite_keywords(keywords, run_id):
+    """Fix typos and turn free-text keywords into 2-3 Google News queries (tiny, cheap call)."""
+    response, rec = call_model(
+        "scout", run_id, text_format=QueryPlan, reasoning={"effort": "low"}, max_output_tokens=300,
+        instructions=("Turn the user's focus keywords into 2-3 short Google News search queries that would surface "
+                      "early-stage healthcare STARTUP funding news (pre-seed, seed, raises). Fix spelling (e.g. "
+                      "'bloodmarker' -> 'blood biomarker'), use common industry terms and synonyms, max 8 words each. "
+                      + UNTRUSTED_RULE),
+        input=f"<untrusted_data>{keywords}</untrusted_data>",
+    )
+    plan = response.output_parsed
+    return [q for q in (plan.queries if plan else []) if q.strip()][:3], rec
+
+
+def gather_leads(lanes, keywords="", run_id="", progress=lambda m: None):
+    """Collect headlines. Keywords broaden the search; it falls back so a scan always has leads."""
+    seen, leads, usage = set(), [], []
+
+    def add(items, tag):
+        for lead in items:
             key = lead["title"].lower()[:80]
             if key not in seen:
                 seen.add(key)
-                leads.append({**lead, "lane_query": lane})
-    return leads[:MAX_LEADS]
+                leads.append({**lead, "lane_query": tag})
+
+    per_lane = max(4, MAX_LEADS // max(1, len(lanes)))
+    if keywords:
+        for lane in lanes:
+            add(fetch_google_news(f"{LANES[lane]} {keywords} when:365d", per_lane), lane)
+        add(fetch_google_news(f"{keywords} startup (raises OR funding OR seed) when:365d", 8), "keywords")
+        if len(leads) < 8:
+            queries, rec = rewrite_keywords(keywords, run_id)
+            usage.append(rec)
+            progress(f"Scout: few headlines for '{keywords}', also searching: {'; '.join(queries)}")
+            for q in queries:
+                add(fetch_google_news(f"{q} when:365d", 8), "rewritten: " + q)
+    if len(leads) < 8:   # always fall back to the sector searches
+        for lane in lanes:
+            add(fetch_google_news(f"{LANES[lane]} when:120d", per_lane), lane)
+    return leads[:MAX_LEADS], usage
 
 
 # ---------------------------------------------------------------- schemas
@@ -316,6 +350,41 @@ def scout_agent(leads, run_id):
         candidates.append({**c.model_dump(), "lead_ids": valid_ids, "lead_urls": [leads[i]["link"] for i in valid_ids],
                            "headlines": [leads[i]["title"] for i in valid_ids]})
     return candidates, rec
+
+
+class WebLead(BaseModel):
+    name: str
+    one_line: str
+    source_url: str
+    stage_signal: Stage
+    location_signal: str
+
+
+class WebScoutOutput(BaseModel):
+    candidates: List[WebLead]
+
+
+def web_scout_agent(lanes, keywords, exclude, run_id):
+    """Fallback Scout: find US pre-seed/seed startups directly with web search."""
+    response, rec = call_model(
+        "scout", run_id, text_format=WebScoutOutput,
+        tools=[{"type": "web_search", "search_context_size": "low"}], max_tool_calls=3,
+        instructions=("You are the Scout agent for NorthStar Health (Meng Impact Investment Fund, Yale). Use web search to find "
+                      "up to 5 real startups HEADQUARTERED IN THE UNITED STATES that raised a pre-seed or seed round (or are "
+                      "pre-seed stage) in roughly the last 18 months, in the given sectors and focus. Only include companies you "
+                      "found on a real page; source_url must be that page. Skip companies in the exclude list. " + UNTRUSTED_RULE),
+        input=(f"<untrusted_data>\nSectors: {', '.join(lanes)}\nFocus keywords: {keywords or '(none)'}\n"
+               f"Exclude: {', '.join(exclude) or '(none)'}\n</untrusted_data>"),
+    )
+    out = response.output_parsed
+    skip = {_norm(n) for n in exclude}
+    found = []
+    for c in (out.candidates if out else []):
+        if not c.name.strip() or not is_http_url(c.source_url) or _norm(c.name) in skip:
+            continue
+        found.append({"name": c.name, "lane": "Other healthcare", "stage_signal": c.stage_signal, "location_signal": c.location_signal,
+                      "one_line": c.one_line, "lead_ids": [], "lead_urls": [c.source_url], "headlines": [c.one_line], "via": "web search"})
+    return found, rec
 
 
 def verifier_agent(candidate, run_id, context_size="low"):
@@ -481,7 +550,8 @@ def run_pipeline(lanes, keywords="", progress=lambda msg: None):
     usage = []
 
     progress(f"Scout: searching Google News in {', '.join(lanes)}")
-    leads = gather_leads(lanes, keywords)
+    leads, kw_usage = gather_leads(lanes, keywords, run_id, progress)
+    usage.extend(kw_usage)
     clean, quarantined = [], []
     for lead in leads:
         hits = screen_untrusted(lead["title"])
@@ -520,18 +590,30 @@ def run_pipeline(lanes, keywords="", progress=lambda msg: None):
         return c, vd, r
 
     verified = []
-    with ThreadPoolExecutor(max_workers=5) as ex:
-        for c, v, r in ex.map(verify, shortlist):
-            if r:
-                usage.append(r)
-            if not v:
-                excluded.append({"name": c["name"], "reason": "Verifier returned no result", "stage": c["stage_signal"]})
-                continue
-            reason = gate(v)
-            if reason:
-                excluded.append({"name": c["name"], "reason": reason, "stage": v["latest_round"]})
-            else:
-                verified.append((c, v))
+
+    def verify_all(batch):
+        with ThreadPoolExecutor(max_workers=5) as ex:
+            for c, v, r in ex.map(verify, batch):
+                if r:
+                    usage.append(r)
+                if not v:
+                    excluded.append({"name": c["name"], "reason": "Verifier returned no result", "stage": c["stage_signal"]})
+                    continue
+                reason = gate(v)
+                if reason:
+                    excluded.append({"name": c["name"], "reason": reason, "stage": v["latest_round"]})
+                else:
+                    verified.append((c, v))
+
+    verify_all(shortlist)
+    if len(verified) < 2:   # news skewed non-US or thin: second pass straight from web search
+        progress("Scout: fewer than 2 US matches in the news, searching the web directly for US startups")
+        seen_names = [c["name"] for c in candidates]
+        extra, rec = web_scout_agent(lanes, keywords, seen_names, run_id)
+        usage.append(rec)
+        candidates.extend(extra)
+        progress(f"Verifier: checking {len(extra)} more startups found by web search")
+        verify_all(extra[:4])
     progress(f"Thesis Analyst: scoring {len(verified)} verified startups against the Meng healthcare thesis")
 
     def score(pair):
