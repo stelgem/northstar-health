@@ -202,6 +202,9 @@ app.layout = html.Div([
             html.Div([dcc.Input(id="keywords", placeholder="Optional focus keywords, e.g. menopause, postpartum, at-home diagnostics", className="live-query", maxLength=120),
                       html.Button("Find startups", id="live-scan", className="primary-button"),
                       html.Button("Load last run", id="load-last", className="secondary-button")], className="live-search-controls"),
+            html.Div([html.Span("Past scans", className="field-label history-label"),
+                      dcc.Dropdown(id="run-history", placeholder="Reopen a previous scan (free, no tokens)…", clearable=True, className="history-dropdown")],
+                     className="history-row"),
             html.Div(id="scan-progress", className="scan-progress"),
             html.Div(id="live-results", className="live-results"),
         ], className="live-search-panel"),
@@ -302,6 +305,38 @@ def load_last(_):
     if not path.exists():
         return no_update, html.P("No saved run yet. Click Find startups.", className="muted")
     return json.loads(path.read_text()), html.P(f"Loaded saved run from {path.name} (no tokens spent).", className="muted")
+
+
+def run_history_options():
+    opts = []
+    for f in sorted((ROOT / "runs").glob("2*.json"), reverse=True):
+        try:
+            r = json.loads(f.read_text())
+        except Exception:
+            continue
+        when = dt.datetime.fromisoformat(r.get("finished", "")).strftime("%b %d, %I:%M %p") if r.get("finished") else f.stem
+        what = f'"{r["keywords"]}"' if r.get("keywords") else ", ".join(r.get("lanes", [])) or "All sectors"
+        scored = r.get("scored", [])
+        top = f" · top: {scored[0]['name']} ({scored[0]['score']})" if scored else ""
+        opts.append({"label": f"{when} · {what} · {len(scored)} qualified{top}", "value": f.name})
+    return opts
+
+
+@app.callback(Output("run-history", "options"), Input("scan-result", "data"))
+def refresh_history(_):
+    return run_history_options()
+
+
+@app.callback(Output("scan-result", "data", allow_duplicate=True), Output("scan-progress", "children", allow_duplicate=True),
+              Input("run-history", "value"), prevent_initial_call=True)
+def load_history(name):
+    if not name:
+        return no_update, no_update
+    path = ROOT / "runs" / name
+    if path.parent != ROOT / "runs" or not path.exists():   # only files listed from runs/
+        return no_update, html.P("That scan file is no longer available.", className="refresh-error")
+    r = json.loads(path.read_text())
+    return r, html.P(f"Reopened scan from {r.get('finished', name)[:16].replace('T', ' ')} (no tokens spent).", className="muted")
 
 
 @app.callback(Output("live-results", "children"), Input("scan-result", "data"), Input("ns2-watchlist", "data"))
