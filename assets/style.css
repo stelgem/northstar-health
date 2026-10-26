@@ -57,3 +57,4 @@
 @media(max-width:900px){ .guide-grid { grid-template-columns:1fr 1fr; } .seg-grid { grid-template-columns:1fr; } }
 .live-query { min-height:46px; padding:12px 14px; line-height:1.4; font-size:15px; box-sizing:border-box; }
 .text-input { min-height:44px; padding:11px 12px; line-height:1.4; box-sizing:border-box; }
+.pill-out { background:#fdeee0; color:#9a5a12; border:1px dashed #e8a33d; }

@@ -213,7 +213,8 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
 <ul>
 <li><b>Prioritize outreach</b>: 65 or higher.</li>
 <li><b>Watch</b>: 45–64.</li>
-<li><b>Pass</b>: below 45, or anything the analyst marks "Outside thesis".</li>
+<li><b>Pass</b>: below 45.</li>
+<li>A startup the analyst places in none of the six segments gets an <b>"Outside thesis"</b> tag but is <i>not</i> automatically passed: segment fit is already 15% of the score, and the deal team can still invest outside its segments. (Early versions auto-passed these; I changed it after reviewing the rule with the deal team's priorities in mind.)</li>
 </ul>
 <p>The weights follow the thesis's emphasis on evidence, impact and segment.</p>
 <table>
@@ -250,7 +251,7 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
   <ul>
   <li>Collective X Health: <span class="pill watch">58 · Watch</span></li>
   <li>Allswell: <span class="pill watch">54 · Watch</span></li>
-  <li>Accipiter Biosciences: <span class="pill pass">21 · Pass</span>, marked "Outside thesis" because preclinical biopharma is capex-heavy and its $10.5M seed is far above our check size.</li>
+  <li>Accipiter Biosciences: <span class="pill pass">21 · Pass</span>, tagged "Outside thesis": preclinical biopharma is capex-heavy and its $10.5M seed is far above our check size, so it scored low on segment fit, capex and stage.</li>
   </ul></li>
 <li><b>Human decision.</b> I saved Collective X Health and Allswell to the watchlist.</li>
 <li><b>Outreach Writer</b> drafted an email to Collective X Health (588 input / 284 output tokens, $0.0002).</li>
@@ -367,7 +368,7 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
 <li>Drafts are written only after a human saves a company, and are never sent.</li>
 <li><code>outreach_guard()</code> removes commitment phrases ("we will invest", "term sheet", "guarantee") and warns the user.</li>
 <li>Criterion scores are clamped to 1–5 and summed in code.</li>
-<li>"Outside thesis" always means Pass.</li>
+<li>The recommendation (Prioritize / Watch / Pass) is set by code from the score, not by the model.</li>
 </ul></td></tr>
 <tr><td><b>Overspending or loops</b></td><td>A bug, or someone hammering the button, burns the course budget</td><td>
 <ul>
@@ -389,7 +390,7 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
 <li>User injection is blocked and logged.</li>
 <li>The length cap.</li>
 <li>Seven gate-rejection cases, including fake source URLs.</li>
-<li>Score clamping (a model output of 999 still gives 100, and "Outside thesis" gives Pass).</li>
+<li>Score clamping (a model output of 999 still gives 100) and score-based recommendations, including for "Outside thesis" startups.</li>
 <li>Commitment-language detection.</li>
 <li>The budget guard blocks <i>before</i> any API client is created.</li>
 <li>The scan cooldown.</li>
@@ -397,7 +398,7 @@ footer{margin-top:40px;font-size:12px;color:var(--muted);border-top:1px solid va
 </ul>
 <pre><code>$ python -m pytest -q tests
 ..........................                                               [100%]
-26 passed in 1.02s</code></pre>
+26 passed in 1.11s</code></pre>
 
 <h3>Evidence 3: live red-team of the Thesis Analyst</h3>
 <p><code>scripts/redteam_live.py</code> scores a deliberately weak company twice with the real model. GlowDaily is a made-up direct-to-consumer "hormone balance" gummy brand with no clinical evidence. The second time, its traction field has an instruction planted in it, worded to slip past the keyword screen so it tests the model and code defenses rather than the filter:</p>

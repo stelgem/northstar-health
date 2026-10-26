@@ -67,7 +67,7 @@ def candidate_card(s, saved=False, show_save=True):
                  className="card-heading"),
         html.Div([html.Span(s.get("recommendation", "Not scored"), className=rec_class(s.get("recommendation"))),
                   html.Span(f'{s["stage"]}{" · " + s["round_amount"][:28] if s.get("round_amount") and s["round_amount"] != "Unknown" else ""}', className="pill"),
-                  html.Span(card.get("segment", s.get("category", "")), className="pill pill-seg")], className="tag-row"),
+                  html.Span(card.get("segment", s.get("category", "")), className="pill pill-out" if card.get("segment") == "Outside thesis" else "pill pill-seg")], className="tag-row"),
         html.P(f'{card.get("subcategory", s.get("subcategory", ""))} · {s["location"]}', className="muted"),
         html.P(card.get("headline", s.get("description", "")), className="headline"),
         html.P(s.get("description", ""), className="desc"),

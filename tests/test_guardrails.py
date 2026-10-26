@@ -89,9 +89,10 @@ def test_score_clamped():
     assert agents.overall_score(_card(-5)) == 0
 
 
-def test_outside_thesis_is_pass_even_with_high_scores():
-    card = _card(5, segment="Outside thesis")
-    assert agents.recommendation(card, agents.overall_score(card)) == "Pass"
+def test_outside_thesis_not_auto_passed_score_decides():
+    strong, weak = _card(5, segment="Outside thesis"), _card(1, segment="Outside thesis")
+    assert agents.recommendation(strong, agents.overall_score(strong)) == "Prioritize outreach"
+    assert agents.recommendation(weak, agents.overall_score(weak)) == "Pass"
 
 
 # 5. Outreach Writer can't promise money

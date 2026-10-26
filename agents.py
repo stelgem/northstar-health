@@ -442,8 +442,8 @@ def overall_score(card):
 
 
 def recommendation(card, score):
-    if card.segment == "Outside thesis" or card.segment_fit.score <= 1:
-        return "Pass"
+    """Score decides. Fit with the six segments is already 15% of the score; an
+    'Outside thesis' startup is tagged on the card but not auto-passed."""
     if score >= 65:
         return "Prioritize outreach"
     if score >= 45:
