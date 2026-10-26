@@ -170,7 +170,7 @@ def thesis_view():
         html.H3("Six thesis segments", className="subheading"),
         html.Div([html.Div([html.Div([html.Strong(n), html.Span("MY FOCUS", className="focus-tag") if mine else None], className="seg-top"), html.P(d)],
                            className="seg-card mine" if mine else "seg-card") for n, d, mine in SEGMENTS], className="seg-grid"),
-        html.P("My thesis segments are Women's Health and Wellness. I also search biotech as a personal interest, but biotech is not a thesis segment: the thesis prefers capex-light Health Tech and Services, so biotechs are scored on the segment they fit (often Clinical Decision Support or Women's Health diagnostics) and lose points on capex.", className="muted small-note"),
+        html.P("My thesis segments: Women's Health and Wellness. I also search biotech as a personal interest outside the six segments.", className="muted small-note"),
         html.H3("How NorthStar scores (0–100)", className="subheading"),
         html.Table([html.Tr([html.Th("Criterion"), html.Th("Weight")])] + [html.Tr([html.Td(CRITERIA_LABELS[k]), html.Td(f"{w}%")]) for k, w in agents.WEIGHTS.items()], className="usage-table weight-table"),
         html.P("The Thesis Analyst scores each criterion 1–5 with a cited rationale; code computes the weighted 0–100 score. 65+ = Prioritize outreach, 45–64 = Watch, below 45 = Pass.", className="muted small-note"),
@@ -196,7 +196,7 @@ app.layout = html.Div([
     html.Main([html.Section([
         html.Div([
             html.Div([html.H3("Find thesis-fit startups"),
-                      html.P(["Searches my two thesis segments, women's health and evidence-based wellness, plus biotech, a personal interest outside the thesis. Each startup is scored against the deal team's full six-segment thesis, so a biotech is scored on the segment it actually fits (often Clinical Decision Support or women's-health diagnostics) and loses points if it is capex-heavy. ",
+                      html.P(["Searches my two thesis segments (women's health, evidence-based wellness) plus biotech, a personal interest. Every startup is scored against the full six-segment thesis. ",
                              html.Br(), "Scout reads recent funding news → Verifier checks each startup on the web → code keeps only US-headquartered Pre-seed/Seed → Thesis Analyst scores it. A scan takes about 1–3 minutes."], className="muted")], className="live-search-copy"),
             dcc.Checklist(id="lanes", options=lane_opts, value=list(LANES), inline=True, className="lane-check"),
             html.Div([dcc.Input(id="keywords", placeholder="Optional focus keywords, e.g. menopause, postpartum, at-home diagnostics", className="live-query", maxLength=120),
