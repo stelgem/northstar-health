@@ -1,12 +1,26 @@
 {
- "run_id": "20261026-161739-f38b",
+ "run_id": "20261026-162656-c8a7",
  "lanes": [
   "Women's Health",
   "Biotech",
   "Evidence-based Wellness"
  ],
- "keywords": "",
+ "keywords": "menstrual blood",
  "leads": [
+  {
+   "title": "Emm Raises $9M to Launch World's First Smart Menstrual Cup - The Tech Buzz",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnhwZmhibFdyOW4tcUtKcGM3X256MnlLaU5YQWM2dGdHVGhDSVFaUkFHSmZFb0RDVlV0VzBBOXV6MFZIMmMyNDJLUWZ3bC1WMF8wbWpxTnd1ZU0wVENpU0ZILTFSSm9wZGhiSWNyYVpKbTROcVRXQTEybXdPUnl6Y2NXWFpHc19BOUZ2OEJ2WFZFaHBJ?oc=5",
+   "date": "Wed, 19 Nov 2025 08:00:00 GMT",
+   "source": "The Tech Buzz",
+   "lane_query": "Women's Health"
+  },
+  {
+   "title": "Xella Health Raises $3.7 Million Pre-Seed to Launch Women\u2019s Precision Health Platform - HLTH",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOEtJXzdKSWFzOURmZVpZTk4td1RnLUVRYTdqM2YyNk1YZV9xcUhyNlNlY0Z0ay1EU1YyWGlsTmstRjNkNzV2MFVualhSNHVlQnZlY1V2Ymtkam4zaHZ0cG5oSFFlQ0Q2U3NIQVNHeUtQRG9yNk13eEFmMGh4dFZ3Z3VOakNKNEhfNnJVT3lfcy1DZGU3U19SUTBpbXR0c1BneE5ZOGRsVVhxOXhYVmx5YUNGZFN3N1NXdTF2MC1pOEpkNzV4?oc=5",
+   "date": "Wed, 14 Jan 2026 08:00:00 GMT",
+   "source": "HLTH",
+   "lane_query": "Women's Health"
+  },
   {
    "title": "Indian Women\u2019s Health Startup Avni Wellness Raises $470K Seed Round - Femtech Insider",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdvSXJCazV2RldQY29NVnB4WXlkWWxHZHJNM09WLTdpTUJsLV9PUkR0QjV3MFRGTGtqUjdHdnRlanVoUVk4bjczOHF5YVZNWWd5NUlvdWpmbGlkZmdBMk9qOFdoR0djbDg2aFUtb0ZNeXZMVTdmaWFvVEEyei1ZTDZIN2RxSEdPaDZ6U1BNZFFPa0JET3l5MA?oc=5",
@@ -15,10 +29,10 @@
    "lane_query": "Women's Health"
   },
   {
-   "title": "For Public Health Research, Seed Funding Has Big Returns - GW Today",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX3BqQ3EwSThEMEJMQkktZUhQaGd6RHZDYkpMV3Y3WFBObFlrQXl2WVZBUEJCbFJIRjUycHlFRmhoRUxjd283eGRVSHJnWUxFZGk3TlF2TzEwU095Zl9OaXdSV1ZFcDdpN01VSzgyUFRzdHdsTUs2MXNPaE0tQ2dHUw?oc=5",
-   "date": "Tue, 08 Sep 2026 07:00:00 GMT",
-   "source": "GW Today",
+   "title": "Exclusive: A 21-year-old Stanford grad just raised $11 million to put a hormone lab on your wrist - Fortune",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZzVlQmNfQnFkUDBDdVNSR0hhSmhJTm5ERFFLY3RLcFpDN2pfcWUxUGJrMTdkLTJKZ1RpUDh2a0xBRk9JMF9tRWhOb0xaQjY3dm1XeUNYMHgyUVFqMXhUSHlLRXBycDdDRzlydmJzYldTVURGREUzMFdpOHNGb1ZIVTdBV2dFRVRTTDJRU0FyWU5jN1IwZ04ycWVrVzViazg?oc=5",
+   "date": "Wed, 17 Jun 2026 07:00:00 GMT",
+   "source": "Fortune",
    "lane_query": "Women's Health"
   },
   {
@@ -29,31 +43,17 @@
    "lane_query": "Women's Health"
   },
   {
-   "title": "MenoVida closes first phase of pre-seed round for UK menopause app - Dealroom",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU5HSGpvNElFQnFaS3phX3NiNmhvRm52WmpGV2R5WmktOHJaVC13SkNScEtBdXd3b3Y5Y3Qzeks1dEY4THlLMU1MVVA1bmNlRG9MenJYdWdudEdXWUd4amJINlFMR210b1FhTTU3bjZ3NFRTeFhqNXp1Q0xWd2s4UV9jZXlOWUx0bEpUY0pwN25SRVVBVWUwTUVJVXVDZ2U3SEE?oc=5",
-   "date": "Tue, 28 Jul 2026 09:56:41 GMT",
-   "source": "Dealroom",
+   "title": "Stem cells from menstrual blood: Femtech co-founder inspired by girlfriend\u2019s periods - The Straits Times",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcUg4OFhjbjRZSzFrM3NzbWRDYjNjNjkzeUM5RWJoVjd4TlJPZk1HZlNueTc4RU56ODRBeVI0SE9pZk9NUlpiRmpETEVXQlJnVWNuU2lOY0pGZXhXVEZPUkhaUHJhaE42WEIyMFFGNDVBTFFlWElHUVlsc0o5NFFDM1ZNZW5wUFJaY0c2Qm5EdmRvSkhfWUt2SDFtR0ZERmhQVm0zcktfalVfcWFBT0Z4c3RuWE5RN1E?oc=5",
+   "date": "Sat, 12 Sep 2026 07:00:00 GMT",
+   "source": "The Straits Times",
    "lane_query": "Women's Health"
   },
   {
-   "title": "McLean's Red Cell Partners debuts direct-to-consumer health app for women - The Business Journals",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUpGTXlQT1RyQTdlWERLeTkwd2xUeXkycElwOEZDOHprR0lyeGQ2V1A3SmdtR2labFRma28yR3NDeW14UnRSdnYtWnl5UGYwajNhc1RSNUNSbDZiTW9Rdk1sZzRLOU9xLVNGeVowZTFpV3BhRnA0Nk15bEdySXdQSHZzc3VsOEZxS0pCR09jQ2ZmRHZfaTZrMjJERDNQb25w?oc=5",
-   "date": "Mon, 06 Jul 2026 07:00:00 GMT",
-   "source": "The Business Journals",
-   "lane_query": "Women's Health"
-  },
-  {
-   "title": "Wayy bags $2M pre-seed to become an AI-powered sales co-founder for entrepreneurs - Refresh Miami",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRTlsV01JNVRtT0I2MzdmU3JEVUVRYndQZHFVMlRsQkZjMUlTOXllZTBrdFZpa2RCQjlGSDF5cm9kTG9CZVI4dnJfMDJzbjFwVWRsX2pNS0JuZVlRZkpzQXVSZEY3cDlYM0Fpc3hPOFV1c2lqbUZxcWR5OUtWa0pTRXVlODZ2ZFdqOU5nczJGdURFUmhpYVllX2FieUtTZklDdTU1bGtvaHRIbWdqdDM3eA?oc=5",
-   "date": "Mon, 03 Aug 2026 07:00:00 GMT",
-   "source": "Refresh Miami",
-   "lane_query": "Women's Health"
-  },
-  {
-   "title": "Eli Lilly acquisition payday fuels $1M seed round for St. Petersburg biotech startup - The Business Journals",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUGVFcVBVYmZWN24yM05saHY5QTZ6LVZxNnhXYU5lVXRjMU53Tnk3Qm9FZ2RlVE9xVTRKdk4zRUVvSFlpVFZLRmswYTUwSnlKZzhBSnBXam8xTFlwN2JaMHVaOUVSWGIyUGZ5MVpTekxXajFydlhrWF9TdG1nakNXanRfa3c2a0FaaVVxU0R1cG1JWkEzUjBVcXBVekpSUjV4ZS1nTmd3WQ?oc=5",
-   "date": "Thu, 02 Jul 2026 07:00:00 GMT",
-   "source": "The Business Journals",
+   "title": "Young startups miss out on biotech venture funding rebound, MassBio says - BioPharma Dive",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0MtNmFOTnJXZFRvS0RwdG9FLVAzRmNTZkZ3cllLaG43ME5zNWlvRER1YkU2LWI3Yjl5cGZRdE5aYjJ6SG1XSVlCVXVFOUxkOHRLem1wRnNlR3pqcWtxOXZNN1Y4Vm1pMENRMUhjc0lVQ19PUk41em44NUVPVTBxUU0zVWtpVWM0TS1NTFdZeUM0UjJIZWln?oc=5",
+   "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+   "source": "BioPharma Dive",
    "lane_query": "Biotech"
   },
   {
@@ -64,86 +64,124 @@
    "lane_query": "Biotech"
   },
   {
-   "title": "Moving faster than planned, AI drug developer Accipiter Bio quietly tops up seed round with $10.5M - GeekWire",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPejZ2TmpYT09WOHVnVFJaM1JnVE5HMkpHcWN3eXpndU9qSFhCQUpWRlQySUtxeUJWa1NwSVVRM0J0Uk1uUVZ0UDR4RFp5MU51aXFTOGhXYlVhbFV6N2xJQlE0VGhwcE5DZnQzUnJhaTlDVW9uM1k0RWpQbHYzanNZSm5uREg5VmtCVXR2U0NMcExGU2wxUW15ZjFrRzM2dmxhRkFteGc4ekdHSFRxMnN4ZnBVYzB1ZktpZW9mN21RMEZfc2RqY1E?oc=5",
-   "date": "Fri, 31 Jul 2026 07:00:00 GMT",
-   "source": "GeekWire",
+   "title": "Xella Health Closes $3.7 Million Pre-Seed to Build the Next Generation of Women\u2019s Precision Health - Fitt Insider",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa2lLT2lIQVhwVzlIR2VrcnAwTFFfQjFyWHZvYjN5RV9iLXpiaEx6eVZXWGRWMGpFOEJzQXU5c2h0V3FGWGU0c1hNLTlkWDhmNlkyT015dXBBdGhrdGNCSmU0d1ZVQzMtZFVJV0swMWdpTGNaSTY4WHNYZnZabGlYVWpzMHdTbVJPSGRMUFktc0pIMVhnbkoyU3hTSXpFX0RWRjB5UUxycFdNUTk3ZE04MnJCcHBNWmszRTJwQUxfRDFhVlk1bDlPLXBxWUNEVkZZ?oc=5",
+   "date": "Mon, 12 Jan 2026 08:00:00 GMT",
+   "source": "Fitt Insider",
    "lane_query": "Biotech"
   },
   {
-   "title": "Upstream Biotechnology raises seed funding for \u2018on-demand\u2019 crop defense tech - AgFunderNews",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdWFyb1RSTzJ4NmR6TmlHMlBTQlJVWDRhM3FsTG9GX3FHMEtHZGhpZWNBelZkYjlubEVrSWIyYUtlc0RuRWp2NlhBN00zQjFqT203bi1Ud0JPYW1EVG1iNUNsdnZ1dmh1ZU14YWhRdDlmbGQ3Z0V5NjdrellFLVl5clhybXVCRWtyY0RXY0J5aGtSVlQ5M2dkWjJLQjFFdXV5?oc=5",
-   "date": "Thu, 30 Jul 2026 07:00:00 GMT",
-   "source": "AgFunderNews",
+   "title": "Xella Health Raises $3.7M Pre-Seed for Multi-Omic Women\u2019s Health Testing - Femtech Insider",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORFFnclJhS2dfQjFYTXlSbXhNM004a1V4MXNOQkw5WVdJckJhX05nVU8wNDVBbW5mRkU5b2Z4OWhSNTh2Nml0Q1FJLWtxd0NwT3BQcC1vTUxHem1STF9ERG1LdjY2c2Z4eTFXTFpUYXhSQnE5VmwtSHlIMXJ4Y1NRZ2ZZNWJucTBsN3JObENxMUFHTmtsWVpPcndiSF9QZE0?oc=5",
+   "date": "Mon, 12 Jan 2026 08:00:00 GMT",
+   "source": "Femtech Insider",
    "lane_query": "Biotech"
   },
   {
-   "title": "Austrian BioTech startup Epitome Therapeutics announces \u20ac4 million in funding to advance programmes and grow team - EU-Startups",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMFQ4SUkyRkh2eDdneHpJUndHZ0pjbVJncHg4VjhOZ0syVkpjalBNWkQtZWtsNHNSS3dzV3VGTm55aVg0YUpfUFZDaDFqWkl5Z3FzUWRiLTVwZjVzb2xnTTFjX01QbjNLQzZyR1dRWnFTQlcwX2JMbDhIcjc5aFRoMXY2TEtzdWdaT0diRmhWWk1QQTMwemVrQlJ2dnIwekl2Tmhjal9vN0x6blBtVFhBNU9lUllERlZpMnF2TGhiZWRpOVRvWDB6UnEzQmh2anB1TlNBNTVDZENjRzFfWkhaSDNMODE?oc=5",
-   "date": "Tue, 30 Jun 2026 07:00:00 GMT",
-   "source": "EU-Startups",
+   "title": "13 anti-aging biotech companies to watch in 2026 - Labiotech.eu",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zMjVrdVpqQU40Z1p6Tm5vMUctWXNuMTU4V2loV2IzMXVzZWNQRDY1UlMzVlp4VGJtaDVHdVUzRWxpeXZWVTA0UWRycHlpa1ZHS0dRTUNBTEpoamM5RGctLU05WEtZY0VaU0QtNWRXX3pweXUyQnc?oc=5",
+   "date": "Mon, 16 Mar 2026 07:00:00 GMT",
+   "source": "Labiotech.eu",
    "lane_query": "Biotech"
   },
   {
-   "title": "AI biotech startup Cheiron launches $8 million seed round - The Korea News Plus",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tRGNKSXhYNVBKa2ZKZnEzVjd3X2UxM2hVaGhaeW0zbXZ1WV9BZmlUSG9uaDVqLXNPUXdOajg1QjZEcWV0RDJwQ09QaW1rYlJVb3dfSVhnMkpjLXhBM01xZHBlTVpkYnVGSEcxa2FQYVJfVUlmU0Q4?oc=5",
-   "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-   "source": "The Korea News Plus",
-   "lane_query": "Biotech"
-  },
-  {
-   "title": "Allswell Raises $7M Seed to Build the Behavioral Health Home for the LGBTQ+ Community - Techstars",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNXpTYUVFU2lXNThNcHVRZzlSY0ZZTy1hZHQ0R2VtUUh6MkJCa3hYcUdoVmxjN1lLMFFvTExXelg3WjBOSUtTa0I1MUVId0Y1UXNnYy1jXzVid3k5WWJjT0o1Nm1ZTENSRGZCck1ZNFU1NHYyQW1uTmkya0poRW1CQzJvMVdRWXl1V1BWWkdQVkpsYTJFcHVYbDM1TkxMM1F0T2NtQ3RqTTR1cTAtWFh6Qk8tcTdiUGI2YkgtWnBLRFZsTm5QZ3V3MzVLZUU?oc=5",
-   "date": "Wed, 14 Oct 2026 23:32:54 GMT",
-   "source": "Techstars",
+   "title": "Deepinder Goyal\u2019s Wearable Start-Up Temple Eyes $50Mn Seed Round Led by Steadview, Vy Capital & Others - Outlook Business",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdkRIeVo3dEdfQzhHOUtBZVd6RnhmUWhlMUtVWmNtMnVlM0xwTFFwSG5DYWFoRkh1d05tRkM3bXJ4dXJFNk9UZkxjeEZwUVZQWEUtUkhqMG5XbUxOMVNCa25SZWQ1LUdIN05mNTdsMC1uRU5DYkJrWTNWTjBTUUZ1bWhUZkpTZWdLcDRPRkNKZ3RBSG1VRmdSdFBfZEpKZE1GWTFYR3RFc2NCWnYtdWt2RmRjaGJKY1cyNjdhMERrb0tKdWZTek5SWlFOZ2tkT2VUeDN5Tml30gHjAUFVX3lxTFBkZ0ZWTlVMTGdlN0FaajhfYWJHdmZUZktDLVMxSmtNaWFaZF8xUjQ3MFhWLXN2S084M045bDRwUDJGNjZiRU5nRW5IbWxBWXhDSlFIZUZ0NTJvSnRoTHlZUW5LcDFlNV9tdVR2c3hIVDR1WG5LVHlUMFUtMHBKdDBsd2xzdjR6b2dtTVRONy1Ncmh2VU96d2ZHbVBld3I3R0NwN1VrVk9nNVk5c193eTMyNllTZUVfZkFUOUxfcVlQXzZ3Q002NkNyUWd6cThDT2Q2eWZYb0MycU5WV2ZZUmJTc3E4?oc=5",
+   "date": "Wed, 03 Dec 2025 08:00:00 GMT",
+   "source": "Outlook Business",
    "lane_query": "Evidence-based Wellness"
   },
   {
-   "title": "India's TailBlaze raises $300K pre-seed for dog longevity food - Dealroom",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT0hwU1c4a21NeUVhc1JoU1hmdzBMQk5nNFdMVk1BTkxBU3lfUFNwSWs2YzcwUmMwQVppeHpDSFVSelJOakIxZ1ktTzdMcHFYdVF2X2NJWTQxeDllUGpkc1NzS3dBcE1IeVNkanB5d0NBRldOdDNkZlZ6U3dVdVlQZVhfU2I4T2FpWjRtY29rQTNGaFNhbFpVeTQ3MA?oc=5",
-   "date": "Thu, 08 Oct 2026 15:48:34 GMT",
-   "source": "Dealroom",
-   "lane_query": "Evidence-based Wellness"
+   "title": "\u2018A medical miracle\u2019: is period blood \u2018the most overlooked opportunity\u2019 in women\u2019s health? - The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRGMzUG92YlFaYlNKME5yb0RzTE1OS29BVGl4cno2Zmhqakl6UXFfMGJJb2cyZjdJdU93STdwb1k1SE9RaWVhd0tvbDhkMW9TSzdzUVZxMF9wdG94MzBJUmVwRnNIQXZ6R1BNNUY1akpfZDlyTnlwRDc4b3JCMHZnM1Q0bTF2Zi01MFRBMW8tcXRvOWRFTTJWOEpoUWdnQWQ5emR4aC1iMFRlY0U?oc=5",
+   "date": "Mon, 27 Oct 2025 07:00:00 GMT",
+   "source": "The Guardian",
+   "lane_query": "keywords"
   },
   {
-   "title": "Workplace psychological safety startup ReFresh plants $2.5 million Seed round - Startup Daily",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbklkSFB6RFJuSXdWbzJSc3Z4T0ZGNWx4X3dpRkVNYWlQaDBKSzlrd1djOWJwa19OQUxGb1BzcjlycDhDVE9oQmNDLXJQQUVWSnZaU3JudmRHeUhHbGFHSnJwekNIRXBCYWYtc1dNZ3hmMms1eXJxazF1cHg5V0psWXRNQ2FMSEZwdV9kQjdpMmZsZkhRanBBWUV0cklGcF96UTN5d0tuQktFN2ExbXZCaGdod1ktUjNYMms5Vg?oc=5",
-   "date": "Thu, 17 Sep 2026 07:00:00 GMT",
-   "source": "Startup Daily",
-   "lane_query": "Evidence-based Wellness"
+   "title": "Women\u2019s health needs data to win investors. Berlin startup taps menstrual blood - EU Perspectives",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeC1ES1ZDYzJSbXJNMlJ3YXA4cG1sLVF0MnhsWmRfNlplOFJNdDZLcDc0eHV4MDZwQkhBb3pVNXdMbU5veHh2b1RTZ3BVZ1pTSktxZG1OMTN1emExa0dtck1aZmkxeEpxenFFZWh4b3pBRENBS2VPZTJwdmlkZlNnUDdaczJ6SGVLajFyUHJ2RFpPUFZVbnc?oc=5",
+   "date": "Sat, 24 Oct 2026 09:33:21 GMT",
+   "source": "EU Perspectives",
+   "lane_query": "keywords"
   },
   {
-   "title": "Litigation Tech Startup Concorda Announces $3.8M Seed Round - Law.com",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT0ZCeWdHN0RoSlZRdTVYdExrNk9qam5XVDdFSkdxaXZqWGppOEl0UDBNUWRkdGw0RkhhM3Q2RnctY3VwQWo3Tzk2VDlqRS1OUE05ZXJPQ0xsekk3UzdrbzZNVTBzXzZNQWV0aWs3T2VMbFZBZjNqb3U4VnVyUlpIZXpQZVYyNGhlLXM2UExmc292T2pIS3B1Q04yX2NQclRJbGc3N0s3QQ?oc=5",
-   "date": "Tue, 08 Sep 2026 07:00:00 GMT",
-   "source": "Law.com",
-   "lane_query": "Evidence-based Wellness"
+   "title": "Blood money: This SF startup is paying women for their monthly flow - The San Francisco Standard",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTkVHNy1ENHk0Ym43STdoYVY0c1lHczZaajNCRzlfRjE4YmVtLTJrVkNsQzZ4WUp6dVc1dmpCQzlVUExEVjFjU05WZW1ibHBlZWY0bEZ3b3ZhYVFxVzhTRnlKRlVDWDJ0RVMwWTQ0R285Yy1Ldm1JM25WSE1RWFd2MVkyYnRkeV9DU29hcU1xdHIwMzg?oc=5",
+   "date": "Tue, 10 Mar 2026 07:00:00 GMT",
+   "source": "The San Francisco Standard",
+   "lane_query": "keywords"
   },
   {
-   "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
-   "date": "Fri, 16 Oct 2026 07:00:00 GMT",
-   "source": "Fierce Healthcare",
-   "lane_query": "Evidence-based Wellness"
+   "title": "Diamens Raises Funding to Develop Menstrual Blood-Based Endometriosis Diagnostic - Femtech Insider",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2N3Ml83WFA3Tjh2VW5nZzh3YmZDWmJCVGctemJWZ3RuRWR2WFM4WThlRVF5WUVNaThjM2daXzFtWi1ZeGNPRHVjZU1EUmNVWm53eVdWTHZ1Ulh5OFFacTFPZmVUUktiLXoyQzduSFltZ3lBMUJfUkVmOXlwWUNOVHNaV05RaTc4ck9GRXlqUDN2VTZOd3pGdnFCRGRkV0Q2Vk41OUlnVEExRDJ4?oc=5",
+   "date": "Tue, 17 Mar 2026 07:00:00 GMT",
+   "source": "Femtech Insider",
+   "lane_query": "keywords"
   },
   {
-   "title": "Valparaiso startup AlloDirect lines up pre-seed funding - nwitimes.com",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ2RfQ191Ykg2Nzh3b3hFNEpWc0tUeUpHRERZY2tXRXpXZkZ0MzREXzFUZWMzUHhNLXJaUUFUYWR3X1RrTTZSY0JtaHhvd19ObG5CSndYeWkyVlhLS1QyczdjSk1yckNJd1hRamNyUVRadEtTcHRVcTNnbXdadV9JRTVLVjNlUklJ?oc=5",
-   "date": "Wed, 21 Oct 2026 22:31:00 GMT",
-   "source": "nwitimes.com",
-   "lane_query": "Evidence-based Wellness"
+   "title": "\u201cSensible\u201d Chapel Hill Startup Streamlines Menstrual Health Tracking - GrepBeat",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmxWRTQyYlBSXzk4UzYtc242c0JsYTJpdDlmVWkzUlU0Y0ZuZ2xPeGgwNnd2VnhTdFpCYVkyWnMwaGcxdHFvR2hEaENLRi1iSUlTTjZpRUpIY3NfNjYycWJjdTJCYnp6WTZwdmIwbFVqYzJ4OWpwal83UXFXT3FTREU2ekQwMHQ1S1BEcHMxUURZcl9ad2cxcTRZUWFCYzFE?oc=5",
+   "date": "Mon, 22 Jun 2026 07:00:00 GMT",
+   "source": "GrepBeat",
+   "lane_query": "keywords"
+  },
+  {
+   "title": "'It's a very unique biological specimen': What menstrual blood can reveal about your health - BBC",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN1pTNW5HalFmZGYtZWpfcGxiVTMxeTB6N3pPZWhoU2U5MGJ1aGE3TThfNmV6VkNnRUxLWU9uVFVPQ2VUWEJBYjh1a1Nka2piSXNzLU1JZ01MTzVZN2kwcGwtQWt0VE1lNFNONkFjUEhSWkk2WlE3V2dGcU1HTVJOd1RXU1I3cDl4YnVHbF9BQ1Y0SUNEeUJCTw?oc=5",
+   "date": "Mon, 09 Mar 2026 07:00:00 GMT",
+   "source": "BBC",
+   "lane_query": "keywords"
   }
  ],
  "quarantined": [],
  "scout_candidates": [
   {
+   "name": "Emm",
+   "lane": "Women's Health",
+   "stage_signal": "Unknown",
+   "location_signal": "Unknown",
+   "one_line": "Raises $9M to launch a smart menstrual cup.",
+   "lead_ids": [
+    0
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnhwZmhibFdyOW4tcUtKcGM3X256MnlLaU5YQWM2dGdHVGhDSVFaUkFHSmZFb0RDVlV0VzBBOXV6MFZIMmMyNDJLUWZ3bC1WMF8wbWpxTnd1ZU0wVENpU0ZILTFSSm9wZGhiSWNyYVpKbTROcVRXQTEybXdPUnl6Y2NXWFpHc19BOUZ2OEJ2WFZFaHBJ?oc=5"
+   ],
+   "headlines": [
+    "Emm Raises $9M to Launch World's First Smart Menstrual Cup - The Tech Buzz"
+   ]
+  },
+  {
+   "name": "Xella Health",
+   "lane": "Women's Health",
+   "stage_signal": "Pre-seed",
+   "location_signal": "Unknown",
+   "one_line": "Raises a $3.7M pre-seed to launch and build a women's precision health platform.",
+   "lead_ids": [
+    1,
+    8,
+    9
+   ],
+   "lead_urls": [
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOEtJXzdKSWFzOURmZVpZTk4td1RnLUVRYTdqM2YyNk1YZV9xcUhyNlNlY0Z0ay1EU1YyWGlsTmstRjNkNzV2MFVualhSNHVlQnZlY1V2Ymtkam4zaHZ0cG5oSFFlQ0Q2U3NIQVNHeUtQRG9yNk13eEFmMGh4dFZ3Z3VOakNKNEhfNnJVT3lfcy1DZGU3U19SUTBpbXR0c1BneE5ZOGRsVVhxOXhYVmx5YUNGZFN3N1NXdTF2MC1pOEpkNzV4?oc=5",
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa2lLT2lIQVhwVzlIR2VrcnAwTFFfQjFyWHZvYjN5RV9iLXpiaEx6eVZXWGRWMGpFOEJzQXU5c2h0V3FGWGU0c1hNLTlkWDhmNlkyT015dXBBdGhrdGNCSmU0d1ZVQzMtZFVJV0swMWdpTGNaSTY4WHNYZnZabGlYVWpzMHdTbVJPSGRMUFktc0pIMVhnbkoyU3hTSXpFX0RWRjB5UUxycFdNUTk3ZE04MnJCcHBNWmszRTJwQUxfRDFhVlk1bDlPLXBxWUNEVkZZ?oc=5",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxORFFnclJhS2dfQjFYTXlSbXhNM004a1V4MXNOQkw5WVdJckJhX05nVU8wNDVBbW5mRkU5b2Z4OWhSNTh2Nml0Q1FJLWtxd0NwT3BQcC1vTUxHem1STF9ERG1LdjY2c2Z4eTFXTFpUYXhSQnE5VmwtSHlIMXJ4Y1NRZ2ZZNWJucTBsN3JObENxMUFHTmtsWVpPcndiSF9QZE0?oc=5"
+   ],
+   "headlines": [
+    "Xella Health Raises $3.7 Million Pre-Seed to Launch Women\u2019s Precision Health Platform - HLTH",
+    "Xella Health Closes $3.7 Million Pre-Seed to Build the Next Generation of Women\u2019s Precision Health - Fitt Insider",
+    "Xella Health Raises $3.7M Pre-Seed for Multi-Omic Women\u2019s Health Testing - Femtech Insider"
+   ]
+  },
+  {
    "name": "Avni Wellness",
    "lane": "Women's Health",
    "stage_signal": "Seed",
    "location_signal": "India",
-   "one_line": "Women\u2019s health startup that raised a $470K seed round.",
+   "one_line": "Indian women's health startup raises a $470K seed round.",
    "lead_ids": [
-    0
+    2
    ],
    "lead_urls": [
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdvSXJCazV2RldQY29NVnB4WXlkWWxHZHJNM09WLTdpTUJsLV9PUkR0QjV3MFRGTGtqUjdHdnRlanVoUVk4bjczOHF5YVZNWWd5NUlvdWpmbGlkZmdBMk9qOFdoR0djbDg2aFUtb0ZNeXZMVTdmaWFvVEEyei1ZTDZIN2RxSEdPaDZ6U1BNZFFPa0JET3l5MA?oc=5"
@@ -157,9 +195,9 @@
    "lane": "Women's Health",
    "stage_signal": "Unknown",
    "location_signal": "Unknown",
-   "one_line": "Raises funding to address the women\u2019s health data gap.",
+   "one_line": "Raises $3.2M to address the women's health data gap.",
    "lead_ids": [
-    2
+    4
    ],
    "lead_urls": [
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkpGR0g4STRPRGtqbm1aaFo0cmtJT0xBTHRHZjlYZVRpTDZnUnQ4LXBGMlVGMG1tbGpoY3NOejBCZ2hQN3ZOWjVoOXI5OUhIemh6cFB4RjFDUjNYMjhnTnNPYjFKNkRUXzM5cUlQajFHOHE2SGRrQUYzUGtRdGN1cDZSWk5YdjVjWENtM2ItTnpPVy1DYl9qeEtfQV9tc0lyOWVFNkdiRzdqRXpPdF9NbEE2Z2VFeW8?oc=5"
@@ -169,802 +207,439 @@
    ]
   },
   {
-   "name": "MenoVida",
-   "lane": "Women's Health",
-   "stage_signal": "Pre-seed",
-   "location_signal": "UK",
-   "one_line": "Menopause app that closed the first phase of its pre-seed round.",
-   "lead_ids": [
-    3
-   ],
-   "lead_urls": [
-    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdU5HSGpvNElFQnFaS3phX3NiNmhvRm52WmpGV2R5WmktOHJaVC13SkNScEtBdXd3b3Y5Y3Qzeks1dEY4THlLMU1MVVA1bmNlRG9MenJYdWdudEdXWUd4amJINlFMR210b1FhTTU3bjZ3NFRTeFhqNXp1Q0xWd2s4UV9jZXlOWUx0bEpUY0pwN25SRVVBVWUwTUVJVXVDZ2U3SEE?oc=5"
-   ],
-   "headlines": [
-    "MenoVida closes first phase of pre-seed round for UK menopause app - Dealroom"
-   ]
-  },
-  {
-   "name": "Red Cell Partners",
+   "name": "Diamens",
    "lane": "Women's Health",
    "stage_signal": "Unknown",
-   "location_signal": "McLean",
-   "one_line": "Debuted a direct-to-consumer health app for women.",
+   "location_signal": "Unknown",
+   "one_line": "Raises funding to develop a menstrual blood-based endometriosis diagnostic.",
    "lead_ids": [
-    4
+    15
    ],
    "lead_urls": [
-    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUpGTXlQT1RyQTdlWERLeTkwd2xUeXkycElwOEZDOHprR0lyeGQ2V1A3SmdtR2labFRma28yR3NDeW14UnRSdnYtWnl5UGYwajNhc1RSNUNSbDZiTW9Rdk1sZzRLOU9xLVNGeVowZTFpV3BhRnA0Nk15bEdySXdQSHZzc3VsOEZxS0pCR09jQ2ZmRHZfaTZrMjJERDNQb25w?oc=5"
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2N3Ml83WFA3Tjh2VW5nZzh3YmZDWmJCVGctemJWZ3RuRWR2WFM4WThlRVF5WUVNaThjM2daXzFtWi1ZeGNPRHVjZU1EUmNVWm53eVdWTHZ1Ulh5OFFacTFPZmVUUktiLXoyQzduSFltZ3lBMUJfUkVmOXlwWUNOVHNaV05RaTc4ck9GRXlqUDN2VTZOd3pGdnFCRGRkV0Q2Vk41OUlnVEExRDJ4?oc=5"
    ],
    "headlines": [
-    "McLean's Red Cell Partners debuts direct-to-consumer health app for women - The Business Journals"
+    "Diamens Raises Funding to Develop Menstrual Blood-Based Endometriosis Diagnostic - Femtech Insider"
    ]
   },
   {
-   "name": "St. Petersburg biotech startup",
-   "lane": "Biotech",
-   "stage_signal": "Seed",
-   "location_signal": "St. Petersburg",
-   "one_line": "Biotech startup raising a $1M seed round; the headline does not name the company.",
-   "lead_ids": [
-    6
-   ],
-   "lead_urls": [
-    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUGVFcVBVYmZWN24yM05saHY5QTZ6LVZxNnhXYU5lVXRjMU53Tnk3Qm9FZ2RlVE9xVTRKdk4zRUVvSFlpVFZLRmswYTUwSnlKZzhBSnBXam8xTFlwN2JaMHVaOUVSWGIyUGZ5MVpTekxXajFydlhrWF9TdG1nakNXanRfa3c2a0FaaVVxU0R1cG1JWkEzUjBVcXBVekpSUjV4ZS1nTmd3WQ?oc=5"
-   ],
-   "headlines": [
-    "Eli Lilly acquisition payday fuels $1M seed round for St. Petersburg biotech startup - The Business Journals"
-   ]
-  },
-  {
-   "name": "Accipiter Bio",
-   "lane": "Biotech",
+   "name": "Temple",
+   "lane": "Other healthcare",
    "stage_signal": "Seed",
    "location_signal": "Unknown",
-   "one_line": "AI drug developer that topped up its seed round with $10.5M.",
-   "lead_ids": [
-    8
-   ],
-   "lead_urls": [
-    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPejZ2TmpYT09WOHVnVFJaM1JnVE5HMkpHcWN3eXpndU9qSFhCQUpWRlQySUtxeUJWa1NwSVVRM0J0Uk1uUVZ0UDR4RFp5MU51aXFTOGhXYlVhbFV6N2xJQlE0VGhwcE5DZnQzUnJhaTlDVW9uM1k0RWpQbHYzanNZSm5uREg5VmtCVXR2U0NMcExGU2wxUW15ZjFrRzM2dmxhRkFteGc4ekdHSFRxMnN4ZnBVYzB1ZktpZW9mN21RMEZfc2RqY1E?oc=5"
-   ],
-   "headlines": [
-    "Moving faster than planned, AI drug developer Accipiter Bio quietly tops up seed round with $10.5M - GeekWire"
-   ]
-  },
-  {
-   "name": "Epitome Therapeutics",
-   "lane": "Biotech",
-   "stage_signal": "Unknown",
-   "location_signal": "Austria",
-   "one_line": "Biotech startup announcing \u20ac4 million in funding to advance its programs and grow its team.",
-   "lead_ids": [
-    10
-   ],
-   "lead_urls": [
-    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMFQ4SUkyRkh2eDdneHpJUndHZ0pjbVJncHg4VjhOZ0syVkpjalBNWkQtZWtsNHNSS3dzV3VGTm55aVg0YUpfUFZDaDFqWkl5Z3FzUWRiLTVwZjVzb2xnTTFjX01QbjNLQzZyR1dRWnFTQlcwX2JMbDhIcjc5aFRoMXY2TEtzdWdaT0diRmhWWk1QQTMwemVrQlJ2dnIwekl2Tmhjal9vN0x6blBtVFhBNU9lUllERlZpMnF2TGhiZWRpOVRvWDB6UnEzQmh2anB1TlNBNTVDZENjRzFfWkhaSDNMODE?oc=5"
-   ],
-   "headlines": [
-    "Austrian BioTech startup Epitome Therapeutics announces \u20ac4 million in funding to advance programmes and grow team - EU-Startups"
-   ]
-  },
-  {
-   "name": "Cheiron",
-   "lane": "Biotech",
-   "stage_signal": "Seed",
-   "location_signal": "Unknown",
-   "one_line": "AI biotech startup launching an $8 million seed round.",
+   "one_line": "Wearable startup eyes a $50M seed round.",
    "lead_ids": [
     11
    ],
    "lead_urls": [
-    "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tRGNKSXhYNVBKa2ZKZnEzVjd3X2UxM2hVaGhaeW0zbXZ1WV9BZmlUSG9uaDVqLXNPUXdOajg1QjZEcWV0RDJwQ09QaW1rYlJVb3dfSVhnMkpjLXhBM01xZHBlTVpkYnVGSEcxa2FQYVJfVUlmU0Q4?oc=5"
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdkRIeVo3dEdfQzhHOUtBZVd6RnhmUWhlMUtVWmNtMnVlM0xwTFFwSG5DYWFoRkh1d05tRkM3bXJ4dXJFNk9UZkxjeEZwUVZQWEUtUkhqMG5XbUxOMVNCa25SZWQ1LUdIN05mNTdsMC1uRU5DYkJrWTNWTjBTUUZ1bWhUZkpTZWdLcDRPRkNKZ3RBSG1VRmdSdFBfZEpKZE1GWTFYR3RFc2NCWnYtdWt2RmRjaGJKY1cyNjdhMERrb0tKdWZTek5SWlFOZ2tkT2VUeDN5Tml30gHjAUFVX3lxTFBkZ0ZWTlVMTGdlN0FaajhfYWJHdmZUZktDLVMxSmtNaWFaZF8xUjQ3MFhWLXN2S084M045bDRwUDJGNjZiRU5nRW5IbWxBWXhDSlFIZUZ0NTJvSnRoTHlZUW5LcDFlNV9tdVR2c3hIVDR1WG5LVHlUMFUtMHBKdDBsd2xzdjR6b2dtTVRONy1Ncmh2VU96d2ZHbVBld3I3R0NwN1VrVk9nNVk5c193eTMyNllTZUVfZkFUOUxfcVlQXzZ3Q002NkNyUWd6cThDT2Q2eWZYb0MycU5WV2ZZUmJTc3E4?oc=5"
    ],
    "headlines": [
-    "AI biotech startup Cheiron launches $8 million seed round - The Korea News Plus"
-   ]
-  },
-  {
-   "name": "Allswell",
-   "lane": "Other healthcare",
-   "stage_signal": "Seed",
-   "location_signal": "Unknown",
-   "one_line": "Building a behavioral health home for the LGBTQ+ community; raised $7M seed.",
-   "lead_ids": [
-    12
-   ],
-   "lead_urls": [
-    "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNXpTYUVFU2lXNThNcHVRZzlSY0ZZTy1hZHQ0R2VtUUh6MkJCa3hYcUdoVmxjN1lLMFFvTExXelg3WjBOSUtTa0I1MUVId0Y1UXNnYy1jXzVid3k5WWJjT0o1Nm1ZTENSRGZCck1ZNFU1NHYyQW1uTmkya0poRW1CQzJvMVdRWXl1V1BWWkdQVkpsYTJFcHVYbDM1TkxMM1F0T2NtQ3RqTTR1cTAtWFh6Qk8tcTdiUGI2YkgtWnBLRFZsTm5QZ3V3MzVLZUU?oc=5"
-   ],
-   "headlines": [
-    "Allswell Raises $7M Seed to Build the Behavioral Health Home for the LGBTQ+ Community - Techstars"
-   ]
-  },
-  {
-   "name": "ReFresh",
-   "lane": "Other healthcare",
-   "stage_signal": "Seed",
-   "location_signal": "Unknown",
-   "one_line": "Workplace psychological safety startup that raised a $2.5 million seed round.",
-   "lead_ids": [
-    14
-   ],
-   "lead_urls": [
-    "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbklkSFB6RFJuSXdWbzJSc3Z4T0ZGNWx4X3dpRkVNYWlQaDBKSzlrd1djOWJwa19OQUxGb1BzcjlycDhDVE9oQmNDLXJQQUVWSnZaU3JudmRHeUhHbGFHSnJwekNIRXBCYWYtc1dNZ3hmMms1eXJxazF1cHg5V0psWXRNQ2FMSEZwdV9kQjdpMmZsZkhRanBBWUV0cklGcF96UTN5d0tuQktFN2ExbXZCaGdod1ktUjNYMms5Vg?oc=5"
-   ],
-   "headlines": [
-    "Workplace psychological safety startup ReFresh plants $2.5 million Seed round - Startup Daily"
-   ]
-  },
-  {
-   "name": "AlloDirect",
-   "lane": "Other healthcare",
-   "stage_signal": "Pre-seed",
-   "location_signal": "Valparaiso",
-   "one_line": "Valparaiso startup lining up pre-seed funding; its healthcare focus is not specified in the headline.",
-   "lead_ids": [
-    17
-   ],
-   "lead_urls": [
-    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ2RfQ191Ykg2Nzh3b3hFNEpWc0tUeUpHRERZY2tXRXpXZkZ0MzREXzFUZWMzUHhNLXJaUUFUYWR3X1RrTTZSY0JtaHhvd19ObG5CSndYeWkyVlhLS1QyczdjSk1yckNJd1hRamNyUVRadEtTcHRVcTNnbXdadV9JRTVLVjNlUklJ?oc=5"
-   ],
-   "headlines": [
-    "Valparaiso startup AlloDirect lines up pre-seed funding - nwitimes.com"
+    "Deepinder Goyal\u2019s Wearable Start-Up Temple Eyes $50Mn Seed Round Led by Steadview, Vy Capital & Others - Outlook Business"
    ]
   }
  ],
  "excluded": [
-  {
-   "name": "ReFresh",
-   "reason": "Over the 6-company verification cap for one scan",
-   "stage": "Seed"
-  },
-  {
-   "name": "AlloDirect",
-   "reason": "Over the 6-company verification cap for one scan",
-   "stage": "Pre-seed"
-  },
-  {
-   "name": "Collective X Health",
-   "reason": "Over the 6-company verification cap for one scan",
-   "stage": "Unknown"
-  },
-  {
-   "name": "Red Cell Partners",
-   "reason": "Over the 6-company verification cap for one scan",
-   "stage": "Unknown"
-  },
-  {
-   "name": "Epitome Therapeutics",
-   "reason": "Over the 6-company verification cap for one scan",
-   "stage": "Unknown"
-  },
   {
    "name": "Avni Wellness",
    "reason": "US domicile not confirmed (No; HQ: Mumbai, Maharashtra, India (reported; its Indian legal entity is registered in Thane, Maharashtra))",
    "stage": "Seed"
   },
   {
-   "name": "MenoVida",
-   "reason": "US domicile not confirmed (No; HQ: Unknown. Companies House lists a registered office in Burnham-on-Sea, Somerset, United Kingdom; F6S lists Bath, United Kingdom. A registered office does not by itself confirm headquarters.)",
+   "name": "Temple",
+   "reason": "US domicile not confirmed (No; HQ: Gurugram (Gurgaon), Haryana, India)",
    "stage": "Seed"
+  },
+  {
+   "name": "Emm",
+   "reason": "US domicile not confirmed (No; HQ: Bristol, England, United Kingdom (registered office))",
+   "stage": "Seed"
+  },
+  {
+   "name": "Diamens",
+   "reason": "US domicile not confirmed (No; HQ: Linz, state: Unknown, Austria)",
+   "stage": "Pre-seed"
   }
  ],
  "scored": [
   {
-   "id": "allswell",
-   "name": "Allswell",
-   "category": "Wellness",
-   "subcategory": "Mental Health \u2014 virtual therapy and group programs for the LGBTQ+ community",
+   "id": "collective-x-health",
+   "name": "Collective X Health",
+   "category": "Women's Health",
+   "subcategory": "Non-invasive & Patient-Collected Diagnostics / women's-health data infrastructure (adjacent, not a diagnostic product)",
    "location": "San Francisco, California, United States",
    "domicile": "US",
-   "stage": "Seed",
-   "round_amount": "$7 million",
-   "round_date": "October 14, 2026",
-   "founders": "Dawn Androphy (co-founder and CEO) and Connor Gordon (co-founder and CTO). Techstars says they founded Allswell in 2024 and began building it at Stanford Graduate School of Business. Stanford reports that Androphy and Gordon had worked at Microsoft; Androphy studied for an MBA at Stanford and had a background in LGBTQ+ advocacy. Further background details for Gordon were not confirmed.",
-   "description": "Virtual behavioral health care for the LGBTQ+ community, including individual therapy, group programs, and trauma-informed care. The company says its services are covered by commercial insurance and Medicaid and matches patients with licensed therapists who are LGBTQ+ or screened for experience serving the community.",
-   "evidence": "Techstars reports hundreds of active patients and more than 1,500 billable sessions per month. It also reports company-provided outcomes: after 60 days of treatment, 77% of patients in its most recent cohorts showed improvement in anxiety and 71% showed improvement in depression. These are reported as company figures; independent clinical validation was not confirmed.",
+   "stage": "Pre-seed",
+   "round_amount": "$3.2 million",
+   "round_date": "October 13, 2026",
+   "founders": "Dr. Stacy Sims (co-founder and Chief Research Officer), an exercise physiologist and nutrition scientist who has directed research at Stanford and published more than 100 peer-reviewed papers; Lindsey Abramo (co-founder and CEO), a commercial operator with senior roles at POPSUGAR, Refinery29, Martha Stewart Living, Cond\u00e9 Nast, and Group Nine Media, and former CRO of Leaf Group and CEO of World of Good Brands; Angelica Marden (co-founder and Chief Brand Officer), a former POPSUGAR executive who rose to president and led the brand through acquisitions.",
+   "description": "A B2B women's-health intelligence platform that organizes peer-reviewed research and female-specific data into a structured, auditable resource licensed through an API. Businesses can use it as a women's-health research database or to validate their existing information; the platform says its insights cite their sources.",
+   "evidence": "At launch, the company identified Human Powered Health and Altra Running as founding customers licensing its intelligence through the API. Forbes reported these were initial paying customers. No company-specific clinical validation or clinical outcomes evidence was confirmed in the pages reviewed.",
    "business_model": "See scorecard",
-   "website": "https://www.joinallswell.com/",
+   "website": "https://www.collectivex.health/",
    "sources": [
-    "https://www.techstars.com/blog/startup-spotlight/allswell-raises-7m-seed-to-build-the-behavioral-health-home-for-the-lgbtq-community",
-    "https://bhbusiness.com/2026/10/14/lgbtq-therapy-platform-allswell-raises-7m/",
-    "https://www.gsb.stanford.edu/experience/news-history/dawn-androphy-mba-24-filling-gap-mental-health-care-lgbtq-community",
-    "https://www.joinallswell.com/about",
-    "https://www.joinallswell.com/"
+    "https://www.forbes.com/sites/allisonsmith/2026/10/13/collective-x-health-raises-32m-to-close-womens-health-data-gap/",
+    "https://www.prnewswire.com/news-releases/collective-x-health-launches-with-a-3-2-million-pre-seed-round-to-close-the-womens-health-data-gap-302907275.html",
+    "https://www.collectivex.health/our-collective",
+    "https://www.collectivex.health/"
    ],
    "source_notes": [
     {
-     "url": "https://www.techstars.com/blog/startup-spotlight/allswell-raises-7m-seed-to-build-the-behavioral-health-home-for-the-lgbtq-community",
-     "supports": "October 14, 2026 seed announcement and amount; total funding; product and insurance coverage; operating footprint; founders and founding context; patient, session, and company-reported outcome figures."
+     "url": "https://www.forbes.com/sites/allisonsmith/2026/10/13/collective-x-health-raises-32m-to-close-womens-health-data-gap/",
+     "supports": "San Francisco location; $3.2 million oversubscribed pre-seed round; founders; platform description; initial paying customers Human Powered Health and Altra Running."
     },
     {
-     "url": "https://bhbusiness.com/2026/10/14/lgbtq-therapy-platform-allswell-raises-7m/",
-     "supports": "San Francisco headquarters; $7 million seed round; earlier $1.3 million pre-seed; hundreds of patients, approximately 40 clinicians, and insurance/Medicaid participation."
+     "url": "https://www.prnewswire.com/news-releases/collective-x-health-launches-with-a-3-2-million-pre-seed-round-to-close-the-womens-health-data-gap-302907275.html",
+     "supports": "Round amount, type, investors, and October 13, 2026 announcement date; founding customers; API licensing; product description and research-review model."
     },
     {
-     "url": "https://www.gsb.stanford.edu/experience/news-history/dawn-androphy-mba-24-filling-gap-mental-health-care-lgbtq-community",
-     "supports": "Androphy's Stanford MBA, LGBTQ+ advocacy background, prior work at Microsoft, and collaboration with co-founder Connor Gordon."
+     "url": "https://www.collectivex.health/our-collective",
+     "supports": "Company-published founder roles and biographies, including prior work and research backgrounds."
     },
     {
-     "url": "https://www.joinallswell.com/about",
-     "supports": "Company background and the founders' shared LGBTQ+ advocacy and volunteer work."
-    },
-    {
-     "url": "https://www.joinallswell.com/",
-     "supports": "Company website."
+     "url": "https://www.collectivex.health/",
+     "supports": "Company's description of its women's-health intelligence platform."
     }
    ],
    "news": [
     {
-     "title": "Allswell Raises $7M Seed to Build the Behavioral Health Home for the LGBTQ+ Community - Techstars",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNXpTYUVFU2lXNThNcHVRZzlSY0ZZTy1hZHQ0R2VtUUh6MkJCa3hYcUdoVmxjN1lLMFFvTExXelg3WjBOSUtTa0I1MUVId0Y1UXNnYy1jXzVid3k5WWJjT0o1Nm1ZTENSRGZCck1ZNFU1NHYyQW1uTmkya0poRW1CQzJvMVdRWXl1V1BWWkdQVkpsYTJFcHVYbDM1TkxMM1F0T2NtQ3RqTTR1cTAtWFh6Qk8tcTdiUGI2YkgtWnBLRFZsTm5QZ3V3MzVLZUU?oc=5"
+     "title": "Collective X Health Raises $3.2 Million To Close Women\u2019s Health Data Gap - Forbes",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkpGR0g4STRPRGtqbm1aaFo0cmtJT0xBTHRHZjlYZVRpTDZnUnQ4LXBGMlVGMG1tbGpoY3NOejBCZ2hQN3ZOWjVoOXI5OUhIemh6cFB4RjFDUjNYMjhnTnNPYjFKNkRUXzM5cUlQajFHOHE2SGRrQUYzUGtRdGN1cDZSWk5YdjVjWENtM2ItTnpPVy1DYl9qeEtfQV9tc0lyOWVFNkdiRzdqRXpPdF9NbEE2Z2VFeW8?oc=5"
     }
    ],
    "scorecard": {
-    "segment": "Wellness",
-    "subcategory": "Mental Health \u2014 virtual therapy and group programs for the LGBTQ+ community",
+    "segment": "Women's Health",
+    "subcategory": "Non-invasive & Patient-Collected Diagnostics / women's-health data infrastructure (adjacent, not a diagnostic product)",
     "segment_fit": {
-     "score": 5,
-     "rationale": "Directly serves a population facing distinct behavioral-health access needs through therapy and group programs, fitting the thesis\u2019s mental-health and equity priorities. The product is care delivery rather than merely a wellness label."
+     "score": 4,
+     "rationale": "The platform organizes female-specific, peer-reviewed research and data, directly addressing a women's-health information gap. It serves business customers rather than patients, and no direct clinical product or patient outcome is described."
     },
     "stage_and_terms_fit": {
      "score": 3,
-     "rationale": "A reported $7 million seed round is within the acceptable stage range, but valuation, instrument, ownership availability, and ability to accommodate a $25K\u2013$50K check are unknown. U.S. headquarters is reported, but legal domicile and for-profit status are unconfirmed."
+     "rationale": "The disclosed round is pre-seed, which matches the target stage, and the $3.2 million round indicates external financing activity. Valuation, proposed check terms, legal domicile, and for-profit status are unknown, so core eligibility and terms fit are not established."
     },
     "evidence_bar": {
-     "score": 3,
-     "rationale": "Company-reported cohorts show 77% anxiety and 71% depression improvement after 60 days, but independent validation and study methods are not confirmed. The thesis requires evidence grounding for Wellness; these results are promising early signals, not verified clinical evidence."
+     "score": 2,
+     "rationale": "The record identifies research credentials and source-cited insights, but confirms no company-specific clinical validation or outcomes evidence. As a research intelligence platform rather than a diagnostic product, the diagnostic evidence bar may not apply; the record still does not establish measurable health impact."
     },
     "revenue_path_independent_of_regulation": {
-     "score": 2,
-     "rationale": "Unknown whether the business depends on regulatory clearance or has an alternative revenue path; the record says services are covered by commercial insurance and Medicaid but does not describe billing or regulatory exposure. No clearance-dependent product is described."
+     "score": 4,
+     "rationale": "The platform has two reported paying business customers licensing its API, providing a plausible commercial path not stated to depend on regulatory clearance. The record does not describe regulatory exposure, pricing, or recurring revenue."
     },
     "systems_adoption_and_paying_champion": {
-     "score": 2,
-     "rationale": "Unknown whether there are payer or health-system partnerships, signed contracts, or a named paying champion. Reported insurance coverage and billable sessions do not establish payer contracting terms, reimbursement reliability, or repeatable adoption."
+     "score": 3,
+     "rationale": "Human Powered Health and Altra Running are reported as initial paying customers, a positive willingness-to-pay signal. The record does not establish health-system or payer adoption, a clinical champion, integration requirements, or replicability beyond these customers."
     },
     "impact_and_health_equity": {
-     "score": 4,
-     "rationale": "LGBTQ+ patients are the explicit target population, and matching with affirming or appropriately experienced licensed therapists plausibly addresses access and fit barriers. Company-reported patient outcomes are encouraging, but affordability, demographic reach, and independently measured impact remain unclear."
+     "score": 3,
+     "rationale": "Organizing female-specific evidence could help businesses improve women's-health information and products. The record does not specify target populations, affordability or access effects, equity outcomes, or measurable health metrics."
     },
     "defensibility": {
-     "score": 2,
-     "rationale": "Unknown whether the company has proprietary data, durable referral or payer relationships, or a trusted experience that is difficult to replicate. Therapy matching and virtual care alone may be readily copied."
+     "score": 3,
+     "rationale": "A structured, source-cited women's-health data resource and API could become more useful with coverage and usage. The record does not show proprietary data rights, unique data capture, customer switching costs, or a durable advantage over competing databases and model providers."
     },
     "founder_fit": {
-     "score": 2,
-     "rationale": "Founders\u2019 Microsoft backgrounds and the CEO\u2019s LGBTQ+ advocacy are reported, but clinical, behavioral-health operating, or healthcare commercialization experience is not established. The record does not confirm clinical leadership or a medical advisory structure."
+     "score": 4,
+     "rationale": "Co-founder Stacy Sims brings exercise physiology and nutrition research experience, including Stanford research leadership and more than 100 peer-reviewed papers; the other founders bring commercial and brand leadership. The record does not establish clinical-practice experience or founder access to health-system decision-makers."
     },
     "capex_light": {
      "score": 5,
-     "rationale": "Virtual therapy and group programs are services delivered by licensed therapists, with no owned clinical hardware or lab infrastructure described. The model appears relatively capex-light, though labor intensity and clinician economics are unknown."
+     "rationale": "The described product is a licensed software/API platform, with no owned lab, hardware, or manufacturing requirements stated."
     },
-    "portfolio_conflict": "None found; Allswell focuses on LGBTQ+ behavioral health, unlike Dopl Technologies\u2019 remote diagnostic ultrasound.",
-    "headline": "Allswell is a mission-aligned LGBTQ+ virtual behavioral-health provider with encouraging but company-reported outcomes and unresolved questions about payer economics, clinical validation, and fund eligibility.",
+    "portfolio_conflict": "None found; the concept differs from Dopl Technologies' remote diagnostic ultrasound offering, though both are healthcare technology.",
+    "headline": "Collective X Health has an early paid B2B women's-health data platform and relevant research expertise, but its health impact, defensibility, and eligibility remain unverified.",
     "red_flags": [
-     "Reported anxiety and depression improvements are company-provided; independent validation, cohort size, measurement instruments, and attrition are not confirmed.",
-     "Insurance coverage and billable-session volume do not establish contracted payer economics, collections, margins, or a sustainable clinician supply model.",
-     "Legal U.S. domicile and for-profit status are unconfirmed, despite reported U.S. headquarters.",
-     "The $7 million seed round may create a mismatch with the fund\u2019s small check and ownership targets; valuation and round terms are unknown."
+     "For-profit status and legal U.S. domicile are unconfirmed.",
+     "No company-specific clinical validation, outcomes data, or measurable impact evidence is confirmed.",
+     "The two reported initial customers are outside an explicitly described health-system or payer adoption pathway.",
+     "Valuation and round terms are not provided, so fit with the fund's valuation and ownership constraints cannot be assessed."
     ],
     "unknowns": [
-     "Post-money valuation, security/instrument, round status, cap table, and available allocation.",
-     "Legal domicile and for-profit status.",
-     "Clinical outcomes methodology, independent evidence, clinical advisory structure, and safety protocols.",
-     "Payer contracts, reimbursement/collections, unit economics, therapist capacity, retention, and scalable acquisition channels."
+     "Legal incorporation domicile and for-profit status.",
+     "Pre-money/post-money valuation, security type, and availability of the fund's target check and ownership.",
+     "Customer contracts, pricing, renewal, usage, and pipeline beyond the two initial customers.",
+     "Data provenance, licensing and consent, coverage and update processes, and evidence of differentiated or defensible data."
     ],
     "diligence_questions": [
-     "Can you share the study design behind the 60-day anxiety and depression improvement figures, including cohort sizes, instruments, comparison group, attrition, subgroup results, and any independent review or published evidence?",
-     "Which commercial insurers and Medicaid programs have executed contracts or authorized reimbursement, what are realized collections and contribution margins per session, and what evidence supports repeatable payer or provider adoption beyond reported billable volume?",
-     "What are the company\u2019s legal domicile, for-profit status, current valuation and round terms, and the plan to scale affirming therapist supply and patient access while maintaining clinical quality and affordability?"
+     "Can the company document its legal domicile, for-profit status, current valuation and security terms, and a round allocation compatible with the fund's $25K-$50K ticket and ownership target?",
+     "What are the contract values, renewal terms, actual API usage, and customer outcomes for Human Powered Health and Altra Running, and which additional buyers have demonstrated willingness to pay?",
+     "How are research sources and underlying data licensed, audited, updated, and validated, and what specific, measurable women's-health access, equity, or outcome metric will customer use improve?"
     ]
    },
-   "score": 54,
+   "score": 58,
    "recommendation": "Watch",
    "verified_on": "2026-10-26"
   },
   {
-   "id": "cheiron-phnyx-lab-inc",
-   "name": "Cheiron (PhnyX Lab Inc.)",
-   "category": "Outside thesis",
-   "subcategory": "Biopharma R&D workflow / AI knowledge graph",
-   "location": "Los Altos, California, United States",
+   "id": "xella-health",
+   "name": "Xella Health",
+   "category": "Women's Health",
+   "subcategory": "Non-invasive & Patient-Collected Diagnostics; broader women-focused precision health",
+   "location": "Redwood City, California, United States",
    "domicile": "US",
    "stage": "Seed",
-   "round_amount": "US$8 million",
-   "round_date": "July 22, 2026 (announced)",
-   "founders": "Minseok Bae (CEO; studied computer science at Stanford before leaving to start the company), Harshit Gupta (CTO; computer science graduate studies at Stanford and undergraduate studies at IIT Bombay), and Jason Park (CPO; studied mathematics and computer science at Stanford and earned an MS in computer science).",
-   "description": "AI software for biopharma teams that connects biomedical, clinical, regulatory, patent, and commercial information to help organize and reason across a drug-development program. The company describes it as an AI-native operating system and knowledge graph for drug programs.",
-   "evidence": "The company reported adoption by tens of thousands of biopharma professionals within six months of launch and use by major drug developers. An earlier company announcement reported use by more than 60 companies, including all of South Korea\u2019s top 10 pharmaceutical companies by revenue. These are company-reported adoption claims; I found no clinical-trial results or other evidence that Cheiron itself has demonstrated clinical efficacy.",
+   "round_amount": "$4.7 million",
+   "round_date": "June 24, 2026 (reported)",
+   "founders": "Kelly Lacob (CEO): healthcare product leader with experience launching more than a dozen healthcare products; holds an MBA and BA in Human Biology from Stanford and an MS in Bioengineering Innovation & Design from Johns Hopkins. Adriana Dantas (COO): biotech and diagnostics executive with 20+ years at Roche and BD. Dr. Jesus Ching (CTO): co-founder and diagnostics scientist; Xella's co-founders developed the concept while collaborating at Mammoth Biosciences.",
+   "description": "Women-focused precision-health testing and clinician-led care. Xella\u2019s current public offering describes a blood draw, multi-omic biomarker analysis, personalized insights, and physician review and guidance. The company has also described menstrual-fluid diagnostics; a company-authored preprint reports research using menstrual-fluid samples.",
+   "evidence": "Xella and media reports say its waitlist reached 15,000+. A company-authored, not-yet-peer-reviewed preprint reports analysis of menstrual-fluid samples from 66 participants to develop an epigenetic aging clock. This is early research evidence, not proof of clinical utility or improved patient outcomes. Xella advertises screening for 130+ conditions; this is a company claim.",
    "business_model": "See scorecard",
-   "website": "https://www.cheiron.bio/",
+   "website": "https://joinxella.com/",
    "sources": [
-    "https://finance.yahoo.com/healthcare/articles/cheiron-raises-8m-seed-led-160000932.html",
-    "https://en.wowtale.net/2026/07/23/234530/",
-    "https://groups.stanford.edu/events/243104",
-    "https://openreview.net/profile?id=~Harshit_Gupta4",
-    "https://www.founderland.ai/founder/jason-park",
-    "https://www.bizprofile.net/ca/los-altos/phnyx-lab-inc-2",
-    "https://www.prnewswire.com/news-releases/ai-startup-phnyx-lab-secures-4-million-in-funding-round-led-by-sk-networks-with-participation-from-aidan-gomez-illia-polosukhin-and-other-notable-angel-investors-302520591.html"
+    "https://startupintros.com/orgs/xella-health",
+    "https://tracxn.com/d/companies/xella-health/__yv8iu8B6ykpW5BSOJxPUrBSu5KcxkrW71LqIg_6qTEY/funding-and-investors",
+    "https://www.axios.com/pro/health-tech-deals/2026/06/24/xella-health-exits-stealth-precision-care-platform-women",
+    "https://companiesbio.com/CIK-0002045840-company-xella-health-pbc-info.html",
+    "https://joinxella.com/pages/about-us",
+    "https://www.biospace.com/press-releases/xella-health-launches-to-uniquely-detect-and-treat-130-often-misdiagnosed-womens-health-conditions",
+    "https://joinxella.com/pages/how-it-works",
+    "https://joinxella.com/pages/press",
+    "https://www.forbes.com/sites/geristengel/2026/09/28/a-6-lead-and-15000-women-reveal-a-healthcare-market-failure/",
+    "https://www.medrxiv.org/content/10.64898/2026.08.07.26359971v1"
    ],
    "source_notes": [
     {
-     "url": "https://finance.yahoo.com/healthcare/articles/cheiron-raises-8m-seed-led-160000932.html",
-     "supports": "The July 22, 2026 announcement of the US$8 million seed round; founders and their roles; product description; company-reported adoption."
+     "url": "https://startupintros.com/orgs/xella-health",
+     "supports": "Lists Xella Health's headquarters as Redwood City, California, United States."
     },
     {
-     "url": "https://en.wowtale.net/2026/07/23/234530/",
-     "supports": "Cheiron\u2019s relationship to PhnyX Lab, Los Altos headquarters, product description, and company-reported usage and customers."
+     "url": "https://tracxn.com/d/companies/xella-health/__yv8iu8B6ykpW5BSOJxPUrBSu5KcxkrW71LqIg_6qTEY/funding-and-investors",
+     "supports": "Lists a $4.7 million Seed round dated June 24, 2026."
     },
     {
-     "url": "https://groups.stanford.edu/events/243104",
-     "supports": "Minseok Bae\u2019s Stanford computer-science studies and biology background."
+     "url": "https://www.axios.com/pro/health-tech-deals/2026/06/24/xella-health-exits-stealth-precision-care-platform-women",
+     "supports": "Reports $4.7 million in angel and pre-seed financing as of June 24, 2026, and says the company planned to begin raising a Seed round in early September. Does not confirm that a later Seed raise closed."
     },
     {
-     "url": "https://openreview.net/profile?id=~Harshit_Gupta4",
-     "supports": "Harshit Gupta\u2019s education and role as Cheiron CTO."
+     "url": "https://companiesbio.com/CIK-0002045840-company-xella-health-pbc-info.html",
+     "supports": "Identifies Xella Health as a PBC and gives its Redwood City, California business address; supports the for-profit public-benefit-corporation designation."
     },
     {
-     "url": "https://www.founderland.ai/founder/jason-park",
-     "supports": "Jason Park\u2019s Stanford studies and computer-science master\u2019s degree."
+     "url": "https://joinxella.com/pages/about-us",
+     "supports": "Identifies Kelly Lacob and Adriana Dantas as co-founders and provides their roles and professional and educational backgrounds."
     },
     {
-     "url": "https://www.bizprofile.net/ca/los-altos/phnyx-lab-inc-2",
-     "supports": "PhnyX Lab Inc.\u2019s listed foreign-profit-corporation status and Los Altos address; the page says its information was extracted from Florida state filings."
+     "url": "https://www.biospace.com/press-releases/xella-health-launches-to-uniquely-detect-and-treat-130-often-misdiagnosed-womens-health-conditions",
+     "supports": "Identifies Kelly Lacob, Adriana Dantas, and Dr. Jesus Ching as founders and describes their collaboration at Mammoth Biosciences."
     },
     {
-     "url": "https://www.prnewswire.com/news-releases/ai-startup-phnyx-lab-secures-4-million-in-funding-round-led-by-sk-networks-with-participation-from-aidan-gomez-illia-polosukhin-and-other-notable-angel-investors-302520591.html",
-     "supports": "An earlier company announcement identifying Cheiron as PhnyX Lab\u2019s flagship platform and reporting adoption by over 60 companies, including Korea\u2019s top 10 pharmaceutical companies."
+     "url": "https://joinxella.com/pages/how-it-works",
+     "supports": "Describes the blood draw, multi-omic analysis, clinician review, personalized care plans, and advertised screening scope."
+    },
+    {
+     "url": "https://joinxella.com/pages/press",
+     "supports": "Reports that more than 15,000 women across the U.S. joined Xella's waitlist."
+    },
+    {
+     "url": "https://www.forbes.com/sites/geristengel/2026/09/28/a-6-lead-and-15000-women-reveal-a-healthcare-market-failure/",
+     "supports": "Reports the 15,000-person waitlist and describes Xella's launched platform and screening claims."
+    },
+    {
+     "url": "https://www.medrxiv.org/content/10.64898/2026.08.07.26359971v1",
+     "supports": "Company-authored preprint describing menstrual-fluid samples from 66 participants and development of an epigenetic aging clock."
     }
    ],
    "news": [
     {
-     "title": "AI biotech startup Cheiron launches $8 million seed round - The Korea News Plus",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tRGNKSXhYNVBKa2ZKZnEzVjd3X2UxM2hVaGhaeW0zbXZ1WV9BZmlUSG9uaDVqLXNPUXdOajg1QjZEcWV0RDJwQ09QaW1rYlJVb3dfSVhnMkpjLXhBM01xZHBlTVpkYnVGSEcxa2FQYVJfVUlmU0Q4?oc=5"
+     "title": "Xella Health Raises $3.7 Million Pre-Seed to Launch Women\u2019s Precision Health Platform - HLTH",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOEtJXzdKSWFzOURmZVpZTk4td1RnLUVRYTdqM2YyNk1YZV9xcUhyNlNlY0Z0ay1EU1YyWGlsTmstRjNkNzV2MFVualhSNHVlQnZlY1V2Ymtkam4zaHZ0cG5oSFFlQ0Q2U3NIQVNHeUtQRG9yNk13eEFmMGh4dFZ3Z3VOakNKNEhfNnJVT3lfcy1DZGU3U19SUTBpbXR0c1BneE5ZOGRsVVhxOXhYVmx5YUNGZFN3N1NXdTF2MC1pOEpkNzV4?oc=5"
+    },
+    {
+     "title": "Xella Health Closes $3.7 Million Pre-Seed to Build the Next Generation of Women\u2019s Precision Health - Fitt Insider",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa2lLT2lIQVhwVzlIR2VrcnAwTFFfQjFyWHZvYjN5RV9iLXpiaEx6eVZXWGRWMGpFOEJzQXU5c2h0V3FGWGU0c1hNLTlkWDhmNlkyT015dXBBdGhrdGNCSmU0d1ZVQzMtZFVJV0swMWdpTGNaSTY4WHNYZnZabGlYVWpzMHdTbVJPSGRMUFktc0pIMVhnbkoyU3hTSXpFX0RWRjB5UUxycFdNUTk3ZE04MnJCcHBNWmszRTJwQUxfRDFhVlk1bDlPLXBxWUNEVkZZ?oc=5"
+    },
+    {
+     "title": "Xella Health Raises $3.7M Pre-Seed for Multi-Omic Women\u2019s Health Testing - Femtech Insider",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORFFnclJhS2dfQjFYTXlSbXhNM004a1V4MXNOQkw5WVdJckJhX05nVU8wNDVBbW5mRkU5b2Z4OWhSNTh2Nml0Q1FJLWtxd0NwT3BQcC1vTUxHem1STF9ERG1LdjY2c2Z4eTFXTFpUYXhSQnE5VmwtSHlIMXJ4Y1NRZ2ZZNWJucTBsN3JObENxMUFHTmtsWVpPcndiSF9QZE0?oc=5"
     }
    ],
    "scorecard": {
-    "segment": "Outside thesis",
-    "subcategory": "Biopharma R&D workflow / AI knowledge graph",
+    "segment": "Women's Health",
+    "subcategory": "Non-invasive & Patient-Collected Diagnostics; broader women-focused precision health",
     "segment_fit": {
-     "score": 2,
-     "rationale": "Cheiron sells software to biopharma teams to organize drug-development programs, rather than delivering patient care or fitting one of the fund\u2019s six defined healthcare segments. Its potential downstream effect on drug development is too indirect to establish thesis fit."
-    },
-    "stage_and_terms_fit": {
-     "score": 2,
-     "rationale": "The company is for-profit, U.S.-based, and at Seed stage, which fits several formal criteria. However, the announced $8 million round does not establish that a $25K\u2013$50K check, 0.25%\u20131% ownership, or a post-money valuation at or below $10 million is available."
-    },
-    "evidence_bar": {
-     "score": 2,
-     "rationale": "The record cites company-reported professional adoption, but provides no independent validation of product performance or measurable health outcomes. No clinical evidence is reported, and the product\u2019s claimed contribution to drug-development decisions is not quantified."
-    },
-    "revenue_path_independent_of_regulation": {
-     "score": 2,
-     "rationale": "The software may generate revenue without Cheiron obtaining regulatory clearance, but the record gives no pricing, revenue, or customer-contract details. The thesis\u2019s specific requirement applies to products with meaningful regulatory risk; whether any Cheiron feature carries such risk is unknown."
-    },
-    "systems_adoption_and_paying_champion": {
-     "score": 2,
-     "rationale": "Use by major drug developers and more than 60 companies is reported by the company, but there is no evidence of paid pilots, contracts, named budget owners, or repeatable enterprise integration. The thesis\u2019s health-system adoption standard is not directly applicable to this biopharma-facing product, and commercial validation remains unclear."
-    },
-    "impact_and_health_equity": {
-     "score": 2,
-     "rationale": "More efficient drug development could eventually benefit patients, but the record does not show that Cheiron improves access, affordability, clinical outcomes, or equity. A measurable and attributable impact pathway is unknown."
-    },
-    "defensibility": {
-     "score": 2,
-     "rationale": "The product combines information across biomedical, clinical, regulatory, patent, and commercial sources, but the record does not establish proprietary usage data, hard-to-replicate workflow adoption, or another durable moat. AI-based knowledge and workflow features may be vulnerable to competition or incumbent platforms."
-    },
-    "founder_fit": {
-     "score": 2,
-     "rationale": "The founders have computer science and mathematics backgrounds, but no healthcare practitioner, biopharma operator, clinical network, or relevant commercialization experience is provided. Their domain fluency and ability to reach purchasing decision-makers are unknown."
-    },
-    "capex_light": {
      "score": 4,
-     "rationale": "The described product is AI software, with no owned laboratory, manufacturing, or hardware infrastructure identified. Operating costs and capital needs are not provided, so the capex-light assessment is provisional."
-    },
-    "portfolio_conflict": "None found; Cheiron focuses on biopharma R&D software, while Dopl Technologies focuses on remote diagnostic ultrasound.",
-    "headline": "Cheiron has reported rapid adoption of biopharma workflow software, but it falls outside the fund\u2019s six healthcare segments and has no demonstrated patient-impact or commercial evidence in the record.",
-    "red_flags": [
-     "Outside the fund\u2019s defined healthcare segments; any patient benefit is indirect and unproven.",
-     "Adoption figures are company-reported and do not establish paid, recurring enterprise use.",
-     "No measurable clinical, affordability, access, or health-equity outcomes are provided.",
-     "The $8 million Seed round does not establish fit with the fund\u2019s valuation, ownership, or check-size limits."
-    ],
-    "unknowns": [
-     "Post-money valuation, round terms, and availability of allocation for a small check.",
-     "Revenue, pricing, retention, customer concentration, and whether reported adoption is paid or active.",
-     "Independent product-performance evidence, customer references, and any measurable drug-development impact.",
-     "Founder experience in biopharma commercialization and the durability of data, workflow, or distribution advantages."
-    ],
-    "diligence_questions": [
-     "What proportion of the reported users and company adopters are paying, retained customers, and can a customer provide evidence of measurable time or cost savings in a drug-development program?",
-     "What specific, attributable patient or public-health outcomes does Cheiron enable, and how would the company measure access, affordability, or equity impact within the fund\u2019s five-to-seven-year horizon?",
-     "What are the round\u2019s post-money valuation and terms, and what proprietary data, workflow integration, or other defensible advantage would protect the product from competing platforms or foundation-model providers?"
-    ]
-   },
-   "score": 28,
-   "recommendation": "Pass",
-   "verified_on": "2026-10-26"
-  },
-  {
-   "id": "accipiter-biosciences-accipiter-bio",
-   "name": "Accipiter Biosciences (Accipiter Bio)",
-   "category": "Outside thesis",
-   "subcategory": "Biopharma \u2014 computationally designed protein therapeutics for autoimmune disease and cancer",
-   "location": "Seattle, Washington, United States",
-   "domicile": "US",
-   "stage": "Seed",
-   "round_amount": "$10,492,778 (reported as approximately $10.5 million)",
-   "round_date": "July 21, 2026 (first sale reported in the SEC Form D; filing dated July 28, 2026)",
-   "founders": "Matthew Bick, Javier Castellanos, and Hector Rincon-Arano. Bick has a Ph.D. in Biophysics from The Rockefeller University and a B.S. in Microbiology from the University of Rochester, and worked at the University of Washington\u2019s Institute for Protein Design. Castellanos is the company\u2019s co-founder and CTO. GeekWire reports that Bick and two co-founders worked at Neoleukin; the source does not identify which two. ",
-   "description": "Uses computational protein design to create de novo, multifunctional protein therapies intended to activate multiple cell-surface receptors or pathways at once, with an initial focus on autoimmune disease and cancer.",
-   "evidence": "The July 2026 seed extension was reported as approximately $10.5 million. The company has collaboration and license agreements with Pfizer and Kite Pharma; GeekWire reports an upfront payment and potential milestone payments and royalties for the Pfizer agreement. In November 2025, two company programs were preparing for pre-IND discussions with the FDA. I found no evidence that an Accipiter-developed therapy has entered a clinical trial. A GeekWire article mentions a Phase 1 candidate that underperformed, but identifies it as a Neoleukin candidate, not an Accipiter product.",
-   "business_model": "See scorecard",
-   "website": "https://accipiterbio.com/",
-   "sources": [
-    "https://www.geekwire.com/2026/moving-faster-than-planned-ai-drug-developer-accipiter-bio-quietly-tops-up-seed-round-with-10-5m/",
-    "https://www.vcbeast.com/deals/accipiter-biosciences-form-d-2026-07-21",
-    "https://www.sec.gov/Archives/edgar/data/1973963/000197396326000002/0001973963-26-000002-index.htm",
-    "https://www.bizprofile.net/wa/seattle/accipiter-biosciences-inc",
-    "https://accipiterbio.com/",
-    "https://accipiterbio.com/people/",
-    "https://www.tracxn.com/d/companies/accipiter-biosciences/__8VTkGa_usmo2gfHtVZAS7l9PT1D2KrlPFa4kurGpv8o",
-    "https://www.geekwire.com/2025/seattle-startup-accipiter-bio-emerges-with-12-7m-and-big-pharma-deals-for-ai-designed-proteins/",
-    "https://accipiterbio.com/pipeline/"
-   ],
-   "source_notes": [
-    {
-     "url": "https://www.geekwire.com/2026/moving-faster-than-planned-ai-drug-developer-accipiter-bio-quietly-tops-up-seed-round-with-10-5m/",
-     "supports": "Seattle location; $10.5 million seed extension; July 31, 2026 report date; seed-round classification; Pfizer and Kite agreements; team size; co-founders' Neoleukin background; clarification that the Phase 1 candidate discussed was not an Accipiter drug."
-    },
-    {
-     "url": "https://www.vcbeast.com/deals/accipiter-biosciences-form-d-2026-07-21",
-     "supports": "Form D details reported from the SEC filing: $10,492,778 sold, first sale July 21, 2026, filing July 28, 2026, Seattle principal place of business, and Delaware incorporation."
-    },
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/1973963/000197396326000002/0001973963-26-000002-index.htm",
-     "supports": "SEC EDGAR index for Accipiter Biosciences\u2019 Form D filing dated July 28, 2026."
-    },
-    {
-     "url": "https://www.bizprofile.net/wa/seattle/accipiter-biosciences-inc",
-     "supports": "Washington registration describes the company as a Foreign Profit Corporation and gives its Seattle, Washington principal address and Delaware jurisdiction of incorporation."
-    },
-    {
-     "url": "https://accipiterbio.com/",
-     "supports": "Company description of its computationally designed, de novo multifunctional protein biologics and their intended multi-pathway activity."
-    },
-    {
-     "url": "https://accipiterbio.com/people/",
-     "supports": "Matthew Bick\u2019s education and Institute for Protein Design background; Javier Castellanos\u2019s role as co-founder and CTO."
-    },
-    {
-     "url": "https://www.tracxn.com/d/companies/accipiter-biosciences/__8VTkGa_usmo2gfHtVZAS7l9PT1D2KrlPFa4kurGpv8o",
-     "supports": "Names the founders as Matthew J. Bick, Javier Castellanos, Hector Rincon, and Bill Arthur. This differs from other reporting; the three names listed above are the co-founders corroborated by additional sources."
-    },
-    {
-     "url": "https://www.geekwire.com/2025/seattle-startup-accipiter-bio-emerges-with-12-7m-and-big-pharma-deals-for-ai-designed-proteins/",
-     "supports": "Two programs preparing for pre-IND discussions as of November 2025; product approach and partnership details; distinguishes the underperforming Phase 1 candidate as a Neoleukin program."
-    },
-    {
-     "url": "https://accipiterbio.com/pipeline/",
-     "supports": "Company-stated pipeline focus on autoimmunity and oncology."
-    }
-   ],
-   "news": [
-    {
-     "title": "Moving faster than planned, AI drug developer Accipiter Bio quietly tops up seed round with $10.5M - GeekWire",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPejZ2TmpYT09WOHVnVFJaM1JnVE5HMkpHcWN3eXpndU9qSFhCQUpWRlQySUtxeUJWa1NwSVVRM0J0Uk1uUVZ0UDR4RFp5MU51aXFTOGhXYlVhbFV6N2xJQlE0VGhwcE5DZnQzUnJhaTlDVW9uM1k0RWpQbHYzanNZSm5uREg5VmtCVXR2U0NMcExGU2wxUW15ZjFrRzM2dmxhRkFteGc4ekdHSFRxMnN4ZnBVYzB1ZktpZW9mN21RMEZfc2RqY1E?oc=5"
-    }
-   ],
-   "scorecard": {
-    "segment": "Outside thesis",
-    "subcategory": "Biopharma \u2014 computationally designed protein therapeutics for autoimmune disease and cancer",
-    "segment_fit": {
-     "score": 1,
-     "rationale": "Accipiter develops therapeutic proteins, placing it in Biopharma rather than the fund\u2019s preferred capex-light Health Tech and Healthcare Services segments. Its potential health impact does not offset this explicit sector mismatch."
+     "rationale": "Xella is explicitly focused on women's health and offers biomarker testing with personalized insights and clinician guidance. Its menstrual-fluid diagnostic research is especially aligned with the fund's patient-collected diagnostics subcategory."
     },
     "stage_and_terms_fit": {
-     "score": 2,
-     "rationale": "The company is at Seed, within the acceptable stage range, but the reported round was approximately $10.5 million and the record gives no valuation, proposed fund terms, or evidence that a $25K\u2013$50K check would secure the target ownership. Unknown whether the post-money valuation is within the $10M ceiling."
+     "score": 3,
+     "rationale": "The company is reported to have raised $4.7 million, but sources conflict on whether this was angel/pre-seed financing or a Seed round, and the date is not consistently corroborated. Valuation, instrument, and ownership terms are not provided."
     },
     "evidence_bar": {
-     "score": 1,
-     "rationale": "No Accipiter-developed therapy is reported to have entered clinical trials; two programs were preparing for pre-IND discussions in November 2025. The cited underperforming Phase 1 candidate was a Neoleukin program, not Accipiter evidence."
+     "score": 2,
+     "rationale": "The company-authored preprint describes menstrual-fluid research in 66 participants, but it is not peer-reviewed and does not establish clinical utility or improved outcomes. The 130-plus-condition screening claim is company-reported; diagnostic claims require the Clinical Decision Support-level evidence bar."
     },
     "revenue_path_independent_of_regulation": {
      "score": 2,
-     "rationale": "Pfizer and Kite agreements reportedly include licensing or collaboration economics, including an upfront payment and potential milestones and royalties for Pfizer. The record does not establish recurring or sufficiently credible revenue independent of regulatory progress and clinical success."
+     "rationale": "Xella advertises blood testing and clinician-led guidance, but the record does not establish its regulatory status or show a revenue path that would remain viable if a diagnostic clearance or validation timeline is delayed. Pricing, revenue, and the role of any lower-risk service offering are unknown."
     },
     "systems_adoption_and_paying_champion": {
      "score": 2,
-     "rationale": "The record identifies collaboration and license agreements with Pfizer and Kite, but does not describe a paying clinical champion, healthcare-system adoption, or a repeatable care-delivery implementation. Unknown how these partnerships translate into durable commercial validation."
+     "rationale": "A 15,000-plus waitlist is reported, but no paid pilot, paying clinical champion, health-system or payer partnership, or evidence of repeatable adoption is provided. The record also does not identify who pays or demonstrate willingness to pay."
     },
     "impact_and_health_equity": {
-     "score": 2,
-     "rationale": "Autoimmune disease and cancer are consequential areas, but the record provides no named target population, clinical outcome data, affordability or access plan, or health-equity strategy. Unknown whether the business and impact models reinforce one another."
-    },
-    "defensibility": {
      "score": 3,
-     "rationale": "De novo, multifunctional protein design and agreements with Pfizer and Kite suggest potential technical and partnering advantages. The record does not establish proprietary-data advantages, validated therapeutic differentiation, or a durable competitive moat."
-    },
-    "founder_fit": {
-     "score": 3,
-     "rationale": "Co-founder Matthew Bick has a Ph.D. in Biophysics, protein-design experience at the University of Washington\u2019s Institute for Protein Design, and prior Neoleukin experience among the founders. The record does not establish clinical-practitioner, healthcare commercialization, or women-founder alignment."
-    },
-    "capex_light": {
-     "score": 1,
-     "rationale": "The core business is therapeutic protein development, a Biopharma model with substantial research, manufacturing, and clinical-development needs. That conflicts with the fund\u2019s preference for capex-light Health Tech and Healthcare Services."
-    },
-    "portfolio_conflict": "No direct overlap found. Accipiter is a therapeutic protein developer, while Dopl Technologies focuses on robotics and AI for remote diagnostic ultrasound exams.",
-    "headline": "Accipiter has credible protein-design expertise and pharma partnerships, but its preclinical Biopharma model is outside the fund\u2019s preferred segments and lacks demonstrated clinical evidence.",
-    "red_flags": [
-     "Biopharma is a clear mismatch with the fund\u2019s stated focus on capex-light Health Tech and Healthcare Services.",
-     "No Accipiter-developed therapy is reported to have entered clinical trials; programs were preparing for pre-IND discussions.",
-     "The reported $10.5 million Seed round is much larger than the fund\u2019s typical check, and valuation and ownership terms are unknown.",
-     "The record does not establish a reliable revenue stream independent of regulatory and clinical progress."
-    ],
-    "unknowns": [
-     "Post-money valuation, security terms, available allocation, and whether the round meets the fund\u2019s ownership and return requirements.",
-     "Program-specific clinical rationale, safety and efficacy evidence, development costs, and timelines.",
-     "Economics, milestones, rights, and revenue recognized under the Pfizer and Kite agreements.",
-     "Affordability, target populations, access strategy, and measurable health-equity outcomes."
-    ],
-    "diligence_questions": [
-     "What are the current valuation and proposed terms, and can a $25K\u2013$50K investment achieve meaningful ownership within the fund\u2019s $10M post-money ceiling?",
-     "What cash has been received under the Pfizer and Kite agreements, and what credible revenue can Accipiter generate if its programs face regulatory or clinical delays?",
-     "For each lead program, what preclinical evidence, development and manufacturing costs, and clinical milestones support a plausible path to patient impact within the fund\u2019s seven-year impact horizon?"
-    ]
-   },
-   "score": 21,
-   "recommendation": "Pass",
-   "verified_on": "2026-10-26"
-  },
-  {
-   "id": "artan-bio",
-   "name": "ARTAN Bio",
-   "category": "Outside thesis",
-   "subcategory": "Biopharma / genetic medicines (engineered suppressor-tRNA therapeutics)",
-   "location": "St. Petersburg, Florida, United States",
-   "domicile": "US",
-   "stage": "Seed",
-   "round_amount": "$1 million",
-   "round_date": "July 1, 2026",
-   "founders": "Michael Torres, Ph.D. (co-founder and chief scientific officer; previously co-founded and led CrossBridge Bio as CEO through its acquisition by Eli Lilly) and Anthony Schwartz, Ph.D. (co-founder; was CEO and transitioned to COO in July 2026). The sources found do not provide further education or career-background details for either founder.",
-   "description": "Develops an engineered suppressor-tRNA platform intended to recognize disease-causing nonsense mutations (premature stop codons) and restore production of full-length functional proteins. The company says the approach could apply to genetic and aging-related diseases.",
-   "evidence": "The company reported initial in-cell validation of its ARTAN-102 system and a preclinical animal-model signal across major organs, including the brain. The July 2026 financing was intended to support IND-enabling preclinical work and preparation for first-in-human development; the sources found do not establish human clinical evidence or trials.",
-   "business_model": "See scorecard",
-   "website": "https://www.artan.bio/",
-   "sources": [
-    "https://www.prnewswire.com/news-releases/artan-bio-closes-1-million-seed-round-to-advance-its-trna-platform-toward-human-studies-302814741.html",
-    "https://www.prnewswire.com/news-releases/artan-bio-raises-200-000-in-decentralized-funding-to-advance-longevity-science-through-mutation-specific-codon-suppression-302789887.html",
-    "https://www.artan.bio/about",
-    "https://sp-ark-labs.com/member-news/eli-lilly-acquisition-payday-fuels-1m-seed-round-for-st-petersburg-biotech-startup-tampa-bay-business-journal/"
-   ],
-   "source_notes": [
-    {
-     "url": "https://www.prnewswire.com/news-releases/artan-bio-closes-1-million-seed-round-to-advance-its-trna-platform-toward-human-studies-302814741.html",
-     "supports": "Identifies ARTAN Bio as based in St. Petersburg, Florida; reports the $1 million seed round dated July 1, 2026, led by co-founder Michael Torres; describes Torres\u2019s CrossBridge Bio background, leadership changes, product approach, and planned preclinical/IND-enabling work."
-    },
-    {
-     "url": "https://www.prnewswire.com/news-releases/artan-bio-raises-200-000-in-decentralized-funding-to-advance-longevity-science-through-mutation-specific-codon-suppression-302789887.html",
-     "supports": "Reports an earlier $200,000 seed raise dated June 4, 2026; describes ARTAN-102 and the company\u2019s reported initial in-cell validation; names Anthony Schwartz, Ph.D., as CEO and Michael Torres, Ph.D., as CSO at that time."
-    },
-    {
-     "url": "https://www.artan.bio/about",
-     "supports": "Company about page search result identifies Michael Torres, Ph.D., and reports a preclinical animal-model signal for ARTAN-102 across major organs, including the brain."
-    },
-    {
-     "url": "https://sp-ark-labs.com/member-news/eli-lilly-acquisition-payday-fuels-1m-seed-round-for-st-petersburg-biotech-startup-tampa-bay-business-journal/",
-     "supports": "Identifies the startup referenced in the headline as ARTAN Bio and corroborates the $1 million seed round, St. Petersburg base, Michael Torres\u2019s lead role, and the CEO/COO transition."
-    }
-   ],
-   "news": [
-    {
-     "title": "Eli Lilly acquisition payday fuels $1M seed round for St. Petersburg biotech startup - The Business Journals",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUGVFcVBVYmZWN24yM05saHY5QTZ6LVZxNnhXYU5lVXRjMU53Tnk3Qm9FZ2RlVE9xVTRKdk4zRUVvSFlpVFZLRmswYTUwSnlKZzhBSnBXam8xTFlwN2JaMHVaOUVSWGIyUGZ5MVpTekxXajFydlhrWF9TdG1nakNXanRfa3c2a0FaaVVxU0R1cG1JWkEzUjBVcXBVekpSUjV4ZS1nTmd3WQ?oc=5"
-    }
-   ],
-   "scorecard": {
-    "segment": "Outside thesis",
-    "subcategory": "Biopharma / genetic medicines (engineered suppressor-tRNA therapeutics)",
-    "segment_fit": {
-     "score": 1,
-     "rationale": "ARTAN Bio is developing a therapeutic platform, not a Health Tech or Healthcare Services solution in the fund\u2019s six focus segments. Its drug-development model also falls outside the thesis\u2019s preference for capex-light opportunities."
-    },
-    "stage_and_terms_fit": {
-     "score": 2,
-     "rationale": "The reported Seed round is within the fund\u2019s acceptable stage range, and the company is U.S.-based. The record does not establish for-profit status, valuation, security terms, or whether the fund\u2019s target ownership and check size are feasible."
-    },
-    "evidence_bar": {
-     "score": 1,
-     "rationale": "Evidence is limited to company-reported in-cell validation and a preclinical animal-model signal; no human evidence or trials are established. A therapeutic platform intended to restore protein function faces a substantial clinical-validation burden."
-    },
-    "revenue_path_independent_of_regulation": {
-     "score": 1,
-     "rationale": "The seed financing is intended to fund IND-enabling work and preparation for first-in-human development. No services, licensing, or other commercial revenue path independent of regulatory progress is identified."
-    },
-    "systems_adoption_and_paying_champion": {
-     "score": 2,
-     "rationale": "The record provides no information about a health-system or payer champion, paid pilots, or adoption pathways. These criteria are not a natural fit for a preclinical therapeutic, and no alternative paying customer is identified."
-    },
-    "impact_and_health_equity": {
-     "score": 2,
-     "rationale": "Treating diseases caused by nonsense mutations could have meaningful health impact, but the target conditions, affected populations, access and affordability plan, and measurable outcomes are not established. The proposed aging-related applications are also not substantiated in the record."
+     "rationale": "The women-focused offering may address gaps in women's health assessment, but the record does not identify priority underserved populations or demonstrate improved access, affordability, diagnostic outcomes, or health equity. Pricing and access across income groups are unknown."
     },
     "defensibility": {
      "score": 2,
-     "rationale": "An engineered suppressor-tRNA platform could potentially support differentiation, but the record does not establish proprietary protection, freedom to operate, reproducibility, or a durable advantage. Evidence remains company-reported and preclinical."
+     "rationale": "The preprint suggests early research activity, but the record does not establish proprietary, clinically validated data, durable workflow advantage, or an experience-based moat. The defensibility of the multi-omic analysis and its ability to resist competitors are unknown."
     },
     "founder_fit": {
-     "score": 4,
-     "rationale": "Co-founder Michael Torres has a Ph.D. and previously led CrossBridge Bio through its acquisition by Eli Lilly, a relevant biotech commercialization signal. The record gives limited further background on either founder and does not establish the clinical or practitioner network emphasized in the thesis."
+     "score": 5,
+     "rationale": "The founding team combines substantial healthcare product experience, more than 20 years of biotech and diagnostics executive experience, and diagnostics-science expertise. The record also reports the co-founders developed the concept while collaborating at Mammoth Biosciences."
     },
     "capex_light": {
-     "score": 1,
-     "rationale": "Therapeutic development requiring IND-enabling studies and human trials is capital-intensive and exposed to long development timelines. No outsourced or otherwise capital-light development and revenue model is described."
+     "score": 3,
+     "rationale": "The offering is based on blood draws, biomarker analysis, and clinician guidance, which could be compatible with outsourced laboratory operations. The record does not say whether testing uses contract labs or requires owned laboratory infrastructure, so capital intensity is unclear."
     },
-    "portfolio_conflict": "None found; ARTAN Bio\u2019s therapeutic platform does not directly overlap with Dopl Technologies\u2019 remote diagnostic ultrasound business.",
-    "headline": "ARTAN Bio has experienced biotech leadership and early preclinical signals, but its capital-intensive, regulation-dependent drug-development model is a clear mismatch for Meng\u2019s healthcare thesis.",
+    "portfolio_conflict": "None found. Xella's women's health testing is distinct from Dopl Technologies' remote diagnostic ultrasound, though both broadly involve diagnostics.",
+    "headline": "Xella has strong women's-health and founder fit, but its early, unvalidated diagnostic claims and unproven commercial and regulatory pathways leave key thesis requirements unmet.",
     "red_flags": [
-     "Biopharma therapeutics are outside the fund\u2019s stated focus on capex-light Health Tech and Healthcare Services.",
-     "No revenue path independent of IND-enabling work, clinical development, or regulatory progress is identified.",
-     "Preclinical findings are company-reported; no human clinical evidence is established.",
-     "For-profit status, valuation, and proposed financing terms are not established."
+     "The menstrual-fluid research is a company-authored, not-yet-peer-reviewed preprint involving 66 participants, not demonstrated clinical validation.",
+     "The advertised screening for 130-plus conditions is a company claim; the record does not establish clinical utility or improved outcomes.",
+     "Funding round classification and date are inconsistent across sources.",
+     "No evidence is provided of pricing, revenue, paying champions, regulatory status, or an independent revenue path if diagnostic validation or clearance is delayed."
     ],
     "unknowns": [
-     "Legal for-profit status and post-money valuation.",
-     "Patent position, freedom to operate, and independent validation of the platform and animal-model findings.",
-     "Target indications, patient populations, and evidence supporting the proposed aging-related applications.",
-     "Development budget, future capital needs, partnering or licensing strategy, and any near-term revenue plan."
+     "Regulatory pathway and status for the blood and menstrual-fluid testing, and the evidence supporting each clinical claim.",
+     "Pricing, revenue, margins, laboratory model, and whether testing depends on owned infrastructure.",
+     "Waitlist conversion, repeat usage, retention, and willingness to pay.",
+     "Access and outcomes for underserved populations, including affordability and validated performance across relevant demographic groups."
     ],
     "diligence_questions": [
-     "What is the company\u2019s patent and freedom-to-operate position, and what independent data reproduce the in-cell and animal-model results across relevant mutations and tissues?",
-     "What is the lead indication and development plan, including the evidence and regulatory milestones required to reach human trials, and how will the company fund those milestones?",
-     "Is there a credible licensing, partnership, or other revenue path before clinical clearance, and what are the company\u2019s for-profit status, valuation, and proposed SAFE or preferred terms?"
+     "For each test and condition advertised, what clinical claims are made, what peer-reviewed evidence supports them, and what regulatory pathway applies?",
+     "Who pays, at what price, and what demonstrated conversion or willingness-to-pay supports the reported waitlist; can the business generate revenue if diagnostic validation or clearance is delayed?",
+     "Are samples processed through contract labs or company-owned infrastructure, and what evidence demonstrates the tests' accuracy and utility across diverse populations?"
     ]
    },
-   "score": 19,
-   "recommendation": "Pass",
+   "score": 48,
+   "recommendation": "Watch",
    "verified_on": "2026-10-26"
   }
  ],
  "usage": [
   {
-   "ts": "2026-10-26T16:17:48",
-   "run_id": "20261026-161739-f38b",
+   "ts": "2026-10-26T16:27:03",
+   "run_id": "20261026-162656-c8a7",
    "agent": "scout",
    "model": "gpt-6-luna",
-   "input_tokens": 1568,
+   "input_tokens": 1604,
    "cached_tokens": 0,
-   "output_tokens": 526,
+   "output_tokens": 277,
    "reasoning_tokens": 0,
    "web_search_calls": 0,
-   "latency_s": 7.2,
-   "cost_usd": 0.00042
+   "latency_s": 4.6,
+   "cost_usd": 0.000299
   },
   {
-   "ts": "2026-10-26T16:18:02",
-   "run_id": "20261026-161739-f38b",
+   "ts": "2026-10-26T16:27:31",
+   "run_id": "20261026-162656-c8a7",
    "agent": "verifier",
    "model": "gpt-6-luna",
-   "input_tokens": 23355,
+   "input_tokens": 30677,
    "cached_tokens": 4711,
-   "output_tokens": 1361,
-   "reasoning_tokens": 647,
+   "output_tokens": 1914,
+   "reasoning_tokens": 1173,
    "web_search_calls": 4,
-   "latency_s": 13.9,
-   "cost_usd": 0.042592
+   "latency_s": 28.1,
+   "cost_usd": 0.043601
   },
   {
-   "ts": "2026-10-26T16:18:15",
-   "run_id": "20261026-161739-f38b",
+   "ts": "2026-10-26T16:27:28",
+   "run_id": "20261026-162656-c8a7",
    "agent": "verifier",
    "model": "gpt-6-luna",
-   "input_tokens": 28579,
+   "input_tokens": 24735,
    "cached_tokens": 4711,
-   "output_tokens": 1704,
-   "reasoning_tokens": 952,
+   "output_tokens": 1585,
+   "reasoning_tokens": 922,
    "web_search_calls": 4,
-   "latency_s": 27.3,
-   "cost_usd": 0.043286
+   "latency_s": 25.0,
+   "cost_usd": 0.042842
   },
   {
-   "ts": "2026-10-26T16:18:24",
-   "run_id": "20261026-161739-f38b",
+   "ts": "2026-10-26T16:27:34",
+   "run_id": "20261026-162656-c8a7",
+   "agent": "verifier",
+   "model": "gpt-6-luna",
+   "input_tokens": 27022,
+   "cached_tokens": 4711,
+   "output_tokens": 1914,
+   "reasoning_tokens": 1042,
+   "web_search_calls": 4,
+   "latency_s": 31.2,
+   "cost_usd": 0.043235
+  },
+  {
+   "ts": "2026-10-26T16:27:45",
+   "run_id": "20261026-162656-c8a7",
    "agent": "analyst",
    "model": "gpt-6-luna",
-   "input_tokens": 10101,
+   "input_tokens": 10282,
    "cached_tokens": 9735,
-   "output_tokens": 1055,
-   "reasoning_tokens": 210,
+   "output_tokens": 1225,
+   "reasoning_tokens": 181,
    "web_search_calls": 0,
-   "latency_s": 9.2,
-   "cost_usd": 0.000661
+   "latency_s": 10.9,
+   "cost_usd": 0.000765
   },
   {
-   "ts": "2026-10-26T16:18:23",
-   "run_id": "20261026-161739-f38b",
+   "ts": "2026-10-26T16:27:43",
+   "run_id": "20261026-162656-c8a7",
    "agent": "analyst",
    "model": "gpt-6-luna",
-   "input_tokens": 10235,
-   "cached_tokens": 0,
-   "output_tokens": 1219,
-   "reasoning_tokens": 161,
-   "web_search_calls": 0,
-   "latency_s": 0.4,
-   "cost_usd": 0.001633
-  },
-  {
-   "ts": "2026-10-26T16:18:31",
-   "run_id": "20261026-161739-f38b",
-   "agent": "analyst",
-   "model": "gpt-6-luna",
-   "input_tokens": 10134,
+   "input_tokens": 10169,
    "cached_tokens": 9735,
-   "output_tokens": 1056,
+   "output_tokens": 1001,
    "reasoning_tokens": 0,
    "web_search_calls": 0,
-   "latency_s": 8.3,
-   "cost_usd": 0.000665
-  },
-  {
-   "ts": "2026-10-26T16:18:23",
-   "run_id": "20261026-161739-f38b",
-   "agent": "analyst",
-   "model": "gpt-6-luna",
-   "input_tokens": 10153,
-   "cached_tokens": 9735,
-   "output_tokens": 901,
-   "reasoning_tokens": 0,
-   "web_search_calls": 0,
-   "latency_s": 0.3,
-   "cost_usd": 0.00059
+   "latency_s": 0.6,
+   "cost_usd": 0.000641
   }
  ],
  "summary": {
   "by_agent": {
    "scout": {
     "calls": 1,
-    "input_tokens": 1568,
+    "input_tokens": 1604,
     "cached_tokens": 0,
-    "output_tokens": 526,
+    "output_tokens": 277,
     "reasoning_tokens": 0,
     "web_search_calls": 0,
-    "cost_usd": 0.00042,
-    "latency_s": 7.2
+    "cost_usd": 0.000299,
+    "latency_s": 4.6
    },
    "verifier": {
-    "calls": 2,
-    "input_tokens": 51934,
-    "cached_tokens": 9422,
-    "output_tokens": 3065,
-    "reasoning_tokens": 1599,
-    "web_search_calls": 8,
-    "cost_usd": 0.085878,
-    "latency_s": 27.3
+    "calls": 3,
+    "input_tokens": 82434,
+    "cached_tokens": 14133,
+    "output_tokens": 5413,
+    "reasoning_tokens": 3137,
+    "web_search_calls": 12,
+    "cost_usd": 0.129678,
+    "latency_s": 31.2
    },
    "analyst": {
-    "calls": 4,
-    "input_tokens": 40623,
-    "cached_tokens": 29205,
-    "output_tokens": 4231,
-    "reasoning_tokens": 371,
+    "calls": 2,
+    "input_tokens": 20451,
+    "cached_tokens": 19470,
+    "output_tokens": 2226,
+    "reasoning_tokens": 181,
     "web_search_calls": 0,
-    "cost_usd": 0.003549,
-    "latency_s": 9.2
+    "cost_usd": 0.001406,
+    "latency_s": 10.9
    }
   },
   "total": {
-   "calls": 7,
-   "input_tokens": 94125,
-   "cached_tokens": 38627,
-   "output_tokens": 7822,
-   "reasoning_tokens": 1970,
-   "web_search_calls": 8,
-   "cost_usd": 0.0898
+   "calls": 6,
+   "input_tokens": 104489,
+   "cached_tokens": 33603,
+   "output_tokens": 7916,
+   "reasoning_tokens": 3318,
+   "web_search_calls": 12,
+   "cost_usd": 0.1314
   },
-  "elapsed_s": 52.8
+  "elapsed_s": 49.2
  },
- "finished": "2026-10-26T16:18:31"
+ "finished": "2026-10-26T16:27:45"
 }

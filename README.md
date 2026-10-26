@@ -38,7 +38,7 @@ To use your own key file instead: `cp .env.example .env` and paste your key in.
    - Short on time? Click **Load last run** to open a saved real scan instantly. This spends no tokens.
 2. Read a scorecard. Click any criterion bar to see the Thesis Analyst's reasoning, and open **Verified sources** to see where each fact came from.
 3. **Save to watchlist** → **Watchlist** tab → add a note → **Draft outreach email**.
-4. The **Investment thesis** tab shows the fund's hard rules, the six thesis segments (my focus sectors highlighted), the scoring weights, and the full thesis.
+4. The **Investment thesis** tab shows the fund's hard rules, the six thesis segments (my two segments, Women's Health and Wellness, highlighted; biotech is a personal interest outside the thesis), the scoring weights, and the full thesis.
 5. **Ask NorthStar** (bottom right) answers questions about your saved startups.
 5. Under each scan, the **This scan** table shows tokens, cached tokens, web searches and cost per agent. Every call is also logged to `logs/usage.jsonl`; guardrail events go to `logs/guardrails.jsonl`.
 
