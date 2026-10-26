@@ -124,10 +124,10 @@ def watchlist_card(s, meta):
 app = Dash(__name__, title="NorthStar Health")
 lane_opts = [{"label": f" {k}", "value": k} for k in LANES]
 app.layout = html.Div([
-    dcc.Store(id="watchlist", data=[], storage_type="local"),
-    dcc.Store(id="watchlist-meta", data={}, storage_type="local"),
-    dcc.Store(id="startup-data", data=[], storage_type="local"),
-    dcc.Store(id="scan-result", data=None, storage_type="session"),
+    dcc.Store(id="ns2-watchlist", data=[], storage_type="local"),
+    dcc.Store(id="ns2-watchlist-meta", data={}, storage_type="local"),
+    dcc.Store(id="ns2-startup-data", data=[], storage_type="local"),
+    dcc.Store(id="scan-result", data=None),
     dcc.Store(id="scan-job"),
     dcc.Interval(id="scan-poll", interval=1500, disabled=True),
     html.Header([html.Div([html.Div("NORTHSTAR HEALTH", className="eyebrow"), html.H1("Find the signals worth following.")], className="hero-copy"),
@@ -241,7 +241,7 @@ def load_last(_):
     return json.loads(path.read_text()), html.P(f"Loaded saved run from {path.name} (no tokens spent).", className="muted")
 
 
-@app.callback(Output("live-results", "children"), Output("run-cost", "children"), Input("scan-result", "data"), Input("watchlist", "data"))
+@app.callback(Output("live-results", "children"), Output("run-cost", "children"), Input("scan-result", "data"), Input("ns2-watchlist", "data"))
 def render_results(result, watchlist):
     kids, cost = scan_results_view(result)
     if result:
@@ -250,8 +250,8 @@ def render_results(result, watchlist):
     return kids, cost
 
 
-@app.callback(Output("startup-data", "data"), Output("watchlist", "data"), Input({"type": "live-add", "index": ALL}, "n_clicks"),
-              State("scan-result", "data"), State("startup-data", "data"), State("watchlist", "data"), prevent_initial_call=True)
+@app.callback(Output("ns2-startup-data", "data"), Output("ns2-watchlist", "data"), Input({"type": "live-add", "index": ALL}, "n_clicks"),
+              State("scan-result", "data"), State("ns2-startup-data", "data"), State("ns2-watchlist", "data"), prevent_initial_call=True)
 def save_candidate(clicks, result, dataset, watchlist):
     if not ctx.triggered_id or not any(clicks):
         return no_update, no_update
@@ -265,14 +265,14 @@ def save_candidate(clicks, result, dataset, watchlist):
 
 # ---------------------------------------------------------------- watchlist
 
-@app.callback(Output("watchlist", "data", allow_duplicate=True), Input({"type": "watch-remove", "index": ALL}, "n_clicks"), State("watchlist", "data"), prevent_initial_call=True)
+@app.callback(Output("ns2-watchlist", "data", allow_duplicate=True), Input({"type": "watch-remove", "index": ALL}, "n_clicks"), State("ns2-watchlist", "data"), prevent_initial_call=True)
 def remove_saved(clicks, watchlist):
     if not ctx.triggered_id or not any(clicks):
         return no_update
     return [x for x in (watchlist or []) if x != ctx.triggered_id["index"]]
 
 
-@app.callback(Output("watchlist-grid", "children"), Output("watchlist-nav", "children"), Input("watchlist", "data"), State("startup-data", "data"), State("watchlist-meta", "data"))
+@app.callback(Output("watchlist-grid", "children"), Output("watchlist-nav", "children"), Input("ns2-watchlist", "data"), State("ns2-startup-data", "data"), State("ns2-watchlist-meta", "data"))
 def render_watchlist(watchlist, dataset, meta):
     saved = [s for s in (dataset or []) if s["id"] in (watchlist or [])]
     label = f"Watchlist ({len(saved)})" if saved else "Watchlist"
@@ -281,8 +281,8 @@ def render_watchlist(watchlist, dataset, meta):
     return [watchlist_card(s, (meta or {}).get(s["id"], {})) for s in sorted(saved, key=lambda x: -x.get("score", 0))], label
 
 
-@app.callback(Output("watchlist-meta", "data"), Input({"type": "status", "index": ALL}, "value"), Input({"type": "notes", "index": ALL}, "value"),
-              Input({"type": "next-action", "index": ALL}, "value"), State({"type": "status", "index": ALL}, "id"), State("watchlist-meta", "data"), prevent_initial_call=True)
+@app.callback(Output("ns2-watchlist-meta", "data"), Input({"type": "status", "index": ALL}, "value"), Input({"type": "notes", "index": ALL}, "value"),
+              Input({"type": "next-action", "index": ALL}, "value"), State({"type": "status", "index": ALL}, "id"), State("ns2-watchlist-meta", "data"), prevent_initial_call=True)
 def save_meta(statuses, notes, actions, ids, meta):
     meta = dict(meta or {})
     for i, st, nt, ac in zip(ids, statuses, notes, actions):
@@ -291,7 +291,7 @@ def save_meta(statuses, notes, actions, ids, meta):
 
 
 @app.callback(Output({"type": "email-draft", "index": MATCH}, "children"), Input({"type": "draft-email", "index": MATCH}, "n_clicks"),
-              State({"type": "draft-email", "index": MATCH}, "id"), State("watchlist-meta", "data"), State("startup-data", "data"), prevent_initial_call=True)
+              State({"type": "draft-email", "index": MATCH}, "id"), State("ns2-watchlist-meta", "data"), State("ns2-startup-data", "data"), prevent_initial_call=True)
 def draft_email(_, bid, meta, dataset):
     s = next((x for x in (dataset or []) if x["id"] == bid["index"]), None)
     if not s:
@@ -307,7 +307,7 @@ def draft_email(_, bid, meta, dataset):
         return f"Could not draft the email: {exc}"
 
 
-@app.callback(Output("brief-download", "data"), Input("export-brief", "n_clicks"), State("watchlist", "data"), State("watchlist-meta", "data"), State("startup-data", "data"), prevent_initial_call=True)
+@app.callback(Output("brief-download", "data"), Input("export-brief", "n_clicks"), State("ns2-watchlist", "data"), State("ns2-watchlist-meta", "data"), State("ns2-startup-data", "data"), prevent_initial_call=True)
 def export_brief(_, watchlist, meta, dataset):
     lines = ["NORTHSTAR HEALTH: WATCHLIST BRIEF", f"Generated {dt.date.today()}", "Human-review research brief; verify all claims before acting.", ""]
     for s in [x for x in (dataset or []) if x["id"] in (watchlist or [])]:
@@ -319,7 +319,7 @@ def export_brief(_, watchlist, meta, dataset):
     return dcc.send_string("\n".join(lines), "northstar-watchlist-brief.md")
 
 
-@app.callback(Output("answer", "children"), Input("analyze", "n_clicks"), State("question", "value"), State("watchlist", "data"), State("startup-data", "data"), prevent_initial_call=True)
+@app.callback(Output("answer", "children"), Input("analyze", "n_clicks"), State("question", "value"), State("ns2-watchlist", "data"), State("ns2-startup-data", "data"), prevent_initial_call=True)
 def ask(_, question, watchlist, dataset):
     ok, msg = agents.validate_user_text(question, "your question", 600)
     if not ok or not (question or "").strip():
