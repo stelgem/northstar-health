@@ -119,33 +119,6 @@ def watchlist_card(s, meta):
     ], className="startup-card")
 
 
-def usage_view():
-    log = agents.read_jsonl(agents.USAGE_LOG)
-    guards = agents.read_jsonl(agents.GUARD_LOG)
-    today = dt.date.today().isoformat()
-    used = sum(r["input_tokens"] + r["output_tokens"] for r in log if r["ts"].startswith(today))
-    cost_today = sum(r["cost_usd"] for r in log if r["ts"].startswith(today))
-    pct = min(100, used / agents.DAILY_TOKEN_BUDGET * 100)
-    calls = [html.Tr([html.Th(h) for h in ["Time", "Agent", "Input", "Cached", "Output", "Web", "Latency", "Cost"]])]
-    for r in reversed(log[-25:]):
-        calls.append(html.Tr([html.Td(r["ts"][11:19]), html.Td(r["agent"]), html.Td(f'{r["input_tokens"]:,}'), html.Td(f'{r["cached_tokens"]:,}'),
-                              html.Td(f'{r["output_tokens"]:,}'), html.Td(r["web_search_calls"]), html.Td(f'{r["latency_s"]}s'), html.Td(f'${r["cost_usd"]:.4f}')]))
-    gl = [html.Tr([html.Th("Time"), html.Th("Guardrail"), html.Th("Detail")])] + [
-        html.Tr([html.Td(g["ts"][5:16].replace("T", " ")), html.Td(g["event"].replace("_", " ")), html.Td(g["detail"][:140])]) for g in reversed(guards[-15:])]
-    return html.Div([
-        html.Div([html.H2("Usage & safety"), html.P("Every model call is metered here from logs/usage.jsonl. Guardrail events come from logs/guardrails.jsonl.", className="muted")], className="section-heading"),
-        html.Div([
-            html.Div([html.Div("TOKENS TODAY", className="kpi-label"), html.Div(f"{used:,}", className="kpi-num"), html.Div(f"of {agents.DAILY_TOKEN_BUDGET:,} daily budget", className="muted")], className="kpi"),
-            html.Div([html.Div("SPEND TODAY", className="kpi-label"), html.Div(f"${cost_today:.3f}", className="kpi-num"), html.Div("gpt-6-luna + web search", className="muted")], className="kpi"),
-            html.Div([html.Div("MODEL CALLS (ALL TIME)", className="kpi-label"), html.Div(f"{len(log):,}", className="kpi-num"), html.Div(f"${sum(r['cost_usd'] for r in log):.3f} total", className="muted")], className="kpi"),
-            html.Div([html.Div("GUARDRAIL EVENTS", className="kpi-label"), html.Div(f"{len(guards):,}", className="kpi-num"), html.Div("blocked / quarantined", className="muted")], className="kpi"),
-        ], className="kpi-row"),
-        html.Div(html.Div(style={"width": f"{pct:.1f}%"}, className="budget-fill"), className="budget-bar"),
-        html.H3("Recent model calls", className="subheading"), html.Table(calls, className="usage-table"),
-        html.H3("Guardrail log", className="subheading"), html.Table(gl, className="usage-table"),
-    ], className="panel")
-
-
 # ---------------------------------------------------------------- layout
 
 app = Dash(__name__, title="NorthStar Health")
@@ -159,8 +132,7 @@ app.layout = html.Div([
     dcc.Interval(id="scan-poll", interval=1500, disabled=True),
     html.Header([html.Div([html.Div("NORTHSTAR HEALTH", className="eyebrow"), html.H1("Find the signals worth following.")], className="hero-copy"),
                  html.Div("AI sourcing and first-pass screening for the Meng Impact Investment Fund healthcare deal team: US pre-seed and seed startups in women's health, biotech, and evidence-based wellness, scored against our written thesis.", className="hero-tagline")], className="hero"),
-    html.Nav([html.Button("Discover", id="discover-nav", className="nav-button active"), html.Button("Watchlist", id="watchlist-nav", className="nav-button"),
-              html.Button("Usage & Safety", id="usage-nav", className="nav-button")], className="nav-tabs"),
+    html.Nav([html.Button("Discover", id="discover-nav", className="nav-button active"), html.Button("Watchlist", id="watchlist-nav", className="nav-button")], className="nav-tabs"),
     html.Main([html.Section([
         html.Div([
             html.Div([html.H3("Find thesis-fit startups"),
@@ -179,7 +151,6 @@ app.layout = html.Div([
                   html.Button("Export watchlist brief", id="export-brief", className="secondary-button"), dcc.Download(id="brief-download")], className="section-heading watchlist-heading"),
         html.Div(id="watchlist-grid", className="startup-grid"),
     ], className="panel")], id="watchlist-view", className="content", style={"display": "none"}),
-    html.Main(id="usage-view", className="content", style={"display": "none"}),
     html.Button("Ask NorthStar", id="ask-launcher", className="ask-launcher"),
     html.Div([
         html.Div([html.Div([html.Span("NORTHSTAR ASSIST", className="dock-label"), html.Span("Ask about your saved startups", className="dock-helper")], className="dock-heading"),
@@ -194,15 +165,12 @@ app.layout = html.Div([
 
 # ---------------------------------------------------------------- navigation
 
-@app.callback(Output("discover-view", "style"), Output("watchlist-view", "style"), Output("usage-view", "style"), Output("usage-view", "children"),
-              Output("discover-nav", "className"), Output("watchlist-nav", "className"), Output("usage-nav", "className"),
-              Input("discover-nav", "n_clicks"), Input("watchlist-nav", "n_clicks"), Input("usage-nav", "n_clicks"), prevent_initial_call=True)
+@app.callback(Output("discover-view", "style"), Output("watchlist-view", "style"), Output("discover-nav", "className"), Output("watchlist-nav", "className"),
+              Input("discover-nav", "n_clicks"), Input("watchlist-nav", "n_clicks"), prevent_initial_call=True)
 def switch_view(*_):
-    views = ["discover-nav", "watchlist-nav", "usage-nav"]
-    active = views.index(ctx.triggered_id)
-    styles = [{"display": "block"} if i == active else {"display": "none"} for i in range(3)]
-    classes = ["nav-button active" if i == active else "nav-button" for i in range(3)]
-    return *styles, (usage_view() if active == 2 else no_update), *classes
+    if ctx.triggered_id == "watchlist-nav":
+        return {"display": "none"}, {"display": "block"}, "nav-button", "nav-button active"
+    return {"display": "block"}, {"display": "none"}, "nav-button active", "nav-button"
 
 
 @app.callback(Output("ask-dock", "style"), Output("ask-launcher", "style"), Input("ask-launcher", "n_clicks"), Input("ask-close", "n_clicks"), prevent_initial_call=True)
